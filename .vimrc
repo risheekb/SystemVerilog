@@ -20,6 +20,13 @@ call plug#end()
 "let g:airline_theme='onedark'
 "set t_Co=256
 set background=light
+
+
+"### location settings for swp files
+set dir=/u/$USER/tmp,/var/tmp./tmp
+set swf
+
+
 let g:airline#extensions#tabline#formatter = 'default'
 "let g:airline_section_a = 'a'  " Set the first section to show the filename
 "let g:airline_section_b = ''
