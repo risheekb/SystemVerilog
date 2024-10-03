@@ -28,5 +28,5 @@ vsim.dbg
 *.swp
 #igonre the qrun folder
 
-/qrun.log
-/qrun.out
+**/qrun.log
+**/qrun.out/
