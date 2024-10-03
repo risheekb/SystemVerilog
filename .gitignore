@@ -26,4 +26,7 @@ vsim.dbg
 
 #swp files from vim
 *.swp
+#igonre the qrun folder
 
+/qrun.log
+/qrun.out

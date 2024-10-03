@@ -16,12 +16,17 @@ module instr_register
   always_ff @(posedge clk,negedge reset_en) begin
     if(!reset_en) begin
      foreach(IRW[i])
-       IRW[i] = '{opc:ZERO,default:0};
+       IRW[i] <= '{opc:ZERO,default:0};
     end
     else begin
       if(load_en)
-        IRW[write_index] = '{opcode,operand_a,operand_b}; 
+        IRW[write_index] <= '{opcode,operand_a,operand_b}; 
     end
   end
   assign instruction = IRW[read_index]; //CONTINOUSLY READ FROM THE IW REGISTER 
+  initial begin
+    if ($test$plusargs("FORCE_LOAD_ERROR")) // when enabled injects a bug in the design for the testbench to catch.
+      force operand_b = operand_a;
+  end
+
 endmodule
