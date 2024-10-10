@@ -71,9 +71,11 @@
 !_TAG_ROLE_DESCRIPTION!SystemVerilog!module	decl	/declaring instances/
 ADD	instr_register_pkg.sv	/^  typedef enum logic [2:0] { ZERO,PASSA,PASSB,ADD,SUB,DIV,MUL,MOD} opcode_t;$/;"	c	typedef:instr_register_pkg.opcode_t
 BaseTest	classes/basetest.svh	/^class BaseTest;$/;"	C
-DEPTH	instr_register_pkg.sv	/^  parameter DEPTH = 1024;$/;"	c	package:instr_register_pkg
+DEPTH	instr_register_pkg.sv	/^  parameter DEPTH = 8;$/;"	c	package:instr_register_pkg
 DIV	instr_register_pkg.sv	/^  typedef enum logic [2:0] { ZERO,PASSA,PASSB,ADD,SUB,DIV,MUL,MOD} opcode_t;$/;"	c	typedef:instr_register_pkg.opcode_t
 DUT	top.sv	/^  instr_register DUT(.clk(clk),.io(io));$/;"	i	module:top	typeref:module:instr_register
+Div0Test	classes/div0test.svh	/^class Div0Test extends BaseTest;$/;"	C
+DivideBy0	classes/divideby0.svh	/^class DivideBy0 extends Transaction;$/;"	C
 Driver	classes/driver.svh	/^class Driver;$/;"	C
 Generator	classes/generator.svh	/^class Generator;$/;"	C
 IRW	instr_register.sv	/^  instruction_t IRW [DEPTH-1:0];$/;"	r	module:instr_register
@@ -88,14 +90,19 @@ Transaction	classes/transaction.svh	/^class Transaction;$/;"	C
 WIDTH	instr_register_pkg.sv	/^  parameter WIDTH = $clog2(DEPTH);$/;"	c	package:instr_register_pkg
 ZERO	instr_register_pkg.sv	/^  typedef enum logic [2:0] { ZERO,PASSA,PASSB,ADD,SUB,DIV,MUL,MOD} opcode_t;$/;"	c	typedef:instr_register_pkg.opcode_t
 add_input	classes/scoreboard.svh	/^  function void add_input(Transaction trans_h);$/;"	f	class:Scoreboard
-check	classes/generator.svh	/^  task check(int n);$/;"	t	class:Generator
+blueprint_h	classes/generator.svh	/^  Transaction blueprint_h;$/;"	r	class:Generator
+build	classes/basetest.svh	/^  virtual task build();$/;"	t	class:BaseTest
+build	classes/generator.svh	/^  virtual task build();$/;"	t	class:Generator
+check	classes/basetest.svh	/^  virtual task check(int n);$/;"	t	class:BaseTest
+check	classes/generator.svh	/^  virtual task check(int n);$/;"	t	class:Generator
 check	classes/monitor.svh	/^  task check(int n);$/;"	t	class:Monitor
 check_output	classes/scoreboard.svh	/^  function void check_output(instruction_t instr_word,index_t read_index);$/;"	f	class:Scoreboard
 clk	instr_register.sv	/^  (input logic clk,instr_register_inf io);$/;"	p	module:instr_register
 clk	instr_register_inf.sv	/^  (input logic clk);$/;"	p	interface:instr_register_inf
 clk	top.sv	/^  logic clk;$/;"	r	module:top
-clone	classes/transaction.svh	/^  function Transaction clone();$/;"	f	class:Transaction
-copy	classes/transaction.svh	/^  function void copy(Transaction rhs_h);$/;"	f	class:Transaction
+clone	classes/divideby0.svh	/^  virtual function Transaction clone();$/;"	f	class:DivideBy0
+clone	classes/transaction.svh	/^  virtual function Transaction clone();$/;"	f	class:Transaction
+copy	classes/transaction.svh	/^  virtual function void copy(Transaction rhs_h);$/;"	f	class:Transaction
 drv_h	classes/basetest.svh	/^  Driver drv_h;$/;"	r	class:BaseTest
 drv_h	classes/generator.svh	/^  Driver drv_h;$/;"	r	class:Generator
 drv_h	classes/generator.svh	/^  function new(Driver drv_h);$/;"	p	function:Generator.new
@@ -113,19 +120,23 @@ instr_register_test	instr_register_test_pkg.sv	/^package instr_register_test;$/;
 instr_word	classes/scoreboard.svh	/^  function void check_output(instruction_t instr_word,index_t read_index);$/;"	p	function:Scoreboard.check_output
 instruction	instr_register_inf.sv	/^  instruction_t instruction;$/;"	r	interface:instr_register_inf
 instruction_t	instr_register_pkg.sv	/^  }instruction_t;$/;"	T	package:instr_register_pkg
+io	classes/div0test.svh	/^  function new(virtual instr_register_inf io);$/;"	p	function:Div0Test.new
 io	classes/driver.svh	/^  function new(virtual instr_register_inf io);$/;"	p	function:Driver.new
 io	instr_register.sv	/^  (input logic clk,instr_register_inf io);$/;"	p	module:instr_register
 io	instr_register_test.sv	/^  (instr_register_inf io); $/;"	p	module:instr_register_test
-io	instr_register_test_pkg.sv	/^ task run_test(virtual instr_register_inf io);$/;"	p	task:instr_register_test.run_test
+io	instr_register_test_pkg.sv	/^  task run_test(virtual instr_register_inf io);$/;"	p	task:instr_register_test.run_test
 io	top.sv	/^  instr_register_inf io(clk); $/;"	i	module:top	typeref:module:instr_register_inf
 load_en	instr_register_inf.sv	/^  logic load_en;$/;"	r	interface:instr_register_inf
 mon_h	classes/basetest.svh	/^  Monitor mon_h;$/;"	r	class:BaseTest
-n	classes/basetest.svh	/^  task run(int n);$/;"	p	task:BaseTest.run
-n	classes/generator.svh	/^  task check(int n);$/;"	p	task:Generator.check
-n	classes/generator.svh	/^  task run(int n);$/;"	p	task:Generator.run
+n	classes/basetest.svh	/^  virtual task check(int n);$/;"	p	task:BaseTest.check
+n	classes/basetest.svh	/^  virtual task run(int n);$/;"	p	task:BaseTest.run
+n	classes/div0test.svh	/^  virtual task run(int n);$/;"	p	task:Div0Test.run
+n	classes/generator.svh	/^  virtual task check(int n);$/;"	p	task:Generator.check
+n	classes/generator.svh	/^  virtual task run(int n);$/;"	p	task:Generator.run
 n	classes/monitor.svh	/^  task check(int n);$/;"	p	task:Monitor.check
 n	classes/monitor.svh	/^  task run(int n);$/;"	p	task:Monitor.run
 new	classes/basetest.svh	/^  function new(virtual instr_register_inf v_io);$/;"	f	class:BaseTest
+new	classes/div0test.svh	/^  function new(virtual instr_register_inf io);$/;"	f	class:Div0Test
 new	classes/driver.svh	/^  function new(virtual instr_register_inf io);$/;"	f	class:Driver
 new	classes/generator.svh	/^  function new(Driver drv_h);$/;"	f	class:Generator
 new	classes/monitor.svh	/^  function new(virtual instr_register_inf v_io,Scoreboard scbd_h);$/;"	f	class:Monitor
@@ -140,32 +151,38 @@ operand_a	instr_register_inf.sv	/^  operand_t operand_a;$/;"	r	interface:instr_r
 operand_b	classes/transaction.svh	/^  operand_t operand_a, operand_b;$/;"	r	class:Transaction
 operand_b	instr_register_inf.sv	/^  operand_t operand_b;$/;"	r	interface:instr_register_inf
 operand_t	instr_register_pkg.sv	/^  typedef bit signed [31:0] operand_t;$/;"	T	package:instr_register_pkg
-print_transaction	classes/transaction.svh	/^  function void print_transaction();$/;"	f	class:Transaction
+print_transaction	classes/divideby0.svh	/^  virtual function void print_transaction();$/;"	f	class:DivideBy0
+print_transaction	classes/transaction.svh	/^  virtual function void print_transaction();$/;"	f	class:Transaction
 que	instr_register_test.sv	/^  instruction_t que[$];$/;"	r	module:instr_register_test
-randomize_transaction	classes/transaction.svh	/^  function void randomize_transaction();$/;"	f	class:Transaction
+randomize_transaction	classes/divideby0.svh	/^  virtual function void randomize_transaction();$/;"	f	class:DivideBy0
+randomize_transaction	classes/transaction.svh	/^  virtual function void randomize_transaction();$/;"	f	class:Transaction
 read_index	classes/scoreboard.svh	/^  function void check_output(instruction_t instr_word,index_t read_index);$/;"	p	function:Scoreboard.check_output
 read_index	instr_register_inf.sv	/^  index_t read_index;$/;"	r	interface:instr_register_inf
 read_transaction	instr_register_test.sv	/^   task  read_transaction();$/;"	t	module:instr_register_test
+report	classes/basetest.svh	/^  virtual task report();$/;"	t	class:BaseTest
+reset	classes/basetest.svh	/^  virtual task reset();$/;"	t	class:BaseTest
 reset	classes/driver.svh	/^  task reset();$/;"	t	class:Driver
 reset_en	instr_register_inf.sv	/^  logic reset_en;$/;"	r	interface:instr_register_inf
-rhs_h	classes/transaction.svh	/^  function void copy(Transaction rhs_h);$/;"	p	function:Transaction.copy
-run	classes/basetest.svh	/^  task run(int n);$/;"	t	class:BaseTest
-run	classes/generator.svh	/^  task run(int n);$/;"	t	class:Generator
+rhs_h	classes/transaction.svh	/^  virtual function void copy(Transaction rhs_h);$/;"	p	function:Transaction.copy
+run	classes/basetest.svh	/^  virtual task run(int n);$/;"	t	class:BaseTest
+run	classes/div0test.svh	/^  virtual task run(int n);$/;"	t	class:Div0Test
+run	classes/generator.svh	/^  virtual task run(int n);$/;"	t	class:Generator
 run	classes/monitor.svh	/^  task run(int n);$/;"	t	class:Monitor
-run_test	instr_register_test_pkg.sv	/^ task run_test(virtual instr_register_inf io);$/;"	t	package:instr_register_test
+run_test	instr_register_test_pkg.sv	/^  task run_test(virtual instr_register_inf io);$/;"	t	package:instr_register_test
 scbd_h	classes/basetest.svh	/^  Scoreboard scbd_h;$/;"	r	class:BaseTest
 scbd_h	classes/monitor.svh	/^  Scoreboard scbd_h;$/;"	r	class:Monitor
 scbd_h	classes/monitor.svh	/^  function new(virtual instr_register_inf v_io,Scoreboard scbd_h);$/;"	p	function:Monitor.new
 send	classes/driver.svh	/^  task send(Transaction trans_h);$/;"	t	class:Driver
-send	classes/generator.svh	/^  task send(Transaction trans_h);$/;"	t	class:Generator
+send	classes/generator.svh	/^  virtual task send(Transaction trans_h);$/;"	t	class:Generator
 send_check	classes/driver.svh	/^  task send_check(index_t index); \/\/starting a read transaction$/;"	t	class:Driver
 send_transaction	instr_register_test.sv	/^   task send_transaction();$/;"	t	module:instr_register_test
 test_h	instr_register_test_pkg.sv	/^  BaseTest test_h;$/;"	r	package:instr_register_test
+test_name	instr_register_test_pkg.sv	/^    string test_name;$/;"	r	task:instr_register_test.run_test
 top	top.sv	/^module top;$/;"	m
 tr	instr_register_test.sv	/^  instruction_t tr;$/;"	r	module:instr_register_test
 trans_h	classes/driver.svh	/^  task send(Transaction trans_h);$/;"	p	task:Driver.send
 trans_h	classes/generator.svh	/^    Transaction trans_h;$/;"	r	task:Generator.run
-trans_h	classes/generator.svh	/^  task send(Transaction trans_h);$/;"	p	task:Generator.send
+trans_h	classes/generator.svh	/^  virtual task send(Transaction trans_h);$/;"	p	task:Generator.send
 trans_h	classes/monitor.svh	/^    Transaction trans_h;$/;"	r	task:Monitor.run
 trans_h	classes/scoreboard.svh	/^  function void add_input(Transaction trans_h);$/;"	p	function:Scoreboard.add_input
 trans_h	instr_register_test.sv	/^  Transaction trans_h;$/;"	r	module:instr_register_test
