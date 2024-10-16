@@ -1,12 +1,12 @@
 module DualPortRam
   import ram_pkg::*;
   (input logic clk,
-  input [ADDR_WIDTH-1:0] addr,
-  input [DATA_WIDTH-1:0] data_in,
+  input logic [ADDR_WIDTH-1:0] addr,
+  input logic [DATA_WIDTH-1:0] data_in,
   input logic cs,
   input logic we,
   input logic oe,
-  output [DATA_WIDTH-1:0] data_out);
+  output logic [DATA_WIDTH-1:0] data_out);
 
   reg [DATA_WIDTH-1:0] MEM [DEPTH];
   reg [DATA_WIDTH-1:0] temp_data;
@@ -17,11 +17,13 @@ module DualPortRam
   end
 
   always_ff @(posedge clk) begin
-    if(cs & !we)
-      temp_data <= MEM[addr];
+    if(cs & !we & oe)
+      data_out <= MEM[addr];
+    else
+      data_out <= 'hz;
   end
 
-  assign data_out = cs & oe & !we ? temp_data : 'hz;
+  //assign data_out = cs & oe & !we ? temp_data : 'hz;
 
 endmodule
 
