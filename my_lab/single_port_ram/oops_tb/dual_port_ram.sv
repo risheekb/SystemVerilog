@@ -16,6 +16,4 @@ module DualPortRam
     else
       inf.data_out <= 'hz;
   end
-
 endmodule
-

@@ -20,7 +20,7 @@ call plug#end()
 "let g:airline_theme='onedark'
 "set t_Co=256
 set background=light
-
+AirlineTheme deus
 
 "### location settings for swp files
 set dir=/u/$USER/tmp,/var/tmp./tmp
