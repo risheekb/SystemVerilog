@@ -75,19 +75,52 @@
 !_TAG_ROLE_DESCRIPTION!Make!makefile	included	/included/
 !_TAG_ROLE_DESCRIPTION!Make!makefile	optional	/optionally included/
 !_TAG_ROLE_DESCRIPTION!SystemVerilog!module	decl	/declaring instances/
-ADD	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.INC
-AND	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.INC
-INC	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	T	package:alu_pkg
-INC	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.INC
-MUL	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.INC
-NOP	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.INC
-NOT	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.INC
-SUB	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.INC
-XOR	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.INC
+A	tb_basic.sv	/^  (output operand_t A,$/;"	p	module:tb_basic
+A	tinyalu.sv	/^  (input operand_t A,$/;"	p	module:tinyalu
+A	top.sv	/^  operand_t A;$/;"	r	module:top
+ADD	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
+AND	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
+B	tb_basic.sv	/^    output operand_t B,$/;"	p	module:tb_basic
+B	tinyalu.sv	/^    input operand_t B,$/;"	p	module:tinyalu
+B	top.sv	/^  operand_t B;$/;"	r	module:top
+DUT	top.sv	/^  tinyalu DUT(.*);$/;"	i	module:top	typeref:module:tinyalu
+INC	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
+MUL	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
+NOP	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
+NOT	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
+SUB	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
+TEST	top.sv	/^  tb_basic TEST(.*);$/;"	i	module:top	typeref:module:tb_basic
+XOR	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
 alu_pkg	alu_pkg.sv	/^package alu_pkg;$/;"	K
+check_transaction	tb_basic.sv	/^    task check_transaction;$/;"	t	module:tb_basic
+clk	tb_basic.sv	/^    input logic clk,$/;"	p	module:tb_basic
+clk	tinyalu.sv	/^    input logic clk,$/;"	p	module:tinyalu
+clk	top.sv	/^  logic clk;$/;"	r	module:top
 compile	makefile	/^compile:$/;"	t
+done	tb_basic.sv	/^    input logic done); $/;"	p	module:tb_basic
+done	tinyalu.sv	/^    output logic done); $/;"	p	module:tinyalu
+done	top.sv	/^  logic done; $/;"	r	module:top
+expect_q	tb_basic.sv	/^  opcode_t expect_q[$];$/;"	r	module:tb_basic
+generate_transaction	tb_basic.sv	/^    task generate_transaction;$/;"	t	module:tb_basic
+opcode	tb_basic.sv	/^    output opcode_t opcode,$/;"	p	module:tb_basic
+opcode	tinyalu.sv	/^    input opcode_t opcode,$/;"	p	module:tinyalu
+opcode	top.sv	/^  opcode_t opcode;$/;"	r	module:top
+opcode_t	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	T	package:alu_pkg
 operand_t	alu_pkg.sv	/^  typedef logic [7:0] operand_t;$/;"	T	package:alu_pkg
 opt	makefile	/^opt:$/;"	t
+reset_n	tb_basic.sv	/^    output logic reset_n,$/;"	p	module:tb_basic
+reset_n	tinyalu.sv	/^    input logic reset_n,$/;"	p	module:tinyalu
+reset_n	top.sv	/^  logic reset_n;$/;"	r	module:top
+result	tb_basic.sv	/^    input result_t result,$/;"	p	module:tb_basic
+result	tinyalu.sv	/^    output result_t result,$/;"	p	module:tinyalu
+result	top.sv	/^  result_t result;$/;"	r	module:top
+result_expected	tb_basic.sv	/^  result_t result_expected;$/;"	r	module:tb_basic
 result_t	alu_pkg.sv	/^  typedef logic [15:0] result_t;$/;"	T	package:alu_pkg
+send_transaction	tb_basic.sv	/^    task send_transaction;$/;"	t	module:tb_basic
 sim	makefile	/^sim:$/;"	t
-tinyalu	tinyalu.sv	/^module tinyalu;$/;"	m
+start	tb_basic.sv	/^    output logic start,$/;"	p	module:tb_basic
+start	tinyalu.sv	/^    input logic start,$/;"	p	module:tinyalu
+start	top.sv	/^  logic start;$/;"	r	module:top
+tb_basic	tb_basic.sv	/^module tb_basic$/;"	m
+tinyalu	tinyalu.sv	/^module tinyalu$/;"	m
+top	top.sv	/^module top;$/;"	m
