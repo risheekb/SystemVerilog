@@ -5,6 +5,8 @@ class BaseTest;
   Monitor mon_h;
   Scoreboard scbd_h;
 
+  mailbox #(Transaction) gen2drv_h,mon_in_h,mon_out_h;
+
   function new(virtual instr_register_inf v_io);
     this.v_io = v_io;
   endfunction
@@ -12,13 +14,24 @@ class BaseTest;
   virtual task build();
     scbd_h    = new();
     drv_h     = new(v_io);
-    gen_h     = new(drv_h);
+    gen_h     = new();
     mon_h     = new(v_io,scbd_h);
+  
+    gen2drv_h = new(1);
+    mon_in_h = new();
+    mon_out_h = new();
 
     drv_h.build();
     gen_h.build();
     mon_h.build();
     scbd_h.build();
+
+    drv_h.gen2drv_h = gen2drv_h;
+    gen_h.gen2drv_h = gen2drv_h;
+    mon_h.mon_in_h = mon_in_h;
+    scbd_h.mon_in_h = mon_in_h;
+    mon_h.mon_out_h = mon_out_h;
+    scbd_h.mon_out_h = mon_out_h;
   endtask
   
   virtual task reset();

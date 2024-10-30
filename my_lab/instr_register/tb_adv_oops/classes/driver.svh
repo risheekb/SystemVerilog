@@ -1,6 +1,8 @@
 class Driver extends Component;
   virtual instr_register_inf v_io;
 
+  mailbox #(Transaction) gen2drv_h;
+
   function new(virtual instr_register_inf io);
     this.v_io = io;
   endfunction
@@ -16,6 +18,14 @@ class Driver extends Component;
     v_io.reset_en      <= 1'b1;  
   endtask
 
+  virtual task run(int n);
+    repeat(n) begin
+      Transaction trans_h;
+      gen2drv_h.get(trans_h);
+      send(trans_h);
+    end
+  endtask
+
   task send(Transaction trans_h);
     @(posedge v_io.clk) #1ns;
     v_io.load_en      <= 1'b1;
@@ -27,6 +37,16 @@ class Driver extends Component;
      @(posedge v_io.clk) #1ns;
      v_io.load_en <= 1'b0;
   endtask
+
+  virtual task check(int n);
+    repeat(n) begin
+      Transaction trans_h;
+      gen2drv_h.get(trans_h);
+      send_check(trans_h.index);
+    end
+
+  endtask
+
 
   task send_check(index_t index); //starting a read transaction
     @(posedge v_io.clk) #1ns; 

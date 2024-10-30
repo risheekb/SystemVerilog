@@ -2,10 +2,12 @@ class Generator extends Component;
   index_t index_q[$];
   Driver drv_h;
   Transaction blueprint_h;
+
+  mailbox #(Transaction) gen2drv_h;
   
-  function new(Driver drv_h);
-    this.drv_h = drv_h; 
-  endfunction
+  //function new(Driver drv_h);
+    //this.drv_h = drv_h;
+  //endfunction
   
   virtual task build();
     blueprint_h = new();
@@ -25,13 +27,18 @@ class Generator extends Component;
   endtask
 
   virtual task send(Transaction trans_h);
-    drv_h.send(trans_h);
+    gen2drv_h.put(trans_h);
+    //drv_h.send(trans_h);
   endtask
 
   virtual task check(int n);
-    //$display("%m %p",index_q);
-    foreach(index_q[i])
-      drv_h.send_check(index_q[i]);
+    foreach(index_q[i]) begin
+      Transaction trans_h;
+      trans_h = new();
+      trans_h.index = index_q[i];
+      //drv_h.send_check(index_q[i]);
+      gen2drv_h.put(trans_h);
+    end
   endtask
 
 endclass
