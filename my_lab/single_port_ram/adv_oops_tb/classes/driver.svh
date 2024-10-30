@@ -1,9 +1,21 @@
 class Driver extends Component;
 
+  mailbox #(Transaction) gen2drv_h;
+
+
   virtual ram_interface vif;
   function new(virtual ram_interface vif);
     this.vif = vif;
   endfunction
+
+  virtual task run(int n);
+    repeat(n) begin
+      Transaction trans_h;
+      gen2drv_h.get(trans_h);
+      send(trans_h);
+    end
+  endtask
+
 
   task send(Transaction trans); //write the data into memory
     @(posedge vif.clk) #1ns
@@ -16,6 +28,14 @@ class Driver extends Component;
     vif.cs <= 1'b0;
     vif.we <= 1'b0;
 
+  endtask
+
+  virtual task check(int n);
+    repeat(n) begin
+      Transaction trans_h;
+      gen2drv_h.get(trans_h);
+      send_check(trans_h.addr);
+    end
   endtask
 
   task send_check(address_t addr); //read the data

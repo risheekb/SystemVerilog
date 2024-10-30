@@ -44,6 +44,7 @@ package ram_test_pkg;
     test_h.run(DEPTH);
     test_h.check(DEPTH);
     test_h.report();
+    #100
     $finish;
   endtask
 

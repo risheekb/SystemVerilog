@@ -3,6 +3,8 @@ class Monitor extends Component;
   Scoreboard scbd_h;
   Transaction trans;
 
+  mailbox #(Transaction) mon_in_h,mon_out_h;
+
   function new(virtual ram_interface vif,Scoreboard scbd_h);
     this.vif = vif;
     this.scbd_h =scbd_h;
@@ -16,15 +18,22 @@ class Monitor extends Component;
       @(posedge vif.we) #1ns
       trans.addr = vif.addr;
       trans.data_in = vif.data_in;
-      scbd_h.add_input(trans);
+
+      mon_in_h.put(trans);
+      //scbd_h.add_input(trans);
     end
   endtask
 
   virtual task check(int n);
     for(int i = 0; i< n;i++) begin
+      Transaction trans_h;
+      trans_h = new();
       @(posedge vif.clk ) #1ns;
       wait(vif.data_out)begin
-        scbd_h.check_output(vif.data_out,vif.addr);
+        trans_h.addr = vif.addr;
+        trans_h.data_in = vif.data_out;
+        mon_out_h.put(trans_h);
+        //scbd_h.check_output(vif.data_out,vif.addr);
         //$display("%0t %m Entering Monitor::check data_out:%0d iteration =%0d",$realtime,vif.data_out,i);
       end
     end
