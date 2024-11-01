@@ -60,6 +60,7 @@ nnoremap <leader>I :VerilogFollowPort<CR>
 nnoremap <leader>u :VerilogGotoInstanceStart<CR>
 nmap <F8> :TagbarToggle<CR>
 nnoremap <C-n> :NERDTreeToggle<CR>
+nmap <Leader>n :NERDTreeFocus<cr>R<c-w><c-p>
 let g:NERDTreeFileLines = 1
 
 "NAVIGATION

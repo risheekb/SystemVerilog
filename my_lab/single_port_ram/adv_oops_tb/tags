@@ -70,7 +70,8 @@
 !_TAG_PROGRAM_VERSION	6.1.0	/p6.1.20240922.0/
 !_TAG_ROLE_DESCRIPTION!SystemVerilog!module	decl	/declaring instances/
 ADDR_WIDTH	ram_pkg.sv	/^  parameter ADDR_WIDTH = $clog2(DEPTH);$/;"	c	package:ram_pkg
-BaseTest	classes/basetest.svh	/^class BaseTest;$/;"	C
+BaseTest	classes/basetest.svh	/^class BaseTest extends Component;$/;"	C
+BothTest	classes/bothtest.svh	/^class BothTest extends BaseTest;$/;"	C
 Component	classes/component.svh	/^class Component;$/;"	C
 DATA_WIDTH	ram_pkg.sv	/^  parameter DATA_WIDTH = 32;$/;"	c	package:ram_pkg
 DEPTH	ram_pkg.sv	/^  parameter DEPTH = 4;$/;"	c	package:ram_pkg
@@ -80,24 +81,31 @@ DualPortRam	dual_port_ram.sv	/^module DualPortRam$/;"	m
 Generator	classes/generator.svh	/^class Generator extends Component;$/;"	C
 MEM	dual_port_ram.sv	/^  logic [DATA_WIDTH-1:0] MEM [DEPTH];$/;"	r	module:DualPortRam
 Monitor	classes/monitor.svh	/^class Monitor extends Component;$/;"	C
+OneTest	classes/onetest.svh	/^class OneTest extends BaseTest;$/;"	C
 Scoreboard	classes/scoreboard.svh	/^class Scoreboard extends Component;$/;"	C
-Transaction	classes/transaction.svh	/^class Transaction;$/;"	C
+TransOne	classes/transone.svh	/^class TransOne extends Transaction;$/;"	C
+Transaction	classes/transaction.svh	/^class Transaction extends Component;$/;"	C
 add_input	classes/scoreboard.svh	/^  function void add_input(Transaction trans);$/;"	f	class:Scoreboard
-addr	classes/driver.svh	/^  virtual task send_check(address_t addr); \/\/read the data$/;"	p	task:Driver.send_check
+addr	classes/driver.svh	/^  task send_check(address_t addr); \/\/read the data$/;"	p	task:Driver.send_check
 addr	classes/scoreboard.svh	/^  function void check_output(data_t data,address_t addr);$/;"	p	function:Scoreboard.check_output
 addr	classes/transaction.svh	/^  address_t addr;$/;"	r	class:Transaction
 addr	ram_interface.sv	/^  address_t addr;$/;"	r	interface:ram_interface
 addr_q	classes/generator.svh	/^  address_t addr_q[$];$/;"	r	class:Generator
 address_t	ram_pkg.sv	/^  typedef logic [ADDR_WIDTH-1:0] address_t;$/;"	T	package:ram_pkg
+blueprint_h	classes/generator.svh	/^  Transaction blueprint_h;$/;"	r	class:Generator
+build	classes/basetest.svh	/^  virtual task build;$/;"	t	class:BaseTest
 build	classes/component.svh	/^  virtual task build();$/;"	t	class:Component
-check	classes/basetest.svh	/^  task check(int n);$/;"	t	class:BaseTest
-check	classes/component.svh	/^  virtual task check(int n);$/;"	t	task:Component.build.reset.run
+build	classes/generator.svh	/^  virtual task build;$/;"	t	class:Generator
+check	classes/basetest.svh	/^  virtual task check(int n);$/;"	t	class:BaseTest
+check	classes/component.svh	/^  virtual task check(int n);$/;"	t	class:Component
 check	classes/generator.svh	/^  virtual task check(int n);$/;"	t	class:Generator
 check	classes/monitor.svh	/^  virtual task check(int n);$/;"	t	class:Monitor
 check_output	classes/scoreboard.svh	/^  function void check_output(data_t data,address_t addr);$/;"	f	class:Scoreboard
 clk	ram_interface.sv	/^  (input logic clk);$/;"	p	interface:ram_interface
 clk	top.sv	/^  logic clk;$/;"	r	module:top
-copy	classes/transaction.svh	/^  function void copy(Transaction rhs);$/;"	f	class:Transaction
+clone	classes/transaction.svh	/^  virtual function Transaction clone();$/;"	f	class:Transaction
+clone	classes/transone.svh	/^  virtual function Transaction clone();$/;"	f	class:TransOne
+copy	classes/transaction.svh	/^  virtual function void copy(Transaction rhs);$/;"	f	class:Transaction
 cs	ram_interface.sv	/^  logic cs;$/;"	r	interface:ram_interface
 data	classes/scoreboard.svh	/^  function void check_output(data_t data,address_t addr);$/;"	p	function:Scoreboard.check_output
 data_in	classes/transaction.svh	/^  data_t data_in;$/;"	r	class:Transaction
@@ -113,45 +121,55 @@ inf	dual_port_ram.sv	/^  (ram_interface inf);$/;"	p	module:DualPortRam
 inf	tb_basic.sv	/^  (ram_interface inf);$/;"	p	module:tb_basic
 inf	top.sv	/^  ram_interface inf(.*);$/;"	i	module:top	typeref:module:ram_interface
 mon_h	classes/basetest.svh	/^  Monitor mon_h;$/;"	r	class:BaseTest
-n	classes/basetest.svh	/^  task check(int n);$/;"	p	task:BaseTest.check
-n	classes/basetest.svh	/^  task run(int n);$/;"	p	task:BaseTest.run
-n	classes/component.svh	/^  virtual task check(int n);$/;"	p	task:Component.build.reset.run.check
-n	classes/component.svh	/^  virtual task run(int n);$/;"	p	task:Component.build.reset.run
+n	classes/basetest.svh	/^  virtual task check(int n);$/;"	p	task:BaseTest.check
+n	classes/basetest.svh	/^  virtual task run(int n);$/;"	p	task:BaseTest.run
+n	classes/bothtest.svh	/^  virtual task run(int n);$/;"	p	task:BothTest.run
+n	classes/component.svh	/^  virtual task check(int n);$/;"	p	task:Component.check
+n	classes/component.svh	/^  virtual task run(int n);$/;"	p	task:Component.run
 n	classes/generator.svh	/^  virtual task check(int n);$/;"	p	task:Generator.check
 n	classes/generator.svh	/^  virtual task run(int n);$/;"	p	task:Generator.run
 n	classes/monitor.svh	/^  virtual task check(int n);$/;"	p	task:Monitor.check
 n	classes/monitor.svh	/^  virtual task run(int n);$/;"	p	task:Monitor.run
+n	classes/onetest.svh	/^  virtual task run(int n);$/;"	p	task:OneTest.run
 n	ram_test_pkg.sv	/^  int n = DEPTH;$/;"	r	package:ram_test_pkg
 new	classes/basetest.svh	/^  function new(virtual ram_interface vif);$/;"	f	class:BaseTest
+new	classes/bothtest.svh	/^  function new(virtual ram_interface vif);$/;"	f	class:BothTest
 new	classes/driver.svh	/^  function new(virtual ram_interface vif);$/;"	f	class:Driver
 new	classes/generator.svh	/^  function new(Driver drv_h);$/;"	f	class:Generator
 new	classes/monitor.svh	/^  function new(virtual ram_interface vif,Scoreboard scbd_h);$/;"	f	class:Monitor
+new	classes/onetest.svh	/^  function new(virtual ram_interface vif);$/;"	f	class:OneTest
 oe	ram_interface.sv	/^  logic oe;$/;"	r	interface:ram_interface
-print_transaction	classes/transaction.svh	/^  function void print_transaction();$/;"	f	class:Transaction
+print_transaction	classes/transaction.svh	/^  virtual function void print_transaction();$/;"	f	class:Transaction
+print_transaction	classes/transone.svh	/^  virtual function void print_transaction();$/;"	f	class:TransOne
 ram_interface	ram_interface.sv	/^interface ram_interface$/;"	I
 ram_pkg	ram_pkg.sv	/^package ram_pkg;$/;"	K
 ram_test_pkg	ram_test_pkg.sv	/^package ram_test_pkg;$/;"	K
 randomize_send	tb_basic.sv	/^  task randomize_send();$/;"	t	module:tb_basic
-randomize_transaction	classes/transaction.svh	/^  function void randomize_transaction();$/;"	f	class:Transaction
+randomize_transaction	classes/transaction.svh	/^  virtual function void randomize_transaction();$/;"	f	class:Transaction
+randomize_transaction	classes/transone.svh	/^  virtual function void randomize_transaction();$/;"	f	class:TransOne
 read	tb_basic.sv	/^  task read();$/;"	t	module:tb_basic
-report	classes/component.svh	/^  virtual task report();$/;"	t	task:Component.build.reset.run.check
-reset	classes/component.svh	/^  virtual task reset();$/;"	t	task:Component.build
-rhs	classes/transaction.svh	/^  function void copy(Transaction rhs);$/;"	p	function:Transaction.copy
-run	classes/basetest.svh	/^  task run(int n);$/;"	t	class:BaseTest
-run	classes/component.svh	/^  virtual task run(int n);$/;"	t	task:Component.build.reset
-run	classes/driver.svh	/^  virtual task run(Transaction trans); \/\/write the data into memory$/;"	t	class:Driver
+report	classes/component.svh	/^  virtual task report();$/;"	t	class:Component
+reset	classes/basetest.svh	/^  virtual task reset;$/;"	t	class:BaseTest
+reset	classes/component.svh	/^  virtual task reset();$/;"	t	class:Component
+rhs	classes/transaction.svh	/^  virtual function void copy(Transaction rhs);$/;"	p	function:Transaction.copy
+run	classes/basetest.svh	/^  virtual task run(int n);$/;"	t	class:BaseTest
+run	classes/bothtest.svh	/^  virtual task run(int n);$/;"	t	class:BothTest
+run	classes/component.svh	/^  virtual task run(int n);$/;"	t	class:Component
 run	classes/generator.svh	/^  virtual task run(int n);$/;"	t	class:Generator
 run	classes/monitor.svh	/^  virtual task run(int n);$/;"	t	class:Monitor
+run	classes/onetest.svh	/^  virtual task run(int n);$/;"	t	class:OneTest
 run_test	ram_test_pkg.sv	/^  task run_test(virtual ram_interface vif);$/;"	t	package:ram_test_pkg
 scbd_h	classes/basetest.svh	/^  Scoreboard scbd_h;$/;"	r	class:BaseTest
 scbd_h	classes/monitor.svh	/^  Scoreboard scbd_h;$/;"	r	class:Monitor
 scbd_h	classes/monitor.svh	/^  function new(virtual ram_interface vif,Scoreboard scbd_h);$/;"	p	function:Monitor.new
+send	classes/driver.svh	/^  task send(Transaction trans); \/\/write the data into memory$/;"	t	class:Driver
 send	classes/generator.svh	/^  task send(Transaction trans);$/;"	t	class:Generator
-send_check	classes/driver.svh	/^  virtual task send_check(address_t addr); \/\/read the data$/;"	t	class:Driver
+send_check	classes/driver.svh	/^  task send_check(address_t addr); \/\/read the data$/;"	t	class:Driver
 tb_basic	tb_basic.sv	/^module tb_basic$/;"	m
 test_h	ram_test_pkg.sv	/^  BaseTest test_h;$/;"	r	package:ram_test_pkg
+test_name	ram_test_pkg.sv	/^    string test_name;$/;"	r	task:ram_test_pkg.run_test
 top	top.sv	/^module top;$/;"	m
-trans	classes/driver.svh	/^  virtual task run(Transaction trans); \/\/write the data into memory$/;"	p	task:Driver.run
+trans	classes/driver.svh	/^  task send(Transaction trans); \/\/write the data into memory$/;"	p	task:Driver.send
 trans	classes/generator.svh	/^    Transaction trans;$/;"	r	task:Generator.run
 trans	classes/generator.svh	/^  task send(Transaction trans);$/;"	p	task:Generator.send
 trans	classes/monitor.svh	/^  Transaction trans;$/;"	r	class:Monitor
@@ -160,10 +178,12 @@ trans	tb_basic.sv	/^    Transaction trans;$/;"	r	task:tb_basic.randomize_send
 trans	tb_basic.sv	/^  task write(Transaction trans);$/;"	p	task:tb_basic.write
 vif	classes/basetest.svh	/^  function new(virtual ram_interface vif);$/;"	p	function:BaseTest.new
 vif	classes/basetest.svh	/^  virtual ram_interface vif;$/;"	r	class:BaseTest
+vif	classes/bothtest.svh	/^  function new(virtual ram_interface vif);$/;"	p	function:BothTest.new
 vif	classes/driver.svh	/^  function new(virtual ram_interface vif);$/;"	p	function:Driver.new
 vif	classes/driver.svh	/^  virtual ram_interface vif;$/;"	r	class:Driver
 vif	classes/monitor.svh	/^  function new(virtual ram_interface vif,Scoreboard scbd_h);$/;"	p	function:Monitor.new
 vif	classes/monitor.svh	/^  virtual ram_interface vif;$/;"	r	class:Monitor
+vif	classes/onetest.svh	/^  function new(virtual ram_interface vif);$/;"	p	function:OneTest.new
 vif	ram_test_pkg.sv	/^  task run_test(virtual ram_interface vif);$/;"	p	task:ram_test_pkg.run_test
 we	ram_interface.sv	/^  logic we;$/;"	r	interface:ram_interface
 write	tb_basic.sv	/^  task write(Transaction trans);$/;"	t	module:tb_basic

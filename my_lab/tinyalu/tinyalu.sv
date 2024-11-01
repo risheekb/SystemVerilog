@@ -12,7 +12,8 @@ module tinyalu
       if(inf.start) begin
         case(inf.opcode)
           NOP: begin
-              inf.done <= 1'b1;
+              inf.done = 1'b1;
+              //inf.result <= '1;
           end
           ADD:begin
               inf.result  <=  inf.A + inf.B;
@@ -46,7 +47,7 @@ module tinyalu
       end
       else begin
         inf.done = 1'b0;
-        inf.result = 'z;
+        inf.result <= 'z;
       end
     end
   end

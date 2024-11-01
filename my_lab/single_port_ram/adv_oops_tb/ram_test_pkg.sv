@@ -4,6 +4,7 @@ package ram_test_pkg;
 
   typedef class Transaction;
   typedef class TransOne;
+  typedef class OneZero;
   typedef class Driver;
   typedef class Component;
   typedef class Generator;
@@ -11,9 +12,11 @@ package ram_test_pkg;
   typedef class Monitor;
   typedef class BaseTest;
   typedef class OneTest;
+  typedef class OneZeroTest;
   typedef class BothTest;
   `include "classes/transaction.svh"
   `include "classes/transone.svh"
+  `include "classes/onezero.svh"
   `include "classes/driver.svh"
   `include "classes/component.svh"
   `include "classes/generator.svh"
@@ -21,6 +24,7 @@ package ram_test_pkg;
   `include "classes/monitor.svh"
   `include "classes/basetest.svh"
   `include "classes/onetest.svh"
+  `include "classes/onezerotest.svh"
   `include "classes/bothtest.svh"
   
   BaseTest test_h;
@@ -37,6 +41,7 @@ package ram_test_pkg;
       "BaseTest": test_h = BaseTest::new(vif);
       "OneTest": test_h = OneTest::new(vif);
       "BothTest": test_h = BothTest::new(vif);
+      "OneZeroTest": test_h = OneZeroTest::new(vif);
       default: $display("TestCase Not Found ...");
     endcase
     test_h.build();

@@ -1,14 +1,23 @@
-class Transaction;
-  operand_t A;
-  operand_t B;
-  opcode_t opcode;
+class Transaction extends Component;
+  rand operand_t A;
+  rand operand_t B;
+  rand opcode_t opcode;
   result_t result;
 
-  function void randomize_transaction();
-    A = $random;
-    B = $random;
-    opcode = opcode_t'($urandom_range(0,7));
+  virtual function void print_transaction();
+    $display("%0t :: A = %0d B = %0d opcode = %s result = %0d",$realtime,A,B,opcode,result);
   endfunction
-  function void print_transaction();
+  
+  virtual function void copy(Transaction rhs);
+    this.A = rhs.A;
+    this.B = rhs.B;
+    this.opcode = rhs.opcode;
+    this.result = rhs.result;
   endfunction
+
+  virtual function Transaction clone();
+    clone = Transaction::new();
+    clone.copy(this);
+  endfunction
+
 endclass

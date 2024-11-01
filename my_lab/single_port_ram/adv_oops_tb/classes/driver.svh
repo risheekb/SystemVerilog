@@ -48,6 +48,7 @@ class Driver extends Component;
     #5ns
     @(posedge vif.clk) #1ns;
     vif.cs <= 0;
+    $display("%m :: @%h %h",vif.addr,vif.data_out);
   endtask
 endclass
 

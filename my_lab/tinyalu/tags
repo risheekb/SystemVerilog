@@ -75,52 +75,135 @@
 !_TAG_ROLE_DESCRIPTION!Make!makefile	included	/included/
 !_TAG_ROLE_DESCRIPTION!Make!makefile	optional	/optionally included/
 !_TAG_ROLE_DESCRIPTION!SystemVerilog!module	decl	/declaring instances/
-A	tb_basic.sv	/^  (output operand_t A,$/;"	p	module:tb_basic
-A	tinyalu.sv	/^  (input operand_t A,$/;"	p	module:tinyalu
-A	top.sv	/^  operand_t A;$/;"	r	module:top
+A	alu_interface.sv	/^  operand_t A;$/;"	r	interface:alu_interface
+A	classes/transaction.svh	/^  rand operand_t A;$/;"	r	class:Transaction
 ADD	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
 AND	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
-B	tb_basic.sv	/^    output operand_t B,$/;"	p	module:tb_basic
-B	tinyalu.sv	/^    input operand_t B,$/;"	p	module:tinyalu
-B	top.sv	/^  operand_t B;$/;"	r	module:top
+B	alu_interface.sv	/^  operand_t B;$/;"	r	interface:alu_interface
+B	classes/transaction.svh	/^  rand operand_t B;$/;"	r	class:Transaction
+BaseTest	classes/basetest.svh	/^class BaseTest extends Component;$/;"	C
+Component	classes/component.svh	/^class Component;$/;"	C
 DUT	top.sv	/^  tinyalu DUT(.*);$/;"	i	module:top	typeref:module:tinyalu
+Driver	classes/driver.svh	/^class Driver extends Component;$/;"	C
+Generator	classes/generator.svh	/^class Generator extends Component;$/;"	C
 INC	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
 MUL	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
+MULTest	classes/multest.svh	/^class MULTest extends BaseTest;$/;"	C
+MULTransaction	classes/multransaction.svh	/^class MULTransaction extends Transaction;$/;"	C
+Monitor	classes/monitor.svh	/^class Monitor extends Component;$/;"	C
 NOP	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
 NOT	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
 SUB	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
-TEST	top.sv	/^  tb_basic TEST(.*);$/;"	i	module:top	typeref:module:tb_basic
+Scoreboard	classes/scoreboard.svh	/^class Scoreboard extends Component;$/;"	C
+Transaction	classes/transaction.svh	/^class Transaction extends Component;$/;"	C
 XOR	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	c	typedef:alu_pkg.opcode_t
+add_input	classes/scoreboard.svh	/^  task add_input(Transaction trans); \/\/task to add to the expect q;$/;"	t	class:Scoreboard
+alu_interface	alu_interface.sv	/^interface alu_interface$/;"	I
 alu_pkg	alu_pkg.sv	/^package alu_pkg;$/;"	K
+alu_test_pkg	alu_test_pkg.sv	/^package alu_test_pkg;$/;"	K
+blueprint_h	classes/generator.svh	/^  Transaction blueprint_h;$/;"	r	class:Generator
+build	classes/basetest.svh	/^  virtual task build;$/;"	t	class:BaseTest
+build	classes/component.svh	/^  virtual task build;$/;"	t	class:Component
+build	classes/generator.svh	/^  virtual task build;$/;"	t	class:Generator
+check	classes/basetest.svh	/^  virtual task check(int n);$/;"	t	class:BaseTest
+check	classes/component.svh	/^  virtual task check(int n);$/;"	t	class:Component
+check	classes/generator.svh	/^  virtual task check(int n);$/;"	t	class:Generator
+check	classes/monitor.svh	/^  virtual task check(int n);$/;"	t	class:Monitor
+check_output	classes/scoreboard.svh	/^  task check_output(); \/\/task to compare the outputs$/;"	t	class:Scoreboard
+check_transaction	classes/driver.svh	/^  virtual task check_transaction(int n);$/;"	t	class:Driver
 check_transaction	tb_basic.sv	/^    task check_transaction;$/;"	t	module:tb_basic
-clk	tb_basic.sv	/^    input logic clk,$/;"	p	module:tb_basic
-clk	tinyalu.sv	/^    input logic clk,$/;"	p	module:tinyalu
+check_transaction	tb_basic_2.sv	/^    task check_transaction(int n);$/;"	t	module:tb_basic_2
+clean	makefile	/^clean:$/;"	t
+clk	alu_interface.sv	/^  (input logic clk);$/;"	p	interface:alu_interface
 clk	top.sv	/^  logic clk;$/;"	r	module:top
+clone	classes/multransaction.svh	/^  virtual function Transaction clone();$/;"	f	class:MULTransaction
+clone	classes/transaction.svh	/^  virtual function Transaction clone();$/;"	f	class:Transaction
 compile	makefile	/^compile:$/;"	t
-done	tb_basic.sv	/^    input logic done); $/;"	p	module:tb_basic
-done	tinyalu.sv	/^    output logic done); $/;"	p	module:tinyalu
-done	top.sv	/^  logic done; $/;"	r	module:top
-expect_q	tb_basic.sv	/^  opcode_t expect_q[$];$/;"	r	module:tb_basic
-generate_transaction	tb_basic.sv	/^    task generate_transaction;$/;"	t	module:tb_basic
-opcode	tb_basic.sv	/^    output opcode_t opcode,$/;"	p	module:tb_basic
-opcode	tinyalu.sv	/^    input opcode_t opcode,$/;"	p	module:tinyalu
-opcode	top.sv	/^  opcode_t opcode;$/;"	r	module:top
+copy	classes/transaction.svh	/^  virtual function void copy(Transaction rhs);$/;"	f	class:Transaction
+done	alu_interface.sv	/^  logic done;$/;"	r	interface:alu_interface
+drv_h	classes/basetest.svh	/^  Driver drv_h;$/;"	r	class:BaseTest
+drv_h	classes/generator.svh	/^  Driver drv_h;$/;"	r	class:Generator
+drv_h	classes/generator.svh	/^  function new(Driver drv_h);$/;"	p	function:Generator.new
+expect_q	classes/generator.svh	/^  Transaction expect_q[$];$/;"	r	class:Generator
+expect_q	classes/scoreboard.svh	/^  Transaction expect_q[$];$/;"	r	class:Scoreboard
+expect_q	tb_basic.sv	/^  Transaction expect_q[$];$/;"	r	module:tb_basic
+expect_q	tb_basic_2.sv	/^  Transaction expect_q[$];$/;"	r	module:tb_basic_2
+gen_h	classes/basetest.svh	/^  Generator gen_h;$/;"	r	class:BaseTest
+inf	tb_basic.sv	/^  (alu_interface inf); $/;"	p	module:tb_basic
+inf	tb_basic_2.sv	/^  (alu_interface inf); $/;"	p	module:tb_basic_2
+inf	tinyalu.sv	/^  (alu_interface inf); $/;"	p	module:tinyalu
+inf	top.sv	/^  alu_interface inf(clk);$/;"	i	module:top	typeref:module:alu_interface
+mon_h	classes/basetest.svh	/^  Monitor mon_h;$/;"	r	class:BaseTest
+n	classes/basetest.svh	/^  virtual task check(int n);$/;"	p	task:BaseTest.check
+n	classes/basetest.svh	/^  virtual task run(int n);$/;"	p	task:BaseTest.run
+n	classes/component.svh	/^  virtual task check(int n);$/;"	p	task:Component.check
+n	classes/component.svh	/^  virtual task run(int n);$/;"	p	task:Component.run
+n	classes/driver.svh	/^  virtual task check_transaction(int n);$/;"	p	task:Driver.check_transaction
+n	classes/generator.svh	/^  virtual task check(int n);$/;"	p	task:Generator.check
+n	classes/generator.svh	/^  virtual task run(int n);$/;"	p	task:Generator.run
+n	classes/monitor.svh	/^  virtual task check(int n);$/;"	p	task:Monitor.check
+n	classes/monitor.svh	/^  virtual task run(int n);$/;"	p	task:Monitor.run
+n	classes/multest.svh	/^  virtual task run(int n);$/;"	p	task:MULTest.run
+n	tb_basic_2.sv	/^    task check_transaction(int n);$/;"	p	task:tb_basic_2.check_transaction
+n	tb_basic_2.sv	/^    task send_transaction(int n);$/;"	p	task:tb_basic_2.send_transaction
+n	tb_basic_2.sv	/^  int n = 10;$/;"	r	module:tb_basic_2
+new	classes/basetest.svh	/^  function new(virtual alu_interface vif);$/;"	f	class:BaseTest
+new	classes/driver.svh	/^  function new(virtual alu_interface vif);$/;"	f	class:Driver
+new	classes/generator.svh	/^  function new(Driver drv_h);$/;"	f	class:Generator
+new	classes/monitor.svh	/^  function new(virtual alu_interface vif,Scoreboard scbd_h);$/;"	f	class:Monitor
+new	classes/multest.svh	/^  function new(virtual alu_interface vif);$/;"	f	class:MULTest
+op_c	classes/multransaction.svh	/^  constraint op_c {soft opcode == MUL;}$/;"	O	class:MULTransaction
+opcode	alu_interface.sv	/^  opcode_t opcode;$/;"	r	interface:alu_interface
+opcode	classes/transaction.svh	/^  rand opcode_t opcode;$/;"	r	class:Transaction
 opcode_t	alu_pkg.sv	/^  typedef enum logic [2:0] {NOP=3'b000,ADD=3'b001,SUB=3'b010,NOT=3'b011,XOR=3'b100,AND=3'b101,MU/;"	T	package:alu_pkg
 operand_t	alu_pkg.sv	/^  typedef logic [7:0] operand_t;$/;"	T	package:alu_pkg
 opt	makefile	/^opt:$/;"	t
-reset_n	tb_basic.sv	/^    output logic reset_n,$/;"	p	module:tb_basic
-reset_n	tinyalu.sv	/^    input logic reset_n,$/;"	p	module:tinyalu
-reset_n	top.sv	/^  logic reset_n;$/;"	r	module:top
-result	tb_basic.sv	/^    input result_t result,$/;"	p	module:tb_basic
-result	tinyalu.sv	/^    output result_t result,$/;"	p	module:tinyalu
-result	top.sv	/^  result_t result;$/;"	r	module:top
+print_transaction	classes/multransaction.svh	/^  virtual function void print_transaction();$/;"	f	class:MULTransaction
+print_transaction	classes/transaction.svh	/^  virtual function void print_transaction();$/;"	f	class:Transaction
+report	classes/component.svh	/^  virtual task report;$/;"	t	class:Component
+reset	classes/basetest.svh	/^  virtual task reset();$/;"	t	class:BaseTest
+reset	classes/component.svh	/^  virtual task reset;$/;"	t	class:Component
+reset	classes/driver.svh	/^  virtual task reset();$/;"	t	class:Driver
+reset_n	alu_interface.sv	/^  logic reset_n;$/;"	r	interface:alu_interface
+result	alu_interface.sv	/^  result_t result;$/;"	r	interface:alu_interface
+result	classes/transaction.svh	/^  result_t result;$/;"	r	class:Transaction
+result_expected	classes/scoreboard.svh	/^    result_t result_expected;$/;"	r	task:Scoreboard.check_output
 result_expected	tb_basic.sv	/^  result_t result_expected;$/;"	r	module:tb_basic
+result_expected	tb_basic_2.sv	/^  result_t result_expected;$/;"	r	module:tb_basic_2
 result_t	alu_pkg.sv	/^  typedef logic [15:0] result_t;$/;"	T	package:alu_pkg
-send_transaction	tb_basic.sv	/^    task send_transaction;$/;"	t	module:tb_basic
+rhs	classes/transaction.svh	/^  virtual function void copy(Transaction rhs);$/;"	p	function:Transaction.copy
+run	classes/basetest.svh	/^  virtual task run(int n);$/;"	t	class:BaseTest
+run	classes/component.svh	/^  virtual task run(int n);$/;"	t	class:Component
+run	classes/generator.svh	/^  virtual task run(int n);$/;"	t	class:Generator
+run	classes/monitor.svh	/^  virtual task run(int n);$/;"	t	class:Monitor
+run	classes/multest.svh	/^  virtual task run(int n);$/;"	t	class:MULTest
+run_test	alu_test_pkg.sv	/^  task run_test(virtual alu_interface vif);$/;"	t	package:alu_test_pkg
+scbd_h	classes/basetest.svh	/^  Scoreboard scbd_h;$/;"	r	class:BaseTest
+scbd_h	classes/monitor.svh	/^  Scoreboard scbd_h;$/;"	r	class:Monitor
+scbd_h	classes/monitor.svh	/^  function new(virtual alu_interface vif,Scoreboard scbd_h);$/;"	p	function:Monitor.new
+send_transaction	classes/driver.svh	/^  virtual task send_transaction(Transaction trans);$/;"	t	class:Driver
+send_transaction	tb_basic.sv	/^    task send_transaction();$/;"	t	module:tb_basic
+send_transaction	tb_basic_2.sv	/^    task send_transaction(int n);$/;"	t	module:tb_basic_2
 sim	makefile	/^sim:$/;"	t
-start	tb_basic.sv	/^    output logic start,$/;"	p	module:tb_basic
-start	tinyalu.sv	/^    input logic start,$/;"	p	module:tinyalu
-start	top.sv	/^  logic start;$/;"	r	module:top
+start	alu_interface.sv	/^  logic start;$/;"	r	interface:alu_interface
 tb_basic	tb_basic.sv	/^module tb_basic$/;"	m
+tb_basic_2	tb_basic_2.sv	/^module tb_basic_2$/;"	m
+test_h	alu_test_pkg.sv	/^  BaseTest test_h;$/;"	r	package:alu_test_pkg
+testname	alu_test_pkg.sv	/^    string testname;$/;"	r	task:alu_test_pkg.run_test
 tinyalu	tinyalu.sv	/^module tinyalu$/;"	m
 top	top.sv	/^module top;$/;"	m
+trans	classes/driver.svh	/^  virtual task send_transaction(Transaction trans);$/;"	p	task:Driver.send_transaction
+trans	classes/monitor.svh	/^    Transaction trans;$/;"	r	task:Monitor.run
+trans	classes/scoreboard.svh	/^    Transaction trans;$/;"	r	task:Scoreboard.check_output
+trans	classes/scoreboard.svh	/^  task add_input(Transaction trans); \/\/task to add to the expect q;$/;"	p	task:Scoreboard.add_input
+trans	tb_basic.sv	/^  Transaction trans;$/;"	r	module:tb_basic
+trans	tb_basic_2.sv	/^  Transaction trans;$/;"	r	module:tb_basic_2
+trans_h	classes/generator.svh	/^    Transaction trans_h;$/;"	r	task:Generator.run
+vif	alu_test_pkg.sv	/^  task run_test(virtual alu_interface vif);$/;"	p	task:alu_test_pkg.run_test
+vif	classes/basetest.svh	/^  function new(virtual alu_interface vif);$/;"	p	function:BaseTest.new
+vif	classes/basetest.svh	/^  virtual alu_interface vif;$/;"	r	class:BaseTest
+vif	classes/driver.svh	/^  function new(virtual alu_interface vif);$/;"	p	function:Driver.new
+vif	classes/driver.svh	/^  virtual alu_interface vif;$/;"	r	class:Driver
+vif	classes/monitor.svh	/^  function new(virtual alu_interface vif,Scoreboard scbd_h);$/;"	p	function:Monitor.new
+vif	classes/monitor.svh	/^  virtual alu_interface vif;$/;"	r	class:Monitor
+vif	classes/multest.svh	/^  function new(virtual alu_interface vif);$/;"	p	function:MULTest.new

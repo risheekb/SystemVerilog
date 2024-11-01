@@ -63,7 +63,7 @@
 !_TAG_PARSER_VERSION!Fortran	1.1	/current.age/
 !_TAG_PARSER_VERSION!SystemVerilog	1.1	/current.age/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
-!_TAG_PROC_CWD	/u/risheek/SystemVerilog/my_lab/tb_adv_oops/	//
+!_TAG_PROC_CWD	/u/risheek/SystemVerilog/my_lab/instr_register/tb_oops/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
@@ -71,9 +71,10 @@
 !_TAG_ROLE_DESCRIPTION!SystemVerilog!module	decl	/declaring instances/
 ADD	instr_register_pkg.sv	/^  typedef enum logic [2:0] { ZERO,PASSA,PASSB,ADD,SUB,DIV,MUL,MOD} opcode_t;$/;"	c	typedef:instr_register_pkg.opcode_t
 BaseTest	classes/basetest.svh	/^class BaseTest;$/;"	C
-DEPTH	instr_register_pkg.sv	/^  parameter DEPTH = 1024;$/;"	c	package:instr_register_pkg
+DEPTH	instr_register_pkg.sv	/^  parameter DEPTH = 8;$/;"	c	package:instr_register_pkg
 DIV	instr_register_pkg.sv	/^  typedef enum logic [2:0] { ZERO,PASSA,PASSB,ADD,SUB,DIV,MUL,MOD} opcode_t;$/;"	c	typedef:instr_register_pkg.opcode_t
 DUT	top.sv	/^  instr_register DUT(.clk(clk),.io(io));$/;"	i	module:top	typeref:module:instr_register
+DivideBy0	classes/divideby0.svh	/^class DivideBy0 extends Transaction;$/;"	C
 Driver	classes/driver.svh	/^class Driver;$/;"	C
 Generator	classes/generator.svh	/^class Generator;$/;"	C
 IRW	instr_register.sv	/^  instruction_t IRW [DEPTH-1:0];$/;"	r	module:instr_register
@@ -94,6 +95,7 @@ check_output	classes/scoreboard.svh	/^  function void check_output(instruction_t
 clk	instr_register.sv	/^  (input logic clk,instr_register_inf io);$/;"	p	module:instr_register
 clk	instr_register_inf.sv	/^  (input logic clk);$/;"	p	interface:instr_register_inf
 clk	top.sv	/^  logic clk;$/;"	r	module:top
+clone	classes/divideby0.svh	/^  virtual function Transaction clone();$/;"	f	class:DivideBy0
 clone	classes/transaction.svh	/^  function Transaction clone();$/;"	f	class:Transaction
 copy	classes/transaction.svh	/^  function void copy(Transaction rhs_h);$/;"	f	class:Transaction
 drv_h	classes/basetest.svh	/^  Driver drv_h;$/;"	r	class:BaseTest
@@ -140,8 +142,10 @@ operand_a	instr_register_inf.sv	/^  operand_t operand_a;$/;"	r	interface:instr_r
 operand_b	classes/transaction.svh	/^  operand_t operand_a, operand_b;$/;"	r	class:Transaction
 operand_b	instr_register_inf.sv	/^  operand_t operand_b;$/;"	r	interface:instr_register_inf
 operand_t	instr_register_pkg.sv	/^  typedef bit signed [31:0] operand_t;$/;"	T	package:instr_register_pkg
+print_transaction	classes/divideby0.svh	/^  virtual function void print_transaction();$/;"	f	class:DivideBy0
 print_transaction	classes/transaction.svh	/^  function void print_transaction();$/;"	f	class:Transaction
 que	instr_register_test.sv	/^  instruction_t que[$];$/;"	r	module:instr_register_test
+randomize_transaction	classes/divideby0.svh	/^  virtual function void randomize_transaction();$/;"	f	class:DivideBy0
 randomize_transaction	classes/transaction.svh	/^  function void randomize_transaction();$/;"	f	class:Transaction
 read_index	classes/scoreboard.svh	/^  function void check_output(instruction_t instr_word,index_t read_index);$/;"	p	function:Scoreboard.check_output
 read_index	instr_register_inf.sv	/^  index_t read_index;$/;"	r	interface:instr_register_inf

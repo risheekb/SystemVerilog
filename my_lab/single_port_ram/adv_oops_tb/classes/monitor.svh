@@ -10,8 +10,6 @@ class Monitor extends Component;
     this.scbd_h =scbd_h;
   endfunction
 
-
-
   virtual task run(int n);
     repeat(n) begin
       trans = new();
@@ -35,6 +33,7 @@ class Monitor extends Component;
         mon_out_h.put(trans_h);
         //scbd_h.check_output(vif.data_out,vif.addr);
         //$display("%0t %m Entering Monitor::check data_out:%0d iteration =%0d",$realtime,vif.data_out,i);
+        //scbd_h.check_output(vif.data_out,vif.addr);
       end
     end
   endtask

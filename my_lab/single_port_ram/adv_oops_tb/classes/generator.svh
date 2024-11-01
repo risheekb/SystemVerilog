@@ -1,6 +1,6 @@
 class Generator extends Component;
   Driver drv_h;
-  address_t addr_q[$];
+  address_t addr_q[data_t];
 
   Transaction blueprint_h;
 
@@ -19,8 +19,7 @@ class Generator extends Component;
       trans.print_transaction();
       trans.addr = i;
       send(trans);
-      addr_q.push_back(trans.addr);
-
+      addr_q[trans.data_in] = trans.addr;
     end
   endtask
 
@@ -30,6 +29,7 @@ class Generator extends Component;
   endtask
 
   virtual task check(int n);
+    $display("%p",addr_q);
     foreach(addr_q[i])begin
       Transaction trans_h;
       trans_h = new();

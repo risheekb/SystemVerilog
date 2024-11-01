@@ -2,10 +2,10 @@ module tb_basic
   import alu_pkg::*;
   (alu_interface inf); 
   typedef class Transaction;
-  `include "classes/transaction.svh"
 
+  `include "classes/transaction.svh"
   result_t result_expected;
-  opcode_t expect_q[$];
+  Transaction expect_q[$];
   Transaction trans;
   initial begin
     @(posedge inf.clk)
@@ -13,7 +13,7 @@ module tb_basic
     repeat(5) @(posedge inf.clk);
     inf.reset_n <= 1'b1;
 
-    repeat(10) begin
+    repeat(100) begin
       fork
         send_transaction();
         check_transaction();
@@ -23,27 +23,26 @@ module tb_basic
     $finish;
   end
 
-    task Transaction generate_transaction();
+    task send_transaction();
       trans = new();
       trans.randomize_transaction();
+      @(posedge inf.clk) #1ns;
+      inf.start = 1'b1;
       inf.A = trans.A;
       inf.B = trans.B;
       inf.opcode = trans.opcode;
-      expect_q.push_back(inf.opcode);
-    endtask
-
-    task send_transaction;
-      @(posedge inf.clk) #1ns;
-      inf.start = 1'b1;
-      trans = generate_transaction();
       wait(inf.done)
       inf.start = 1'b0;
+      trans.result = inf.result;
+      expect_q.push_back(trans);
     endtask
 
     task check_transaction;
       while(expect_q.size() != 0) begin
+        //trans.copy(expect_q.pop_front());
       wait(inf.done)#1ns;
-      case(expect_q.pop_front())
+      case(expect_q.pop_front().opcode)
+        //case(trans.opcode)
         NOP: begin
           if(inf.result !== 'z)
             $error("mismatch for NOP");
