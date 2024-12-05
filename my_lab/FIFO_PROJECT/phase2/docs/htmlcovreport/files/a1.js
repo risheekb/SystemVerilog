@@ -1,0 +1,2 @@
+var g_data = {"10":{"pr":"/fifo_tst_pkg","ty":2,"dui":3,"dun":"work.fifo_tst_pkg","asserts":[{"n":["Stimulus/run/#anonblk#224900215#12#4#/#ublk#224900215#12/immed__15",10,15],"h":[0,1]}],"ad":0}}
+processAssertionsData(g_data);

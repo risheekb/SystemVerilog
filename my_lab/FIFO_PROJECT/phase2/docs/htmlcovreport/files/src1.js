@@ -1,0 +1,2 @@
+var g_data = {"name":"../rtl/fifo_inf.sv","src":"interface fifo_inf(input clk);\n  import fifo_pkg::*;\n\n  logic clear;\n  logic write;\n  logic read;\n  logic reset;\n  data_t data_in;\n  logic full;\n  logic almost_full;\n  logic empty;\n  logic almost_empty;\n  counter_t cnt;\n  data_t data_out;\n\nendinterface\n","lang":"verilog"};
+processSrcData(g_data);

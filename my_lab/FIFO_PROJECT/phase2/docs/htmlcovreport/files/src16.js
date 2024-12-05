@@ -1,0 +1,2 @@
+var g_data = {"name":"../rtl/classes/emptytest.svh","src":"class EmptyTest extends BaseTest;\n\n  function new(virtual fifo_inf vif);\n    super.new(vif);\n  endfunction\n\n  virtual task run(int n);\n    //Try to read the FIFO while it is empty \n  endtask\n\n  virtual task check(int n);\n    fork\n      stim_h.check(n);\n      drv_h.check(n);\n    join\n  endtask\n\nendclass\n","lang":"verilog"};
+processSrcData(g_data);
