@@ -1,0 +1,2 @@
+var g_data = {"name":"../rtl/classes/transzero.svh","src":"class TransZero extends Transaction;\n\n\n  constraint c_allone {data == 0;}\n\n  virtual function void print_transaction;\n    $display(\"ZeroTransaction::\");\n    super.print_transaction();\n  endfunction\n\n  virtual function Transaction clone();\n    clone = TransZero::new();\n    clone.copy(this);\n  endfunction\n\n\n\nendclass\n","lang":"verilog"};
+processSrcData(g_data);

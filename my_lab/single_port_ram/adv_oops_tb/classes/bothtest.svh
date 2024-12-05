@@ -9,7 +9,6 @@ class BothTest extends BaseTest;
     super.check(n); //check the transactions of the first test
     gen_h.blueprint_h = TransOne::new();
     super.run(n);
-
   endtask
 
 endclass
