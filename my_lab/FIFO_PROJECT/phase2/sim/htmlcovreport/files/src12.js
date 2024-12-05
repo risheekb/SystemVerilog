@@ -1,2 +1,0 @@
-var g_data = {"name":"../rtl/classes/scoreboard.svh","src":"class Scoreboard extends Component;\n\n  mailbox #(Transaction) pred2scbd_h,mon_out_h;\n\n  virtual task check(int n);\n    repeat(n) begin\n      Transaction expected_h,output_h;\n      pred2scbd_h.get(expected_h);\n      mon_out_h.get(output_h);\n      check_output(expected_h,output_h);\n    end\n  endtask\n\n  virtual task check_output(Transaction expected_h,output_h);\n    if(expected_h.data != output_h.data)\n      $display(\"Data Mismatch \");\n  endtask\nendclass\n","lang":"verilog"};
-processSrcData(g_data);

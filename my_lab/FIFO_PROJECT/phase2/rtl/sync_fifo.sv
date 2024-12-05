@@ -17,7 +17,6 @@ module fifo #(parameter DEPTH = 8, parameter WIDTH=32)(
   reg [$clog2(DEPTH)-1:0] write_pointer ; //write_pointer for writing into the memory.
   reg [$clog2(DEPTH)-1:0] read_pointer ; //read_pointer for reading from the memory.
   
-  reg [$clog2(DEPTH):0] i; //loop variable 
   assign full = (cnt == DEPTH); //asserting full flag when count is equal to FIFO DEPTH.
   assign empty = (cnt == 0); //asserting the empty flag when there is no element in the FIFO.
   assign almost_full = (cnt == (DEPTH -1)); //asserting almost_full when count is equal to one less than DEPTH.
@@ -31,7 +30,7 @@ module fifo #(parameter DEPTH = 8, parameter WIDTH=32)(
       data_out <= 0;
       cnt <= 0;
       //reset memory contents
-      for(i = 0 ; i < DEPTH;i=i+1) begin
+      for(integer i = 0 ; i < DEPTH;i=i+1) begin
           memory[i] <= '0;
       end
     end
