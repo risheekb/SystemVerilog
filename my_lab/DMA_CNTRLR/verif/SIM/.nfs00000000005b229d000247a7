@@ -1,0 +1,3 @@
+vlog +incdir+../../dma_axi64 ../TOP/top.sv
+vsim -novopt work.top
+run -all

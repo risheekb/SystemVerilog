@@ -1,0 +1,10 @@
+module top;
+  `include "dma.svh"
+  //DUT INSTANTIATION
+  dma_axi64 DUT ();
+  //CLOCK GENERTAION
+  //INTERFACE INSTANTIATION
+  //RESET
+  //ASSERTION MODULE INSTANTIATION
+  //LOGIC TO END THE SIMULATION
+endmodule
