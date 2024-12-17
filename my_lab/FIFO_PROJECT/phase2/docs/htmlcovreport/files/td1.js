@@ -1,2 +1,0 @@
-var g_data = {"0":["cov.ucdb","20241205004316","0","work.top -coverage -voptargs=+acc -qwavedb=+signal+transaction+class+uvm_schematic+wavefile+memory=4096,5 +test=All +qwave_pdi +qwavedb_log_dut_all +qwavedb_log_transaction -classdebug +qwavedb_log_memory+4096,5 -uvmcontrol=+struct,+trlog +class_filter_file+/pkgs/mentor/questa/2024.2/questasim/linux_x86_64/VisualizerRls/bin/../config/uvmclassfilter.txt ","-","-",0,"auto.ece.pdx.edu","linux_x86_64","/u/risheek/SystemVerilog/my_lab/FIFO_PROJECT/phase2/sim/transcript",959736,"2024.2",""]}
-processTestdetailsData(g_data);

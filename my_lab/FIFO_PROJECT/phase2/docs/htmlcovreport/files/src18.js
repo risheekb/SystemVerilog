@@ -1,2 +1,0 @@
-var g_data = {"name":"../rtl/classes/onetest.svh","src":"class OneTest extends BaseTest;\n\n  function new(virtual fifo_inf vif);\n    super.new(vif);\n  endfunction\n\n  virtual task run(int n);\n    stim_h.blueprint_h = TransOne::new();\n    super.run(n);\n  endtask\n\nendclass\n","lang":"verilog"};
-processSrcData(g_data);
