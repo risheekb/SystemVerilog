@@ -30,6 +30,8 @@ module top;
   `include "dma_ref.sv"
   `include "dma_ckr.sv"
   reg clk,reset;
+
+  dma_env env;
   initial begin
     clk = 0;
     forever #1.25 clk = ~clk; //2.5ns => 400 MHz
@@ -39,6 +41,8 @@ module top;
     reset = 1'b1;
     repeat(2) @(posedge clk);
     reset = 1'b0;
+    env = new();
+    env.run();
   end
 
   //INTERFACE INSTANTIATION
