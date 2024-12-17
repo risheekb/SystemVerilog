@@ -1,0 +1,39 @@
+<!-- THIS IS TOOL GENERATED SESSION FILE. PLEASE DO NOT MODIFY THIS -->
+<!DOCTYPE visualizer_session>
+<session skip_do_file="0" version="3">
+ <app argc="3">
+  <argv value="visualizer" pos="0"/>
+  <argv value="-viewcov" pos="1"/>
+  <argv value="cov.ucdb" pos="2"/>
+ </app>
+ <window_config>
+  <dockareas left="600" top="0" right="300" bottom="400"/>
+  <taborder left="structure+" bottom="transcript+coveragesummary+"/>
+  <activetab left="structure" bottom="transcript" activewindow="transcript"/>
+  <window undocked="0" type="structure" dock_location="left" x="0" y="0" visible="1"/>
+  <window undocked="0" type="transcript" dock_location="bottom" x="0" y="0" visible="1"/>
+  <window undocked="0" type="coveragesummary" dock_location="bottom" x="0" y="0" visible="1"/>
+  <window height="800" undocked="0" type="rtl" x="49" width="1200" y="24" visible="1"/>
+  <window undocked="0" type="source" dock_location="center" x="0" firstVisibleLine="2" y="0" path="/u/risheek/SystemVerilog/my_lab/FIFO_PROJECT/phase2/rtl/top.sv" visible="1"/>
+ </window_config>
+ <wave_file_mgr/>
+ <gui>
+  <main_window visible="1">
+   <srcbrowser primary="true" instancename="top" filepath="/u/risheek/SystemVerilog/my_lab/FIFO_PROJECT/phase2/rtl/top.sv"/>
+   <sourcetclcommands>
+    <tcl command="src activate source"/>
+    <tcl command="src top 3"/>
+   </sourcetclcommands>
+  </main_window>
+  <watchTower_cur_setting customDisplayTimeUnitListStr="" curRadix="8" curDisplayTimeUnit="0">
+   <curTime hightime="0" lowtime="0"/>
+  </watchTower_cur_setting>
+  <structure selection="top"/>
+  <transcript/>
+  <coveragesummary/>
+ </gui>
+ <wave_mgr sync_time_range="0"/>
+ <mem_mgr/>
+ <windows/>
+ <dut selection="top"/>
+</session>
