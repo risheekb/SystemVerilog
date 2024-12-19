@@ -9,7 +9,7 @@ interface apb_inf(input clk,reset);
   bit [31:0]                        prdata;
   bit                               pslverr;
   bit                               pready;
-  bit                 scan_en;
+  bit                               scan_en;
 
   bit [1-1:0]                INT;
   bit                 idle;
@@ -17,18 +17,18 @@ interface apb_inf(input clk,reset);
   clocking master_cb @(posedge clk);
     default input #0;
     default output #1;
-    input                          pclken;
-    input                          psel;
-    input                          penable;
-    input                          paddr;
-    input                          pwrite;
-    input                          pwdata;
-    output                         prdata;
-    output                         pslverr;
-    output                         pready;
-    input                 scan_en;
-    output                 idle;
-    output                 INT;
+    output                          pclken;
+    output                          psel;
+    output                          penable;
+    output                          paddr;
+    output                          pwrite;
+    output                          pwdata;
+    input                         prdata;
+    input                         pslverr;
+    input                         pready;
+    output                          scan_en;
+    input                         idle;
+    input                         INT;
   endclocking
 
   clocking monitor_cb @(posedge clk);
@@ -48,7 +48,7 @@ interface apb_inf(input clk,reset);
   endclocking
 
   modport master_mp(clocking master_cb);
-    modport monitor_mp(clocking monitor_cb);
+  modport monitor_mp(clocking monitor_cb);
 
 
 endinterface

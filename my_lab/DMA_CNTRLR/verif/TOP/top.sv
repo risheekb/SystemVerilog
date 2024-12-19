@@ -5,6 +5,7 @@ module top;
   typedef class dma_env;
   typedef class dma_ckr;
   typedef class dma_ref;
+  typedef class apb_tx;
   typedef class apb_env;
   typedef class apb_bfm;
   typedef class apb_gen;
@@ -14,6 +15,7 @@ module top;
   typedef class axi_responder;
   typedef class axi_mon;
   `include "dma.svh"
+  `include "apb_tx.sv"
   `include "apb_inf.sv"
   `include "axi_inf.sv"
   `include "periph_inf.sv"
