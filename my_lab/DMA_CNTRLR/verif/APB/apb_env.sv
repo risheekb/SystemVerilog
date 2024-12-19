@@ -12,10 +12,12 @@ class apb_env;
   endfunction
 
   task run;
-    apb_bfm_h.run();
-    apb_gen_h.run();
-    apb_mon_h.run();
-    apb_cov_h.run();
+    fork
+      apb_bfm_h.run();
+      apb_gen_h.run();
+      apb_mon_h.run();
+      apb_cov_h.run();
+    join
   endtask
 
 endclass

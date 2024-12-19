@@ -8,10 +8,10 @@ interface periph_inf(input clk,reset);
   clocking master_cb @(posedge clk);
     default input #0;
     default output #1;
-    input              periph_tx_req;
-    output              periph_tx_clr;
-    input              periph_rx_req;
-    output              periph_rx_clr;
+    output              periph_tx_req;
+    input              periph_tx_clr;
+    output              periph_rx_req;
+    input              periph_rx_clr;
   endclocking
 
   clocking monitor_cb @(posedge clk);

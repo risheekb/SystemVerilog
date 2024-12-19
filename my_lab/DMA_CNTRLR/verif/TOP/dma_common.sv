@@ -1,4 +1,5 @@
 class dma_common;
+  `include"dma_addr.h"
   static virtual apb_inf apb_vif;
   static virtual axi_inf axi_vif;
   static virtual periph_inf periph_vif;

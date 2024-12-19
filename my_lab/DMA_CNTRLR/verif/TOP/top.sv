@@ -33,34 +33,7 @@ module top;
   `include "dma_ckr.sv"
   reg clk,reset;
 
-  dma_env env;
-  initial begin
-    clk = 0;
-    forever #1.25 clk = ~clk; //2.5ns => 400 MHz
-  end
-
-  initial begin 
-    reset = 1'b1;
-    repeat(2) @(posedge clk);
-    reset = 1'b0;
-    env = new();
-    env.run();
-  end
-
-  //INTERFACE INSTANTIATION
-  axi_inf axi_pif(clk,reset);
-  apb_inf apb_pif(clk,reset);
-  periph_inf periph_pif(clk,reset);
-
-  initial begin
-    dma_common::axi_vif = axi_pif;
-    dma_common::apb_vif = apb_pif;
-    dma_common::periph_vif = periph_pif;
-  end
-
-  
-  //DUT INSTANTIATION
- dma_axi64 DUT (
+ dma_axi64 dut(
    .clk(apb_pif.clk),
    .reset(apb_pif.reset),
    .scan_en(apb_pif.scan_en),
@@ -107,6 +80,35 @@ module top;
    .RLAST0(axi_pif.RLAST0),
    .RVALID0(axi_pif.RVALID0),
    .RREADY0(axi_pif.RREADY0));
+  dma_env env;
+  initial begin
+    clk = 0;
+    forever #1.25 clk = ~clk; //2.5ns => 400 MHz
+  end
+
+  
+
+  //INTERFACE INSTANTIATION
+  axi_inf axi_pif(clk,reset);
+  apb_inf apb_pif(clk,reset);
+  periph_inf periph_pif(clk,reset);
+
+  initial begin
+    dma_common::axi_vif = axi_pif;
+    dma_common::apb_vif = apb_pif;
+    dma_common::periph_vif = periph_pif;
+  end
+
+   initial begin 
+    reset = 1'b1;
+    repeat(2) @(posedge clk);
+    reset = 1'b0;
+    $value$plusargs("test_name=%s",dma_common::test_name);
+    env = new();
+    env.run();
+  end
+  
+  //DUT INSTANTIATION
   //CLOCK GENERTAION
   //RESET
   //ASSERTION MODULE INSTANTIATION
