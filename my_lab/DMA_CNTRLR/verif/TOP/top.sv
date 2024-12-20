@@ -114,7 +114,14 @@ module top;
   //ASSERTION MODULE INSTANTIATION
   //LOGIC TO END THE SIMULATION
   initial begin
-    #1000; //TODO
+    //fork
+    //  wait(dma_common::txn_driv == 200);
+    //  #2000;
+    //join_any
+    //disable fork;
+    #1000
+    $display("Total Transactions Generated : %0d",dma_common::txn_gen);
+    $display("Total Transactions Driven : %0d",dma_common::txn_driv);
     $finish;
   end
 endmodule

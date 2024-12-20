@@ -544,7 +544,7 @@ dma_axi64_core0_ch dma_axi64_core0_ch0 (
             .int_all_proc(ch_int_all_proc[1-1+(1*0):1*0])
             );
           
-dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty1 (
+dma_axi64_core0_ch dma_axi64_core0_ch_empty1 (
             .clk(clk),
             .reset(reset),
             .scan_en(scan_en),
@@ -659,7 +659,7 @@ dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty1 (
             .int_all_proc(ch_int_all_proc[1-1+(1*1):1*1])
             );
           
-dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty2 (
+dma_axi64_core0_ch dma_axi64_core0_ch_empty2 (
             .clk(clk),
             .reset(reset),
             .scan_en(scan_en),
@@ -774,7 +774,7 @@ dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty2 (
             .int_all_proc(ch_int_all_proc[1-1+(1*2):1*2])
             );
           
-dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty3 (
+dma_axi64_core0_ch dma_axi64_core0_ch_empty3 (
             .clk(clk),
             .reset(reset),
             .scan_en(scan_en),
@@ -889,7 +889,7 @@ dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty3 (
             .int_all_proc(ch_int_all_proc[1-1+(1*3):1*3])
             );
           
-dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty4 (
+dma_axi64_core0_ch dma_axi64_core0_ch_empty4 (
             .clk(clk),
             .reset(reset),
             .scan_en(scan_en),
@@ -1004,7 +1004,7 @@ dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty4 (
             .int_all_proc(ch_int_all_proc[1-1+(1*4):1*4])
             );
           
-dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty5 (
+dma_axi64_core0_ch dma_axi64_core0_ch_empty5 (
             .clk(clk),
             .reset(reset),
             .scan_en(scan_en),
@@ -1119,7 +1119,7 @@ dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty5 (
             .int_all_proc(ch_int_all_proc[1-1+(1*5):1*5])
             );
           
-dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty6 (
+dma_axi64_core0_ch dma_axi64_core0_ch_empty6 (
             .clk(clk),
             .reset(reset),
             .scan_en(scan_en),
@@ -1234,7 +1234,7 @@ dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty6 (
             .int_all_proc(ch_int_all_proc[1-1+(1*6):1*6])
             );
           
-dma_axi64_core0_ch_empty dma_axi64_core0_ch_empty7 (
+dma_axi64_core0_ch dma_axi64_core0_ch_empty7 (
             .clk(clk),
             .reset(reset),
             .scan_en(scan_en),

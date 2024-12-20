@@ -4,6 +4,7 @@ class apb_tx;
   rand bit wr_rd;
   bit apb_or_periph_f;
 
+
   function void print();
     $display("Printing the fields of APB TX");
     $display("addr = %h",addr);

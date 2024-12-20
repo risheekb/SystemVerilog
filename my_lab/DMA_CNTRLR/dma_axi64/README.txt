@@ -4,7 +4,7 @@ Opencores.org project - DMA AXI - 64 bit build
 This core is based on the Provartec PR200 IP - 'Generic High performance dual-core AXI DMA'
 
 Build with the following parameters:
-- Single channel
+- Eight channel
 - Single interrupt bit
 - One AXI port (simultaneous read and write)
 - AXI data 64 bits 

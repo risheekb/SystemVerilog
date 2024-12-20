@@ -9,6 +9,7 @@ class apb_bfm;
       dma_common::gen2bfm.get(tx_h);
       tx_h.print();
       drive_tx(tx_h);
+      dma_common::txn_driv++;
     end
   endtask
 
