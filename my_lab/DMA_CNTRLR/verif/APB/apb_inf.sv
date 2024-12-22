@@ -17,6 +17,7 @@ interface apb_inf(input clk,reset);
   clocking master_cb @(posedge clk);
     default input #0;
     default output #1;
+    input                           reset;
     output                          pclken;
     output                          psel;
     output                          penable;
@@ -33,6 +34,7 @@ interface apb_inf(input clk,reset);
 
   clocking monitor_cb @(posedge clk);
     default input #0;
+    input                           reset;
     input                          pclken;
     input                          psel;
     input                          penable;

@@ -1,6 +1,6 @@
 class apb_tx;
   rand bit [12:0] addr;
-  rand bit [30:0] data;
+  rand bit [31:0] data;
   rand bit wr_rd;
   bit apb_or_periph_f;
 

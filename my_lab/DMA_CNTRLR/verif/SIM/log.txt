@@ -1,0 +1,4998 @@
+# data = 0a25ea2e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0330
+# data = 0cadf0cb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0334
+# data = 22dbe330
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0338
+# data = 67f9fdce
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 033c
+# data = 7f0f5019
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0340
+# data = 41e14375
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0348
+# data = 6bcf9f99
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0350
+# data = 0e9d7b57
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03a0
+# data = 2ccfbc39
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03a8
+# data = 5ab6ed8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03ac
+# data = 5c74bea1
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0400
+# data = 565c9cb6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0404
+# data = 0f8123e9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0408
+# data = 12e46608
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 040c
+# data = 35b17ea3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0410
+# data = 2b85d1ab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0414
+# data = 7e24f60d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0418
+# data = 61e826dd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 041c
+# data = 447e3cba
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0420
+# data = 42b666aa
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 042c
+# data = 72ce29b2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0430
+# data = 22103dd8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0434
+# data = 01cd35e2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0438
+# data = 75614d3f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 043c
+# data = 08bcd17c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0440
+# data = 4a23f7a1
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0448
+# data = 3b570293
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0450
+# data = 2d511c0b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04a0
+# data = 60c93cea
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04a8
+# data = 3bd85f9c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04ac
+# data = 3a6b2450
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0500
+# data = 1c2b7f60
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0504
+# data = 177ad648
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0508
+# data = 782f8be2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 050c
+# data = 305972a3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0510
+# data = 6b91636d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0514
+# data = 6d5b8180
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0518
+# data = 3f457511
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 051c
+# data = 1f4f5046
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0520
+# data = 12dc8b76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 052c
+# data = 0c7cc2bf
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0530
+# data = 72d5644b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0534
+# data = 01c07038
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0538
+# data = 44aa7c49
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 053c
+# data = 0ea3b91b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0540
+# data = 02575567
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0548
+# data = 16fc349a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0550
+# data = 21be9560
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05a0
+# data = 6474a802
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05a8
+# data = 078eb2d9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05ac
+# data = 4e91c1ea
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0600
+# data = 0c3de6ef
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0604
+# data = 5f4a0443
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0608
+# data = 242ad488
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 060c
+# data = 62b7de3f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0610
+# data = 26d28805
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0614
+# data = 6ba97312
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0618
+# data = 57af2c54
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 061c
+# data = 111fce34
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0620
+# data = 582e6141
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 062c
+# data = 4820245c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0630
+# data = 4c3746fa
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0634
+# data = 47528bdd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0638
+# data = 7078d963
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 063c
+# data = 0a6c9e97
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0640
+# data = 2ec75ab0
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0648
+# data = 5920b361
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0650
+# data = 54fe064b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06a0
+# data = 75dc1c79
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06a8
+# data = 30f6b667
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06ac
+# data = 5db560af
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0700
+# data = 0bcb7b13
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0704
+# data = 4f040170
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0708
+# data = 53cdcb8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 070c
+# data = 52800ee9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0710
+# data = 0e36880d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0714
+# data = 642be5bb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0718
+# data = 7a2b3f90
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 071c
+# data = 0167e41e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0720
+# data = 7e4ae891
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 072c
+# data = 7e3f89fb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0730
+# data = 6c4fcb74
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0734
+# data = 23ed22c8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0738
+# data = 72120bb9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 073c
+# data = 200f78bd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0740
+# data = 1a107c33
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0748
+# data = 009691bc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0750
+# data = 7d68ecd8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07a0
+# data = 1af14d31
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07a8
+# data = 1ae8eaa9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07ac
+# data = 652405a8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1000
+# data = 25c7511d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1030
+# data = 32a92387
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1038
+# data = 1638f886
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1040
+# data = 6588eba4
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1050
+# data = 78d8ae98
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1054
+# data = 79a4f9e6
+# wr_rd = 0
+# apb_mon::run
+# apb_cov::run
+# axi_responder::run
+# axi_mon::run
+# dma_ckr::run
+# dma_ref::run
+# Printing the fields of APB TX
+# addr = 0000
+# data = 0f313f51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0004
+# data = 4cfd329b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0008
+# data = 679cec0d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 000c
+# data = 4301963a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0010
+# data = 799ed82e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0014
+# data = 65db23a2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0018
+# data = 1970f663
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 001c
+# data = 242350df
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0020
+# data = 7add3b8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 002c
+# data = 4219d0b3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0030
+# data = 1a7bb7b8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0034
+# data = 5c5c7142
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0038
+# data = 370e8dca
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 003c
+# data = 0ba50d4a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0040
+# data = 5bc99b83
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0048
+# data = 7d8edcc2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0050
+# data = 4d94f7b6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a0
+# data = 116fd1dc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a8
+# data = 2662621f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00ac
+# data = 433ef954
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0100
+# data = 75517b2c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0104
+# data = 1e1f63b7
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0108
+# data = 0dd4a99f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 010c
+# data = 7975b83a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0110
+# data = 54d867ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0114
+# data = 352f2269
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0118
+# data = 59579e40
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 011c
+# data = 7943ffab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0120
+# data = 4942cbde
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 012c
+# data = 59a83e96
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0130
+# data = 60458e43
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0134
+# data = 6be4d48e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0138
+# data = 39918f0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 013c
+# data = 2bf81abc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0140
+# data = 47faa8fe
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0148
+# data = 7687398d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0150
+# data = 5c41692e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a0
+# data = 4f38c593
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a8
+# data = 72f84698
+# wr_rd = 0
+# Total Transactions Generated : 166
+# Total Transactions Driven : 38
+# ** Note: $finish    : ../TOP/top.sv(125)
+#    Time: 103750 ps  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at ../TOP/top.sv line 125
+do run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:40:34 on Dec 20,2024
+# vlog -reportprogress 300 "+incdir+../../dma_axi64" "+incdir+../TOP" "+incdir+../AXI" "+incdir+../APB" "+incdir+../PERIPH" "+incdir+../REF" ../TOP/top.sv 
+# -- Compiling module top
+# -- Compiling module dma_axi64
+# -- Compiling module dma_axi64_apb_mux
+# -- Compiling module dma_axi64_core0
+# -- Compiling module dma_axi64_core0_arbiter
+# -- Compiling module dma_axi64_core0_axim_cmd
+# -- Compiling module dma_axi64_core0_axim_rd
+# -- Compiling module dma_axi64_core0_axim_rdata
+# -- Compiling module dma_axi64_core0_axim_resp
+# -- Compiling module dma_axi64_core0_axim_timeout
+# -- Compiling module dma_axi64_core0_axim_wdata
+# -- Compiling module dma_axi64_core0_axim_wr
+# -- Compiling module dma_axi64_core0_ch
+# -- Compiling module dma_axi64_core0_ch_calc
+# -- Compiling module dma_axi64_core0_ch_calc_addr
+# -- Compiling module dma_axi64_core0_ch_calc_joint
+# -- Compiling module dma_axi64_core0_ch_calc_size
+# -- Compiling module dma_axi64_core0_ch_empty
+# -- Compiling module dma_axi64_core0_ch_fifo
+# -- Compiling module dma_axi64_core0_ch_fifo_ctrl
+# -- Compiling module dma_axi64_core0_ch_fifo_ptr
+# -- Compiling module dma_axi64_core0_ch_offsets
+# -- Compiling module dma_axi64_core0_ch_outs
+# -- Compiling module dma_axi64_core0_ch_periph_mux
+# -- Compiling module dma_axi64_core0_ch_rd_slicer
+# -- Compiling module dma_axi64_core0_ch_reg
+# -- Compiling module dma_axi64_core0_ch_reg_size
+# -- Compiling module dma_axi64_core0_ch_remain
+# -- Compiling module dma_axi64_core0_ch_wr_slicer
+# -- Compiling module dma_axi64_core0_channels
+# -- Compiling module dma_axi64_core0_channels_apb_mux
+# -- Compiling module dma_axi64_core0_channels_mux
+# -- Compiling module dma_axi64_core0_ctrl
+# -- Compiling module dma_axi64_core0_top
+# -- Compiling module dma_axi64_core0_wdt
+# -- Compiling module dma_axi64_dual_core
+# -- Compiling module dma_axi64_reg
+# -- Compiling module dma_axi64_reg_core0
+# -- Compiling module prgen_delay
+# -- Compiling module prgen_demux8
+# -- Compiling module prgen_fifo
+# -- Compiling module prgen_joint_stall
+# -- Compiling module prgen_min2
+# -- Compiling module prgen_min3
+# -- Compiling module prgen_mux8
+# -- Compiling module prgen_or8
+# -- Compiling module prgen_rawstat
+# -- Compiling module prgen_scatter8_1
+# -- Compiling module prgen_stall
+# -- Compiling module prgen_swap32
+# -- Compiling module prgen_swap64
+# -- Compiling interface apb_inf
+# -- Compiling interface axi_inf
+# -- Compiling interface periph_inf
+# ** Warning: ../APB/apb_gen.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(31): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(38): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(52): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(60): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(68): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(78): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(86): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(95): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(102): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(106): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	top
+# End time: 14:40:35 on Dec 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 12
+# End time: 14:40:37 on Dec 20,2024, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 36
+# vsim -voptargs="+acc" work.top "+test_name=test_reg_reset" 
+# Start time: 14:40:37 on Dec 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_top'.  Expected 55, found 54.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2718) [TFMPC] - Missing connection for port 'pready'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_wcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_rcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch0'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty1'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty2'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty3'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty4'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty5'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty6'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty7'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../APB/apb_gen.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(22): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(31): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(38): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(52): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(60): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(68): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(78): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(86): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(95): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(102): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(106): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ctrl(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ch_calc_joint(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=35.
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: ../TOP/top.sv Line: 106
+# Break key hit
+# Break in Module top at ../TOP/top.sv line 118
+do run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:45:19 on Dec 20,2024
+# vlog -reportprogress 300 "+incdir+../../dma_axi64" "+incdir+../TOP" "+incdir+../AXI" "+incdir+../APB" "+incdir+../PERIPH" "+incdir+../REF" ../TOP/top.sv 
+# -- Compiling module top
+# -- Compiling module dma_axi64
+# -- Compiling module dma_axi64_apb_mux
+# -- Compiling module dma_axi64_core0
+# -- Compiling module dma_axi64_core0_arbiter
+# -- Compiling module dma_axi64_core0_axim_cmd
+# -- Compiling module dma_axi64_core0_axim_rd
+# -- Compiling module dma_axi64_core0_axim_rdata
+# -- Compiling module dma_axi64_core0_axim_resp
+# -- Compiling module dma_axi64_core0_axim_timeout
+# -- Compiling module dma_axi64_core0_axim_wdata
+# -- Compiling module dma_axi64_core0_axim_wr
+# -- Compiling module dma_axi64_core0_ch
+# -- Compiling module dma_axi64_core0_ch_calc
+# -- Compiling module dma_axi64_core0_ch_calc_addr
+# -- Compiling module dma_axi64_core0_ch_calc_joint
+# -- Compiling module dma_axi64_core0_ch_calc_size
+# -- Compiling module dma_axi64_core0_ch_empty
+# -- Compiling module dma_axi64_core0_ch_fifo
+# -- Compiling module dma_axi64_core0_ch_fifo_ctrl
+# -- Compiling module dma_axi64_core0_ch_fifo_ptr
+# -- Compiling module dma_axi64_core0_ch_offsets
+# -- Compiling module dma_axi64_core0_ch_outs
+# -- Compiling module dma_axi64_core0_ch_periph_mux
+# -- Compiling module dma_axi64_core0_ch_rd_slicer
+# -- Compiling module dma_axi64_core0_ch_reg
+# -- Compiling module dma_axi64_core0_ch_reg_size
+# -- Compiling module dma_axi64_core0_ch_remain
+# -- Compiling module dma_axi64_core0_ch_wr_slicer
+# -- Compiling module dma_axi64_core0_channels
+# -- Compiling module dma_axi64_core0_channels_apb_mux
+# -- Compiling module dma_axi64_core0_channels_mux
+# -- Compiling module dma_axi64_core0_ctrl
+# -- Compiling module dma_axi64_core0_top
+# -- Compiling module dma_axi64_core0_wdt
+# -- Compiling module dma_axi64_dual_core
+# -- Compiling module dma_axi64_reg
+# -- Compiling module dma_axi64_reg_core0
+# -- Compiling module prgen_delay
+# -- Compiling module prgen_demux8
+# -- Compiling module prgen_fifo
+# -- Compiling module prgen_joint_stall
+# -- Compiling module prgen_min2
+# -- Compiling module prgen_min3
+# -- Compiling module prgen_mux8
+# -- Compiling module prgen_or8
+# -- Compiling module prgen_rawstat
+# -- Compiling module prgen_scatter8_1
+# -- Compiling module prgen_stall
+# -- Compiling module prgen_swap32
+# -- Compiling module prgen_swap64
+# -- Compiling interface apb_inf
+# -- Compiling interface axi_inf
+# -- Compiling interface periph_inf
+# ** Warning: ../APB/apb_gen.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(31): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(38): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(52): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(60): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(68): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(78): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(86): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(95): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(102): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(106): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	top
+# End time: 14:45:19 on Dec 20,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 12
+# End time: 14:45:49 on Dec 20,2024, Elapsed time: 0:05:12
+# Errors: 0, Warnings: 36
+# vsim -voptargs="+acc" work.top "+test_name=test_reg_reset" 
+# Start time: 14:45:49 on Dec 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_top'.  Expected 55, found 54.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2718) [TFMPC] - Missing connection for port 'pready'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_wcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_rcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch0'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty1'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty2'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty3'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty4'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty5'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty6'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty7'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../APB/apb_gen.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(22): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(31): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(38): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(52): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(60): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(68): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(78): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(86): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(95): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(102): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(106): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ctrl(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ch_calc_joint(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=35.
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: ../TOP/top.sv Line: 106
+# apb_bfm::run
+# apb_gen::run
+# Printing the fields of APB TX
+# addr = 0000
+# data = 0f313f51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0004
+# data = 4cfd329b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0008
+# data = 679cec0d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 000c
+# data = 4301963a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0010
+# data = 799ed82e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0014
+# data = 65db23a2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0018
+# data = 1970f663
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 001c
+# data = 242350df
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0020
+# data = 7add3b8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 002c
+# data = 4219d0b3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0030
+# data = 1a7bb7b8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0034
+# data = 5c5c7142
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0038
+# data = 370e8dca
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 003c
+# data = 0ba50d4a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0040
+# data = 5bc99b83
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0048
+# data = 7d8edcc2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0050
+# data = 4d94f7b6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a0
+# data = 116fd1dc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a8
+# data = 2662621f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00ac
+# data = 433ef954
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0100
+# data = 75517b2c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0104
+# data = 1e1f63b7
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0108
+# data = 0dd4a99f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 010c
+# data = 7975b83a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0110
+# data = 54d867ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0114
+# data = 352f2269
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0118
+# data = 59579e40
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 011c
+# data = 7943ffab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0120
+# data = 4942cbde
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 012c
+# data = 59a83e96
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0130
+# data = 60458e43
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0134
+# data = 6be4d48e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0138
+# data = 39918f0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 013c
+# data = 2bf81abc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0140
+# data = 47faa8fe
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0148
+# data = 7687398d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0150
+# data = 5c41692e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a0
+# data = 4f38c593
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a8
+# data = 72f84698
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01ac
+# data = 055ecc76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0200
+# data = 10ceceb6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0204
+# data = 02e8f3e3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0208
+# data = 31fd9768
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 020c
+# data = 30791bc9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0210
+# data = 56d14454
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0214
+# data = 45f83d76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0218
+# data = 7b6119c6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 021c
+# data = 6af27bae
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0220
+# data = 57964172
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 022c
+# data = 6d3ff106
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0230
+# data = 1aeca962
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0234
+# data = 5b46ff0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0238
+# data = 339cc1f4
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 023c
+# data = 589d66fb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0240
+# data = 2aa3ce91
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0248
+# data = 3b8534ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0250
+# data = 2b60ee51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02a0
+# data = 5820d92b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02a8
+# data = 16e113a5
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02ac
+# data = 193e1b3c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0300
+# data = 344d5eb9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0304
+# data = 11c204cf
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0308
+# data = 22c4202a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 030c
+# data = 12634a38
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0310
+# data = 42bd0135
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0314
+# data = 5020af39
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0318
+# data = 41a80560
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 031c
+# data = 442ba441
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0320
+# data = 1fecdb8d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 032c
+# data = 0a25ea2e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0330
+# data = 0cadf0cb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0334
+# data = 22dbe330
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0338
+# data = 67f9fdce
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 033c
+# data = 7f0f5019
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0340
+# data = 41e14375
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0348
+# data = 6bcf9f99
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0350
+# data = 0e9d7b57
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03a0
+# data = 2ccfbc39
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03a8
+# data = 5ab6ed8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03ac
+# data = 5c74bea1
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0400
+# data = 565c9cb6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0404
+# data = 0f8123e9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0408
+# data = 12e46608
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 040c
+# data = 35b17ea3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0410
+# data = 2b85d1ab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0414
+# data = 7e24f60d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0418
+# data = 61e826dd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 041c
+# data = 447e3cba
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0420
+# data = 42b666aa
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 042c
+# data = 72ce29b2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0430
+# data = 22103dd8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0434
+# data = 01cd35e2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0438
+# data = 75614d3f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 043c
+# data = 08bcd17c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0440
+# data = 4a23f7a1
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0448
+# data = 3b570293
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0450
+# data = 2d511c0b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04a0
+# data = 60c93cea
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04a8
+# data = 3bd85f9c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04ac
+# data = 3a6b2450
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0500
+# data = 1c2b7f60
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0504
+# data = 177ad648
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0508
+# data = 782f8be2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 050c
+# data = 305972a3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0510
+# data = 6b91636d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0514
+# data = 6d5b8180
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0518
+# data = 3f457511
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 051c
+# data = 1f4f5046
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0520
+# data = 12dc8b76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 052c
+# data = 0c7cc2bf
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0530
+# data = 72d5644b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0534
+# data = 01c07038
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0538
+# data = 44aa7c49
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 053c
+# data = 0ea3b91b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0540
+# data = 02575567
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0548
+# data = 16fc349a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0550
+# data = 21be9560
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05a0
+# data = 6474a802
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05a8
+# data = 078eb2d9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05ac
+# data = 4e91c1ea
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0600
+# data = 0c3de6ef
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0604
+# data = 5f4a0443
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0608
+# data = 242ad488
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 060c
+# data = 62b7de3f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0610
+# data = 26d28805
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0614
+# data = 6ba97312
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0618
+# data = 57af2c54
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 061c
+# data = 111fce34
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0620
+# data = 582e6141
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 062c
+# data = 4820245c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0630
+# data = 4c3746fa
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0634
+# data = 47528bdd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0638
+# data = 7078d963
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 063c
+# data = 0a6c9e97
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0640
+# data = 2ec75ab0
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0648
+# data = 5920b361
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0650
+# data = 54fe064b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06a0
+# data = 75dc1c79
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06a8
+# data = 30f6b667
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06ac
+# data = 5db560af
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0700
+# data = 0bcb7b13
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0704
+# data = 4f040170
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0708
+# data = 53cdcb8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 070c
+# data = 52800ee9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0710
+# data = 0e36880d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0714
+# data = 642be5bb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0718
+# data = 7a2b3f90
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 071c
+# data = 0167e41e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0720
+# data = 7e4ae891
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 072c
+# data = 7e3f89fb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0730
+# data = 6c4fcb74
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0734
+# data = 23ed22c8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0738
+# data = 72120bb9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 073c
+# data = 200f78bd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0740
+# data = 1a107c33
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0748
+# data = 009691bc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0750
+# data = 7d68ecd8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07a0
+# data = 1af14d31
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07a8
+# data = 1ae8eaa9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07ac
+# data = 652405a8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1000
+# data = 25c7511d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1030
+# data = 32a92387
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1038
+# data = 1638f886
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1040
+# data = 6588eba4
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1050
+# data = 78d8ae98
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1054
+# data = 79a4f9e6
+# wr_rd = 0
+# apb_mon::run
+# apb_cov::run
+# axi_responder::run
+# axi_mon::run
+# dma_ckr::run
+# dma_ref::run
+# Printing the fields of APB TX
+# addr = 0000
+# data = 0f313f51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0004
+# data = 4cfd329b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0008
+# data = 679cec0d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 000c
+# data = 4301963a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0010
+# data = 799ed82e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0014
+# data = 65db23a2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0018
+# data = 1970f663
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 001c
+# data = 242350df
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0020
+# data = 7add3b8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 002c
+# data = 4219d0b3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0030
+# data = 1a7bb7b8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0034
+# data = 5c5c7142
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0038
+# data = 370e8dca
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 003c
+# data = 0ba50d4a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0040
+# data = 5bc99b83
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0048
+# data = 7d8edcc2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0050
+# data = 4d94f7b6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a0
+# data = 116fd1dc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a8
+# data = 2662621f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00ac
+# data = 433ef954
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0100
+# data = 75517b2c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0104
+# data = 1e1f63b7
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0108
+# data = 0dd4a99f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 010c
+# data = 7975b83a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0110
+# data = 54d867ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0114
+# data = 352f2269
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0118
+# data = 59579e40
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 011c
+# data = 7943ffab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0120
+# data = 4942cbde
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 012c
+# data = 59a83e96
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0130
+# data = 60458e43
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0134
+# data = 6be4d48e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0138
+# data = 39918f0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 013c
+# data = 2bf81abc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0140
+# data = 47faa8fe
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0148
+# data = 7687398d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0150
+# data = 5c41692e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a0
+# data = 4f38c593
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a8
+# data = 72f84698
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01ac
+# data = 055ecc76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0200
+# data = 10ceceb6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0204
+# data = 02e8f3e3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0208
+# data = 31fd9768
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 020c
+# data = 30791bc9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0210
+# data = 56d14454
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0214
+# data = 45f83d76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0218
+# data = 7b6119c6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 021c
+# data = 6af27bae
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0220
+# data = 57964172
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 022c
+# data = 6d3ff106
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0230
+# data = 1aeca962
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0234
+# data = 5b46ff0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0238
+# data = 339cc1f4
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 023c
+# data = 589d66fb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0240
+# data = 2aa3ce91
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0248
+# data = 3b8534ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0250
+# data = 2b60ee51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02a0
+# data = 5820d92b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02a8
+# data = 16e113a5
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02ac
+# data = 193e1b3c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0300
+# data = 344d5eb9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0304
+# data = 11c204cf
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0308
+# data = 22c4202a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 030c
+# data = 12634a38
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0310
+# data = 42bd0135
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0314
+# data = 5020af39
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0318
+# data = 41a80560
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 031c
+# data = 442ba441
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0320
+# data = 1fecdb8d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 032c
+# data = 0a25ea2e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0330
+# data = 0cadf0cb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0334
+# data = 22dbe330
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0338
+# data = 67f9fdce
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 033c
+# data = 7f0f5019
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0340
+# data = 41e14375
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0348
+# data = 6bcf9f99
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0350
+# data = 0e9d7b57
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03a0
+# data = 2ccfbc39
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03a8
+# data = 5ab6ed8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03ac
+# data = 5c74bea1
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0400
+# data = 565c9cb6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0404
+# data = 0f8123e9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0408
+# data = 12e46608
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 040c
+# data = 35b17ea3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0410
+# data = 2b85d1ab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0414
+# data = 7e24f60d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0418
+# data = 61e826dd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 041c
+# data = 447e3cba
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0420
+# data = 42b666aa
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 042c
+# data = 72ce29b2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0430
+# data = 22103dd8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0434
+# data = 01cd35e2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0438
+# data = 75614d3f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 043c
+# data = 08bcd17c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0440
+# data = 4a23f7a1
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0448
+# data = 3b570293
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0450
+# data = 2d511c0b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04a0
+# data = 60c93cea
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04a8
+# data = 3bd85f9c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04ac
+# data = 3a6b2450
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0500
+# data = 1c2b7f60
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0504
+# data = 177ad648
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0508
+# data = 782f8be2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 050c
+# data = 305972a3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0510
+# data = 6b91636d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0514
+# data = 6d5b8180
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0518
+# data = 3f457511
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 051c
+# data = 1f4f5046
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0520
+# data = 12dc8b76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 052c
+# data = 0c7cc2bf
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0530
+# data = 72d5644b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0534
+# data = 01c07038
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0538
+# data = 44aa7c49
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 053c
+# data = 0ea3b91b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0540
+# data = 02575567
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0548
+# data = 16fc349a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0550
+# data = 21be9560
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05a0
+# data = 6474a802
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05a8
+# data = 078eb2d9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05ac
+# data = 4e91c1ea
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0600
+# data = 0c3de6ef
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0604
+# data = 5f4a0443
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0608
+# data = 242ad488
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 060c
+# data = 62b7de3f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0610
+# data = 26d28805
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0614
+# data = 6ba97312
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0618
+# data = 57af2c54
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 061c
+# data = 111fce34
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0620
+# data = 582e6141
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 062c
+# data = 4820245c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0630
+# data = 4c3746fa
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0634
+# data = 47528bdd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0638
+# data = 7078d963
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 063c
+# data = 0a6c9e97
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0640
+# data = 2ec75ab0
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0648
+# data = 5920b361
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0650
+# data = 54fe064b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06a0
+# data = 75dc1c79
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06a8
+# data = 30f6b667
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06ac
+# data = 5db560af
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0700
+# data = 0bcb7b13
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0704
+# data = 4f040170
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0708
+# data = 53cdcb8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 070c
+# data = 52800ee9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0710
+# data = 0e36880d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0714
+# data = 642be5bb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0718
+# data = 7a2b3f90
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 071c
+# data = 0167e41e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0720
+# data = 7e4ae891
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 072c
+# data = 7e3f89fb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0730
+# data = 6c4fcb74
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0734
+# data = 23ed22c8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0738
+# data = 72120bb9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 073c
+# data = 200f78bd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0740
+# data = 1a107c33
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0748
+# data = 009691bc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0750
+# data = 7d68ecd8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07a0
+# data = 1af14d31
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07a8
+# data = 1ae8eaa9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07ac
+# data = 652405a8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1000
+# data = 25c7511d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1030
+# data = 32a92387
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1038
+# data = 1638f886
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1040
+# data = 6588eba4
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1050
+# data = 78d8ae98
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1054
+# data = 79a4f9e6
+# wr_rd = 0
+# Total Transactions Generated : 166
+# Total Transactions Driven : 166
+# ** Note: $finish    : ../TOP/top.sv(126)
+#    Time: 521250 ps  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at ../TOP/top.sv line 126
+do run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 15:05:23 on Dec 20,2024
+# vlog -reportprogress 300 "+incdir+../../dma_axi64" "+incdir+../TOP" "+incdir+../AXI" "+incdir+../APB" "+incdir+../PERIPH" "+incdir+../REF" ../TOP/top.sv 
+# -- Compiling module top
+# -- Compiling module dma_axi64
+# -- Compiling module dma_axi64_apb_mux
+# -- Compiling module dma_axi64_core0
+# -- Compiling module dma_axi64_core0_arbiter
+# -- Compiling module dma_axi64_core0_axim_cmd
+# -- Compiling module dma_axi64_core0_axim_rd
+# -- Compiling module dma_axi64_core0_axim_rdata
+# -- Compiling module dma_axi64_core0_axim_resp
+# -- Compiling module dma_axi64_core0_axim_timeout
+# -- Compiling module dma_axi64_core0_axim_wdata
+# -- Compiling module dma_axi64_core0_axim_wr
+# -- Compiling module dma_axi64_core0_ch
+# -- Compiling module dma_axi64_core0_ch_calc
+# -- Compiling module dma_axi64_core0_ch_calc_addr
+# -- Compiling module dma_axi64_core0_ch_calc_joint
+# -- Compiling module dma_axi64_core0_ch_calc_size
+# -- Compiling module dma_axi64_core0_ch_empty
+# -- Compiling module dma_axi64_core0_ch_fifo
+# -- Compiling module dma_axi64_core0_ch_fifo_ctrl
+# -- Compiling module dma_axi64_core0_ch_fifo_ptr
+# -- Compiling module dma_axi64_core0_ch_offsets
+# -- Compiling module dma_axi64_core0_ch_outs
+# -- Compiling module dma_axi64_core0_ch_periph_mux
+# -- Compiling module dma_axi64_core0_ch_rd_slicer
+# -- Compiling module dma_axi64_core0_ch_reg
+# -- Compiling module dma_axi64_core0_ch_reg_size
+# -- Compiling module dma_axi64_core0_ch_remain
+# -- Compiling module dma_axi64_core0_ch_wr_slicer
+# -- Compiling module dma_axi64_core0_channels
+# -- Compiling module dma_axi64_core0_channels_apb_mux
+# -- Compiling module dma_axi64_core0_channels_mux
+# -- Compiling module dma_axi64_core0_ctrl
+# -- Compiling module dma_axi64_core0_top
+# -- Compiling module dma_axi64_core0_wdt
+# -- Compiling module dma_axi64_dual_core
+# -- Compiling module dma_axi64_reg
+# -- Compiling module dma_axi64_reg_core0
+# -- Compiling module prgen_delay
+# -- Compiling module prgen_demux8
+# -- Compiling module prgen_fifo
+# -- Compiling module prgen_joint_stall
+# -- Compiling module prgen_min2
+# -- Compiling module prgen_min3
+# -- Compiling module prgen_mux8
+# -- Compiling module prgen_or8
+# -- Compiling module prgen_rawstat
+# -- Compiling module prgen_scatter8_1
+# -- Compiling module prgen_stall
+# -- Compiling module prgen_swap32
+# -- Compiling module prgen_swap64
+# -- Compiling interface apb_inf
+# -- Compiling interface axi_inf
+# -- Compiling interface periph_inf
+# ** Warning: ../APB/apb_gen.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(31): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(38): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(52): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(60): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(68): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(78): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(86): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(95): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(102): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(106): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	top
+# End time: 15:05:24 on Dec 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 12
+# End time: 15:05:26 on Dec 20,2024, Elapsed time: 0:19:37
+# Errors: 0, Warnings: 36
+# vsim -voptargs="+acc" work.top "+test_name=test_reg_reset" 
+# Start time: 15:05:26 on Dec 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_top'.  Expected 55, found 54.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2718) [TFMPC] - Missing connection for port 'pready'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_wcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_rcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch0'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty1'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty2'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty3'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty4'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty5'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty6'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty7'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../APB/apb_gen.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(22): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(31): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(38): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(52): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(60): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(68): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(78): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(86): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(95): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(102): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(106): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ctrl(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ch_calc_joint(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=35.
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: ../TOP/top.sv Line: 106
+# apb_bfm::run
+# apb_gen::run
+# Printing the fields of APB TX
+# addr = 0000
+# data = 0f313f51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0004
+# data = 4cfd329b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0008
+# data = 679cec0d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 000c
+# data = 4301963a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0010
+# data = 799ed82e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0014
+# data = 65db23a2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0018
+# data = 1970f663
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 001c
+# data = 242350df
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0020
+# data = 7add3b8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 002c
+# data = 4219d0b3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0030
+# data = 1a7bb7b8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0034
+# data = 5c5c7142
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0038
+# data = 370e8dca
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 003c
+# data = 0ba50d4a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0040
+# data = 5bc99b83
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0048
+# data = 7d8edcc2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0050
+# data = 4d94f7b6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a0
+# data = 116fd1dc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a8
+# data = 2662621f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00ac
+# data = 433ef954
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0100
+# data = 75517b2c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0104
+# data = 1e1f63b7
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0108
+# data = 0dd4a99f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 010c
+# data = 7975b83a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0110
+# data = 54d867ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0114
+# data = 352f2269
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0118
+# data = 59579e40
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 011c
+# data = 7943ffab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0120
+# data = 4942cbde
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 012c
+# data = 59a83e96
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0130
+# data = 60458e43
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0134
+# data = 6be4d48e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0138
+# data = 39918f0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 013c
+# data = 2bf81abc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0140
+# data = 47faa8fe
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0148
+# data = 7687398d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0150
+# data = 5c41692e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a0
+# data = 4f38c593
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a8
+# data = 72f84698
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01ac
+# data = 055ecc76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0200
+# data = 10ceceb6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0204
+# data = 02e8f3e3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0208
+# data = 31fd9768
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 020c
+# data = 30791bc9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0210
+# data = 56d14454
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0214
+# data = 45f83d76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0218
+# data = 7b6119c6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 021c
+# data = 6af27bae
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0220
+# data = 57964172
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 022c
+# data = 6d3ff106
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0230
+# data = 1aeca962
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0234
+# data = 5b46ff0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0238
+# data = 339cc1f4
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 023c
+# data = 589d66fb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0240
+# data = 2aa3ce91
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0248
+# data = 3b8534ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0250
+# data = 2b60ee51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02a0
+# data = 5820d92b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02a8
+# data = 16e113a5
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02ac
+# data = 193e1b3c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0300
+# data = 344d5eb9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0304
+# data = 11c204cf
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0308
+# data = 22c4202a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 030c
+# data = 12634a38
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0310
+# data = 42bd0135
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0314
+# data = 5020af39
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0318
+# data = 41a80560
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 031c
+# data = 442ba441
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0320
+# data = 1fecdb8d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 032c
+# data = 0a25ea2e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0330
+# data = 0cadf0cb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0334
+# data = 22dbe330
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0338
+# data = 67f9fdce
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 033c
+# data = 7f0f5019
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0340
+# data = 41e14375
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0348
+# data = 6bcf9f99
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0350
+# data = 0e9d7b57
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03a0
+# data = 2ccfbc39
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03a8
+# data = 5ab6ed8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03ac
+# data = 5c74bea1
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0400
+# data = 565c9cb6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0404
+# data = 0f8123e9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0408
+# data = 12e46608
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 040c
+# data = 35b17ea3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0410
+# data = 2b85d1ab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0414
+# data = 7e24f60d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0418
+# data = 61e826dd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 041c
+# data = 447e3cba
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0420
+# data = 42b666aa
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 042c
+# data = 72ce29b2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0430
+# data = 22103dd8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0434
+# data = 01cd35e2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0438
+# data = 75614d3f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 043c
+# data = 08bcd17c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0440
+# data = 4a23f7a1
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0448
+# data = 3b570293
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0450
+# data = 2d511c0b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04a0
+# data = 60c93cea
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04a8
+# data = 3bd85f9c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04ac
+# data = 3a6b2450
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0500
+# data = 1c2b7f60
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0504
+# data = 177ad648
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0508
+# data = 782f8be2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 050c
+# data = 305972a3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0510
+# data = 6b91636d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0514
+# data = 6d5b8180
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0518
+# data = 3f457511
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 051c
+# data = 1f4f5046
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0520
+# data = 12dc8b76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 052c
+# data = 0c7cc2bf
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0530
+# data = 72d5644b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0534
+# data = 01c07038
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0538
+# data = 44aa7c49
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 053c
+# data = 0ea3b91b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0540
+# data = 02575567
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0548
+# data = 16fc349a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0550
+# data = 21be9560
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05a0
+# data = 6474a802
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05a8
+# data = 078eb2d9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05ac
+# data = 4e91c1ea
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0600
+# data = 0c3de6ef
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0604
+# data = 5f4a0443
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0608
+# data = 242ad488
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 060c
+# data = 62b7de3f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0610
+# data = 26d28805
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0614
+# data = 6ba97312
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0618
+# data = 57af2c54
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 061c
+# data = 111fce34
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0620
+# data = 582e6141
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 062c
+# data = 4820245c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0630
+# data = 4c3746fa
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0634
+# data = 47528bdd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0638
+# data = 7078d963
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 063c
+# data = 0a6c9e97
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0640
+# data = 2ec75ab0
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0648
+# data = 5920b361
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0650
+# data = 54fe064b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06a0
+# data = 75dc1c79
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06a8
+# data = 30f6b667
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06ac
+# data = 5db560af
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0700
+# data = 0bcb7b13
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0704
+# data = 4f040170
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0708
+# data = 53cdcb8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 070c
+# data = 52800ee9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0710
+# data = 0e36880d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0714
+# data = 642be5bb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0718
+# data = 7a2b3f90
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 071c
+# data = 0167e41e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0720
+# data = 7e4ae891
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 072c
+# data = 7e3f89fb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0730
+# data = 6c4fcb74
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0734
+# data = 23ed22c8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0738
+# data = 72120bb9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 073c
+# data = 200f78bd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0740
+# data = 1a107c33
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0748
+# data = 009691bc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0750
+# data = 7d68ecd8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07a0
+# data = 1af14d31
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07a8
+# data = 1ae8eaa9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07ac
+# data = 652405a8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1000
+# data = 25c7511d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1030
+# data = 32a92387
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1038
+# data = 1638f886
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1040
+# data = 6588eba4
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1050
+# data = 78d8ae98
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1054
+# data = 79a4f9e6
+# wr_rd = 0
+# apb_mon::run
+# apb_cov::run
+# axi_responder::run
+# axi_mon::run
+# dma_ckr::run
+# dma_ref::run
+# Printing the fields of APB TX
+# addr = 0000
+# data = 0f313f51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0004
+# data = 4cfd329b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0008
+# data = 679cec0d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 000c
+# data = 4301963a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0010
+# data = 799ed82e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0014
+# data = 65db23a2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0018
+# data = 1970f663
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 001c
+# data = 242350df
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0020
+# data = 7add3b8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 002c
+# data = 4219d0b3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0030
+# data = 1a7bb7b8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0034
+# data = 5c5c7142
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0038
+# data = 370e8dca
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 003c
+# data = 0ba50d4a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0040
+# data = 5bc99b83
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0048
+# data = 7d8edcc2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0050
+# data = 4d94f7b6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a0
+# data = 116fd1dc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a8
+# data = 2662621f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00ac
+# data = 433ef954
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0100
+# data = 75517b2c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0104
+# data = 1e1f63b7
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0108
+# data = 0dd4a99f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 010c
+# data = 7975b83a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0110
+# data = 54d867ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0114
+# data = 352f2269
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0118
+# data = 59579e40
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 011c
+# data = 7943ffab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0120
+# data = 4942cbde
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 012c
+# data = 59a83e96
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0130
+# data = 60458e43
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0134
+# data = 6be4d48e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0138
+# data = 39918f0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 013c
+# data = 2bf81abc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0140
+# data = 47faa8fe
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0148
+# data = 7687398d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0150
+# data = 5c41692e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a0
+# data = 4f38c593
+# wr_rd = 0
+# Total Transactions Generated : 166
+# Total Transactions Driven : 37
+# ** Note: $finish    : ../TOP/top.sv(126)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at ../TOP/top.sv line 126
+do run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 15:06:57 on Dec 20,2024
+# vlog -reportprogress 300 "+incdir+../../dma_axi64" "+incdir+../TOP" "+incdir+../AXI" "+incdir+../APB" "+incdir+../PERIPH" "+incdir+../REF" ../TOP/top.sv 
+# -- Compiling module top
+# -- Compiling module dma_axi64
+# -- Compiling module dma_axi64_apb_mux
+# -- Compiling module dma_axi64_core0
+# -- Compiling module dma_axi64_core0_arbiter
+# -- Compiling module dma_axi64_core0_axim_cmd
+# -- Compiling module dma_axi64_core0_axim_rd
+# -- Compiling module dma_axi64_core0_axim_rdata
+# -- Compiling module dma_axi64_core0_axim_resp
+# -- Compiling module dma_axi64_core0_axim_timeout
+# -- Compiling module dma_axi64_core0_axim_wdata
+# -- Compiling module dma_axi64_core0_axim_wr
+# -- Compiling module dma_axi64_core0_ch
+# -- Compiling module dma_axi64_core0_ch_calc
+# -- Compiling module dma_axi64_core0_ch_calc_addr
+# -- Compiling module dma_axi64_core0_ch_calc_joint
+# -- Compiling module dma_axi64_core0_ch_calc_size
+# -- Compiling module dma_axi64_core0_ch_empty
+# -- Compiling module dma_axi64_core0_ch_fifo
+# -- Compiling module dma_axi64_core0_ch_fifo_ctrl
+# -- Compiling module dma_axi64_core0_ch_fifo_ptr
+# -- Compiling module dma_axi64_core0_ch_offsets
+# -- Compiling module dma_axi64_core0_ch_outs
+# -- Compiling module dma_axi64_core0_ch_periph_mux
+# -- Compiling module dma_axi64_core0_ch_rd_slicer
+# -- Compiling module dma_axi64_core0_ch_reg
+# -- Compiling module dma_axi64_core0_ch_reg_size
+# -- Compiling module dma_axi64_core0_ch_remain
+# -- Compiling module dma_axi64_core0_ch_wr_slicer
+# -- Compiling module dma_axi64_core0_channels
+# -- Compiling module dma_axi64_core0_channels_apb_mux
+# -- Compiling module dma_axi64_core0_channels_mux
+# -- Compiling module dma_axi64_core0_ctrl
+# -- Compiling module dma_axi64_core0_top
+# -- Compiling module dma_axi64_core0_wdt
+# -- Compiling module dma_axi64_dual_core
+# -- Compiling module dma_axi64_reg
+# -- Compiling module dma_axi64_reg_core0
+# -- Compiling module prgen_delay
+# -- Compiling module prgen_demux8
+# -- Compiling module prgen_fifo
+# -- Compiling module prgen_joint_stall
+# -- Compiling module prgen_min2
+# -- Compiling module prgen_min3
+# -- Compiling module prgen_mux8
+# -- Compiling module prgen_or8
+# -- Compiling module prgen_rawstat
+# -- Compiling module prgen_scatter8_1
+# -- Compiling module prgen_stall
+# -- Compiling module prgen_swap32
+# -- Compiling module prgen_swap64
+# -- Compiling interface apb_inf
+# -- Compiling interface axi_inf
+# -- Compiling interface periph_inf
+# ** Warning: ../APB/apb_gen.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(31): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(38): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(52): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(60): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(68): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(78): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(86): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(95): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(102): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(106): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	top
+# End time: 15:06:58 on Dec 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 12
+# End time: 15:07:12 on Dec 20,2024, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 36
+# vsim -voptargs="+acc" work.top "+test_name=test_reg_reset" 
+# Start time: 15:07:12 on Dec 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_top'.  Expected 55, found 54.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2718) [TFMPC] - Missing connection for port 'pready'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_wcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_rcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch0'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty1'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty2'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty3'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty4'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty5'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty6'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty7'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../APB/apb_gen.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(22): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(31): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(38): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(52): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(60): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(68): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(78): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(86): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(95): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(102): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(106): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ctrl(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ch_calc_joint(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=35.
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: ../TOP/top.sv Line: 106
+# Total Transactions Generated : 0
+# apb_bfm::run
+# apb_gen::run
+# Printing the fields of APB TX
+# addr = 0000
+# data = 0f313f51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0004
+# data = 4cfd329b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0008
+# data = 679cec0d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 000c
+# data = 4301963a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0010
+# data = 799ed82e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0014
+# data = 65db23a2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0018
+# data = 1970f663
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 001c
+# data = 242350df
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0020
+# data = 7add3b8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 002c
+# data = 4219d0b3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0030
+# data = 1a7bb7b8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0034
+# data = 5c5c7142
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0038
+# data = 370e8dca
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 003c
+# data = 0ba50d4a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0040
+# data = 5bc99b83
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0048
+# data = 7d8edcc2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0050
+# data = 4d94f7b6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a0
+# data = 116fd1dc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a8
+# data = 2662621f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00ac
+# data = 433ef954
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0100
+# data = 75517b2c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0104
+# data = 1e1f63b7
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0108
+# data = 0dd4a99f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 010c
+# data = 7975b83a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0110
+# data = 54d867ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0114
+# data = 352f2269
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0118
+# data = 59579e40
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 011c
+# data = 7943ffab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0120
+# data = 4942cbde
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 012c
+# data = 59a83e96
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0130
+# data = 60458e43
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0134
+# data = 6be4d48e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0138
+# data = 39918f0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 013c
+# data = 2bf81abc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0140
+# data = 47faa8fe
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0148
+# data = 7687398d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0150
+# data = 5c41692e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a0
+# data = 4f38c593
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a8
+# data = 72f84698
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01ac
+# data = 055ecc76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0200
+# data = 10ceceb6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0204
+# data = 02e8f3e3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0208
+# data = 31fd9768
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 020c
+# data = 30791bc9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0210
+# data = 56d14454
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0214
+# data = 45f83d76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0218
+# data = 7b6119c6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 021c
+# data = 6af27bae
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0220
+# data = 57964172
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 022c
+# data = 6d3ff106
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0230
+# data = 1aeca962
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0234
+# data = 5b46ff0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0238
+# data = 339cc1f4
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 023c
+# data = 589d66fb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0240
+# data = 2aa3ce91
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0248
+# data = 3b8534ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0250
+# data = 2b60ee51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02a0
+# data = 5820d92b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02a8
+# data = 16e113a5
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02ac
+# data = 193e1b3c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0300
+# data = 344d5eb9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0304
+# data = 11c204cf
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0308
+# data = 22c4202a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 030c
+# data = 12634a38
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0310
+# data = 42bd0135
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0314
+# data = 5020af39
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0318
+# data = 41a80560
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 031c
+# data = 442ba441
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0320
+# data = 1fecdb8d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 032c
+# data = 0a25ea2e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0330
+# data = 0cadf0cb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0334
+# data = 22dbe330
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0338
+# data = 67f9fdce
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 033c
+# data = 7f0f5019
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0340
+# data = 41e14375
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0348
+# data = 6bcf9f99
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0350
+# data = 0e9d7b57
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03a0
+# data = 2ccfbc39
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03a8
+# data = 5ab6ed8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03ac
+# data = 5c74bea1
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0400
+# data = 565c9cb6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0404
+# data = 0f8123e9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0408
+# data = 12e46608
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 040c
+# data = 35b17ea3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0410
+# data = 2b85d1ab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0414
+# data = 7e24f60d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0418
+# data = 61e826dd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 041c
+# data = 447e3cba
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0420
+# data = 42b666aa
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 042c
+# data = 72ce29b2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0430
+# data = 22103dd8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0434
+# data = 01cd35e2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0438
+# data = 75614d3f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 043c
+# data = 08bcd17c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0440
+# data = 4a23f7a1
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0448
+# data = 3b570293
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0450
+# data = 2d511c0b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04a0
+# data = 60c93cea
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04a8
+# data = 3bd85f9c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04ac
+# data = 3a6b2450
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0500
+# data = 1c2b7f60
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0504
+# data = 177ad648
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0508
+# data = 782f8be2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 050c
+# data = 305972a3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0510
+# data = 6b91636d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0514
+# data = 6d5b8180
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0518
+# data = 3f457511
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 051c
+# data = 1f4f5046
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0520
+# data = 12dc8b76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 052c
+# data = 0c7cc2bf
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0530
+# data = 72d5644b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0534
+# data = 01c07038
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0538
+# data = 44aa7c49
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 053c
+# data = 0ea3b91b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0540
+# data = 02575567
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0548
+# data = 16fc349a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0550
+# data = 21be9560
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05a0
+# data = 6474a802
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05a8
+# data = 078eb2d9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05ac
+# data = 4e91c1ea
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0600
+# data = 0c3de6ef
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0604
+# data = 5f4a0443
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0608
+# data = 242ad488
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 060c
+# data = 62b7de3f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0610
+# data = 26d28805
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0614
+# data = 6ba97312
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0618
+# data = 57af2c54
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 061c
+# data = 111fce34
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0620
+# data = 582e6141
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 062c
+# data = 4820245c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0630
+# data = 4c3746fa
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0634
+# data = 47528bdd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0638
+# data = 7078d963
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 063c
+# data = 0a6c9e97
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0640
+# data = 2ec75ab0
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0648
+# data = 5920b361
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0650
+# data = 54fe064b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06a0
+# data = 75dc1c79
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06a8
+# data = 30f6b667
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06ac
+# data = 5db560af
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0700
+# data = 0bcb7b13
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0704
+# data = 4f040170
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0708
+# data = 53cdcb8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 070c
+# data = 52800ee9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0710
+# data = 0e36880d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0714
+# data = 642be5bb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0718
+# data = 7a2b3f90
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 071c
+# data = 0167e41e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0720
+# data = 7e4ae891
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 072c
+# data = 7e3f89fb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0730
+# data = 6c4fcb74
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0734
+# data = 23ed22c8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0738
+# data = 72120bb9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 073c
+# data = 200f78bd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0740
+# data = 1a107c33
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0748
+# data = 009691bc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0750
+# data = 7d68ecd8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07a0
+# data = 1af14d31
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07a8
+# data = 1ae8eaa9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07ac
+# data = 652405a8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1000
+# data = 25c7511d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1030
+# data = 32a92387
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1038
+# data = 1638f886
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1040
+# data = 6588eba4
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1050
+# data = 78d8ae98
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1054
+# data = 79a4f9e6
+# wr_rd = 0
+# apb_mon::run
+# apb_cov::run
+# axi_responder::run
+# axi_mon::run
+# dma_ckr::run
+# dma_ref::run
+# Printing the fields of APB TX
+# addr = 0000
+# data = 0f313f51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0004
+# data = 4cfd329b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0008
+# data = 679cec0d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 000c
+# data = 4301963a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0010
+# data = 799ed82e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0014
+# data = 65db23a2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0018
+# data = 1970f663
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 001c
+# data = 242350df
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0020
+# data = 7add3b8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 002c
+# data = 4219d0b3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0030
+# data = 1a7bb7b8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0034
+# data = 5c5c7142
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0038
+# data = 370e8dca
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 003c
+# data = 0ba50d4a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0040
+# data = 5bc99b83
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0048
+# data = 7d8edcc2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0050
+# data = 4d94f7b6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a0
+# data = 116fd1dc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a8
+# data = 2662621f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00ac
+# data = 433ef954
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0100
+# data = 75517b2c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0104
+# data = 1e1f63b7
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0108
+# data = 0dd4a99f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 010c
+# data = 7975b83a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0110
+# data = 54d867ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0114
+# data = 352f2269
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0118
+# data = 59579e40
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 011c
+# data = 7943ffab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0120
+# data = 4942cbde
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 012c
+# data = 59a83e96
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0130
+# data = 60458e43
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0134
+# data = 6be4d48e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0138
+# data = 39918f0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 013c
+# data = 2bf81abc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0140
+# data = 47faa8fe
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0148
+# data = 7687398d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0150
+# data = 5c41692e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a0
+# data = 4f38c593
+# wr_rd = 0
+# Total Transactions Driven : 37
+# ** Note: $finish    : ../TOP/top.sv(127)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at ../TOP/top.sv line 127
+do run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 15:10:36 on Dec 20,2024
+# vlog -reportprogress 300 "+incdir+../../dma_axi64" "+incdir+../TOP" "+incdir+../AXI" "+incdir+../APB" "+incdir+../PERIPH" "+incdir+../REF" ../TOP/top.sv 
+# -- Compiling module top
+# -- Compiling module dma_axi64
+# -- Compiling module dma_axi64_apb_mux
+# -- Compiling module dma_axi64_core0
+# -- Compiling module dma_axi64_core0_arbiter
+# -- Compiling module dma_axi64_core0_axim_cmd
+# -- Compiling module dma_axi64_core0_axim_rd
+# -- Compiling module dma_axi64_core0_axim_rdata
+# -- Compiling module dma_axi64_core0_axim_resp
+# -- Compiling module dma_axi64_core0_axim_timeout
+# -- Compiling module dma_axi64_core0_axim_wdata
+# -- Compiling module dma_axi64_core0_axim_wr
+# -- Compiling module dma_axi64_core0_ch
+# -- Compiling module dma_axi64_core0_ch_calc
+# -- Compiling module dma_axi64_core0_ch_calc_addr
+# -- Compiling module dma_axi64_core0_ch_calc_joint
+# -- Compiling module dma_axi64_core0_ch_calc_size
+# -- Compiling module dma_axi64_core0_ch_empty
+# -- Compiling module dma_axi64_core0_ch_fifo
+# -- Compiling module dma_axi64_core0_ch_fifo_ctrl
+# -- Compiling module dma_axi64_core0_ch_fifo_ptr
+# -- Compiling module dma_axi64_core0_ch_offsets
+# -- Compiling module dma_axi64_core0_ch_outs
+# -- Compiling module dma_axi64_core0_ch_periph_mux
+# -- Compiling module dma_axi64_core0_ch_rd_slicer
+# -- Compiling module dma_axi64_core0_ch_reg
+# -- Compiling module dma_axi64_core0_ch_reg_size
+# -- Compiling module dma_axi64_core0_ch_remain
+# -- Compiling module dma_axi64_core0_ch_wr_slicer
+# -- Compiling module dma_axi64_core0_channels
+# -- Compiling module dma_axi64_core0_channels_apb_mux
+# -- Compiling module dma_axi64_core0_channels_mux
+# -- Compiling module dma_axi64_core0_ctrl
+# -- Compiling module dma_axi64_core0_top
+# -- Compiling module dma_axi64_core0_wdt
+# -- Compiling module dma_axi64_dual_core
+# -- Compiling module dma_axi64_reg
+# -- Compiling module dma_axi64_reg_core0
+# -- Compiling module prgen_delay
+# -- Compiling module prgen_demux8
+# -- Compiling module prgen_fifo
+# -- Compiling module prgen_joint_stall
+# -- Compiling module prgen_min2
+# -- Compiling module prgen_min3
+# -- Compiling module prgen_mux8
+# -- Compiling module prgen_or8
+# -- Compiling module prgen_rawstat
+# -- Compiling module prgen_scatter8_1
+# -- Compiling module prgen_stall
+# -- Compiling module prgen_swap32
+# -- Compiling module prgen_swap64
+# -- Compiling interface apb_inf
+# -- Compiling interface axi_inf
+# -- Compiling interface periph_inf
+# ** Warning: ../APB/apb_gen.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(31): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(38): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(52): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(60): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(68): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(78): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(86): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(95): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(102): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(106): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# 
+# Top level modules:
+# 	top
+# End time: 15:10:37 on Dec 20,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 12
+# End time: 15:10:52 on Dec 20,2024, Elapsed time: 0:03:40
+# Errors: 0, Warnings: 36
+# vsim -voptargs="+acc" work.top "+test_name=test_reg_reset" 
+# Start time: 15:10:52 on Dec 20,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_top'.  Expected 55, found 54.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2718) [TFMPC] - Missing connection for port 'pready'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_wcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_rcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch0'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty1'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty2'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty3'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty4'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty5'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty6'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty7'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../APB/apb_gen.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(22): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(31): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(38): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(52): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(60): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(68): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(78): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(86): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(95): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(102): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(106): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ctrl(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ch_calc_joint(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=35.
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: ../TOP/top.sv Line: 106
+# Total Transactions Generated : 0
+# apb_bfm::run
+# apb_gen::run
+# Printing the fields of APB TX
+# addr = 0000
+# data = 0f313f51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0004
+# data = 4cfd329b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0008
+# data = 679cec0d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 000c
+# data = 4301963a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0010
+# data = 799ed82e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0014
+# data = 65db23a2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0018
+# data = 1970f663
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 001c
+# data = 242350df
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0020
+# data = 7add3b8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 002c
+# data = 4219d0b3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0030
+# data = 1a7bb7b8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0034
+# data = 5c5c7142
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0038
+# data = 370e8dca
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 003c
+# data = 0ba50d4a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0040
+# data = 5bc99b83
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0048
+# data = 7d8edcc2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0050
+# data = 4d94f7b6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a0
+# data = 116fd1dc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a8
+# data = 2662621f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00ac
+# data = 433ef954
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0100
+# data = 75517b2c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0104
+# data = 1e1f63b7
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0108
+# data = 0dd4a99f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 010c
+# data = 7975b83a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0110
+# data = 54d867ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0114
+# data = 352f2269
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0118
+# data = 59579e40
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 011c
+# data = 7943ffab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0120
+# data = 4942cbde
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 012c
+# data = 59a83e96
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0130
+# data = 60458e43
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0134
+# data = 6be4d48e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0138
+# data = 39918f0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 013c
+# data = 2bf81abc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0140
+# data = 47faa8fe
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0148
+# data = 7687398d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0150
+# data = 5c41692e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a0
+# data = 4f38c593
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a8
+# data = 72f84698
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01ac
+# data = 055ecc76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0200
+# data = 10ceceb6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0204
+# data = 02e8f3e3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0208
+# data = 31fd9768
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 020c
+# data = 30791bc9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0210
+# data = 56d14454
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0214
+# data = 45f83d76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0218
+# data = 7b6119c6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 021c
+# data = 6af27bae
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0220
+# data = 57964172
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 022c
+# data = 6d3ff106
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0230
+# data = 1aeca962
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0234
+# data = 5b46ff0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0238
+# data = 339cc1f4
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 023c
+# data = 589d66fb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0240
+# data = 2aa3ce91
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0248
+# data = 3b8534ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0250
+# data = 2b60ee51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02a0
+# data = 5820d92b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02a8
+# data = 16e113a5
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 02ac
+# data = 193e1b3c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0300
+# data = 344d5eb9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0304
+# data = 11c204cf
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0308
+# data = 22c4202a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 030c
+# data = 12634a38
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0310
+# data = 42bd0135
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0314
+# data = 5020af39
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0318
+# data = 41a80560
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 031c
+# data = 442ba441
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0320
+# data = 1fecdb8d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 032c
+# data = 0a25ea2e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0330
+# data = 0cadf0cb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0334
+# data = 22dbe330
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0338
+# data = 67f9fdce
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 033c
+# data = 7f0f5019
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0340
+# data = 41e14375
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0348
+# data = 6bcf9f99
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0350
+# data = 0e9d7b57
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03a0
+# data = 2ccfbc39
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03a8
+# data = 5ab6ed8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 03ac
+# data = 5c74bea1
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0400
+# data = 565c9cb6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0404
+# data = 0f8123e9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0408
+# data = 12e46608
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 040c
+# data = 35b17ea3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0410
+# data = 2b85d1ab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0414
+# data = 7e24f60d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0418
+# data = 61e826dd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 041c
+# data = 447e3cba
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0420
+# data = 42b666aa
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 042c
+# data = 72ce29b2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0430
+# data = 22103dd8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0434
+# data = 01cd35e2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0438
+# data = 75614d3f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 043c
+# data = 08bcd17c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0440
+# data = 4a23f7a1
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0448
+# data = 3b570293
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0450
+# data = 2d511c0b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04a0
+# data = 60c93cea
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04a8
+# data = 3bd85f9c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 04ac
+# data = 3a6b2450
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0500
+# data = 1c2b7f60
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0504
+# data = 177ad648
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0508
+# data = 782f8be2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 050c
+# data = 305972a3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0510
+# data = 6b91636d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0514
+# data = 6d5b8180
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0518
+# data = 3f457511
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 051c
+# data = 1f4f5046
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0520
+# data = 12dc8b76
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 052c
+# data = 0c7cc2bf
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0530
+# data = 72d5644b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0534
+# data = 01c07038
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0538
+# data = 44aa7c49
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 053c
+# data = 0ea3b91b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0540
+# data = 02575567
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0548
+# data = 16fc349a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0550
+# data = 21be9560
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05a0
+# data = 6474a802
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05a8
+# data = 078eb2d9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 05ac
+# data = 4e91c1ea
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0600
+# data = 0c3de6ef
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0604
+# data = 5f4a0443
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0608
+# data = 242ad488
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 060c
+# data = 62b7de3f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0610
+# data = 26d28805
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0614
+# data = 6ba97312
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0618
+# data = 57af2c54
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 061c
+# data = 111fce34
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0620
+# data = 582e6141
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 062c
+# data = 4820245c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0630
+# data = 4c3746fa
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0634
+# data = 47528bdd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0638
+# data = 7078d963
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 063c
+# data = 0a6c9e97
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0640
+# data = 2ec75ab0
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0648
+# data = 5920b361
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0650
+# data = 54fe064b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06a0
+# data = 75dc1c79
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06a8
+# data = 30f6b667
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 06ac
+# data = 5db560af
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0700
+# data = 0bcb7b13
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0704
+# data = 4f040170
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0708
+# data = 53cdcb8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 070c
+# data = 52800ee9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0710
+# data = 0e36880d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0714
+# data = 642be5bb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0718
+# data = 7a2b3f90
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 071c
+# data = 0167e41e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0720
+# data = 7e4ae891
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 072c
+# data = 7e3f89fb
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0730
+# data = 6c4fcb74
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0734
+# data = 23ed22c8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0738
+# data = 72120bb9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 073c
+# data = 200f78bd
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0740
+# data = 1a107c33
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0748
+# data = 009691bc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0750
+# data = 7d68ecd8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07a0
+# data = 1af14d31
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07a8
+# data = 1ae8eaa9
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 07ac
+# data = 652405a8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1000
+# data = 25c7511d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1030
+# data = 32a92387
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1038
+# data = 1638f886
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1040
+# data = 6588eba4
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1050
+# data = 78d8ae98
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 1054
+# data = 79a4f9e6
+# wr_rd = 0
+# apb_mon::run
+# apb_cov::run
+# axi_responder::run
+# axi_mon::run
+# dma_ckr::run
+# dma_ref::run
+# Printing the fields of APB TX
+# addr = 0000
+# data = 0f313f51
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0004
+# data = 4cfd329b
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0008
+# data = 679cec0d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 000c
+# data = 4301963a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0010
+# data = 799ed82e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0014
+# data = 65db23a2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0018
+# data = 1970f663
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 001c
+# data = 242350df
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0020
+# data = 7add3b8f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 002c
+# data = 4219d0b3
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0030
+# data = 1a7bb7b8
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0034
+# data = 5c5c7142
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0038
+# data = 370e8dca
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 003c
+# data = 0ba50d4a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0040
+# data = 5bc99b83
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0048
+# data = 7d8edcc2
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0050
+# data = 4d94f7b6
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a0
+# data = 116fd1dc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00a8
+# data = 2662621f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 00ac
+# data = 433ef954
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0100
+# data = 75517b2c
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0104
+# data = 1e1f63b7
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0108
+# data = 0dd4a99f
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 010c
+# data = 7975b83a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0110
+# data = 54d867ad
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0114
+# data = 352f2269
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0118
+# data = 59579e40
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 011c
+# data = 7943ffab
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0120
+# data = 4942cbde
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 012c
+# data = 59a83e96
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0130
+# data = 60458e43
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0134
+# data = 6be4d48e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0138
+# data = 39918f0a
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 013c
+# data = 2bf81abc
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0140
+# data = 47faa8fe
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0148
+# data = 7687398d
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 0150
+# data = 5c41692e
+# wr_rd = 0
+# Printing the fields of APB TX
+# addr = 01a0
+# data = 4f38c593
+# wr_rd = 0
+# Total Transactions Driven : 37
+# ** Note: $finish    : ../TOP/top.sv(127)
+#    Time: 100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at ../TOP/top.sv line 127

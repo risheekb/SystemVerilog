@@ -3,6 +3,7 @@ class apb_bfm;
   virtual apb_inf.master_mp vif;
   task run();
     vif = dma_common::apb_vif;
+    wait (vif.master_cb.reset == 0);
     $display("apb_bfm::run");
     forever begin
       tx_h = new();

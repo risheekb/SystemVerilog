@@ -52,34 +52,34 @@ module top;
    .prdata(apb_pif.prdata),
    .pslverr(apb_pif.pslverr),
    .pready(apb_pif.pready),
-   .AWID0(axi_pif.AWID0),
-   .AWADDR0(axi_pif.AWADDR0),
-   .AWLEN0(axi_pif.AWLEN0),
-   .AWSIZE0(axi_pif.AWSIZE0),
-   .AWVALID0(axi_pif.AWVALID0),
-   .AWREADY0(axi_pif.AWREADY0),
-   .WID0(axi_pif.WID0),
-   .WDATA0(axi_pif.WDATA0),
-   .WSTRB0(axi_pif.WSTRB0),
-   .WLAST0(axi_pif.WLAST0),
-   .WVALID0(axi_pif.WVALID0),
-   .WREADY0(axi_pif.WREADY0),
-   .BID0(axi_pif.BID0),
-   .BRESP0(axi_pif.BRESP0),
-   .BVALID0(axi_pif.BVALID0),
-   .BREADY0(axi_pif.BREADY0),
-   .ARID0(axi_pif.ARID0),
-   .ARADDR0(axi_pif.ARADDR0),
-   .ARLEN0(axi_pif.ARLEN0),
-   .ARSIZE0(axi_pif.ARSIZE0),
-   .ARVALID0(axi_pif.ARVALID0),
-   .ARREADY0(axi_pif.ARREADY0),
-   .RID0(axi_pif.RID0),
-   .RDATA0(axi_pif.RDATA0),
-   .RRESP0(axi_pif.RRESP0),
-   .RLAST0(axi_pif.RLAST0),
-   .RVALID0(axi_pif.RVALID0),
-   .RREADY0(axi_pif.RREADY0));
+   .AWID0(axi_pif.awid),
+   .AWADDR0(axi_pif.awaddr),
+   .AWLEN0(axi_pif.awlen),
+   .AWSIZE0(axi_pif.awsize),
+   .AWVALID0(axi_pif.awvalid),
+   .AWREADY0(axi_pif.awready),
+   .WID0(axi_pif.wid),
+   .WDATA0(axi_pif.wdata),
+   .WSTRB0(axi_pif.wstrb),
+   .WLAST0(axi_pif.wlast),
+   .WVALID0(axi_pif.wvalid),
+   .WREADY0(axi_pif.wready),
+   .BID0(axi_pif.bid),
+   .BRESP0(axi_pif.bresp),
+   .BVALID0(axi_pif.bvalid),
+   .BREADY0(axi_pif.bready),
+   .ARID0(axi_pif.arid),
+   .ARADDR0(axi_pif.araddr),
+   .ARLEN0(axi_pif.arlen),
+   .ARSIZE0(axi_pif.arsize),
+   .ARVALID0(axi_pif.arvalid),
+   .ARREADY0(axi_pif.arready),
+   .RID0(axi_pif.rid),
+   .RDATA0(axi_pif.rdata),
+   .RRESP0(axi_pif.rresp),
+   .RLAST0(axi_pif.rlast),
+   .RVALID0(axi_pif.rvalid),
+   .RREADY0(axi_pif.rready));
   dma_env env;
   initial begin
     clk = 0;
@@ -104,6 +104,7 @@ module top;
     repeat(2) @(posedge clk);
     reset = 1'b0;
     $value$plusargs("test_name=%s",dma_common::test_name);
+
     env = new();
     env.run();
   end
@@ -114,13 +115,13 @@ module top;
   //ASSERTION MODULE INSTANTIATION
   //LOGIC TO END THE SIMULATION
   initial begin
-    //fork
-    //  wait(dma_common::txn_driv == 200);
-    //  #2000;
-    //join_any
-    //disable fork;
-    #1000
-    $display("Total Transactions Generated : %0d",dma_common::txn_gen);
+    fork
+     wait(dma_common::txn_driv == dma_common::txn_gen);
+      #2000;
+    join_any
+    disable fork;
+    #100;
+     $display("Total Transactions Generated : %0d",dma_common::txn_gen);
     $display("Total Transactions Driven : %0d",dma_common::txn_driv);
     $finish;
   end

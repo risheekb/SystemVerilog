@@ -1,49 +1,19 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate -group AXI_INTF /top/axi_pif/clk
-add wave -noupdate -group AXI_INTF /top/axi_pif/reset
-add wave -noupdate -group AXI_INTF /top/axi_pif/AWID0
-add wave -noupdate -group AXI_INTF /top/axi_pif/AWADDR0
-add wave -noupdate -group AXI_INTF /top/axi_pif/AWLEN0
-add wave -noupdate -group AXI_INTF /top/axi_pif/AWSIZE0
-add wave -noupdate -group AXI_INTF /top/axi_pif/AWVALID0
-add wave -noupdate -group AXI_INTF /top/axi_pif/AWREADY0
-add wave -noupdate -group AXI_INTF /top/axi_pif/WID0
-add wave -noupdate -group AXI_INTF /top/axi_pif/WDATA0
-add wave -noupdate -group AXI_INTF /top/axi_pif/WSTRB0
-add wave -noupdate -group AXI_INTF /top/axi_pif/WLAST0
-add wave -noupdate -group AXI_INTF /top/axi_pif/WVALID0
-add wave -noupdate -group AXI_INTF /top/axi_pif/WREADY0
-add wave -noupdate -group AXI_INTF /top/axi_pif/BID0
-add wave -noupdate -group AXI_INTF /top/axi_pif/BRESP0
-add wave -noupdate -group AXI_INTF /top/axi_pif/BVALID0
-add wave -noupdate -group AXI_INTF /top/axi_pif/BREADY0
-add wave -noupdate -group AXI_INTF /top/axi_pif/ARID0
-add wave -noupdate -group AXI_INTF /top/axi_pif/ARADDR0
-add wave -noupdate -group AXI_INTF /top/axi_pif/ARLEN0
-add wave -noupdate -group AXI_INTF /top/axi_pif/ARSIZE0
-add wave -noupdate -group AXI_INTF /top/axi_pif/ARVALID0
-add wave -noupdate -group AXI_INTF /top/axi_pif/ARREADY0
-add wave -noupdate -group AXI_INTF /top/axi_pif/RID0
-add wave -noupdate -group AXI_INTF /top/axi_pif/RDATA0
-add wave -noupdate -group AXI_INTF /top/axi_pif/RRESP0
-add wave -noupdate -group AXI_INTF /top/axi_pif/RLAST0
-add wave -noupdate -group AXI_INTF /top/axi_pif/RVALID0
-add wave -noupdate -group AXI_INTF /top/axi_pif/RREADY0
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/clk
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/reset
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/pclken
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/psel
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/penable
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/paddr
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/pwrite
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/pwdata
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/prdata
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/pslverr
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/pready
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/scan_en
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/INT
-add wave -noupdate -expand -group APB_INTF /top/apb_pif/idle
+add wave -noupdate -group APB_INTF /top/apb_pif/clk
+add wave -noupdate -group APB_INTF /top/apb_pif/reset
+add wave -noupdate -group APB_INTF /top/apb_pif/pclken
+add wave -noupdate -group APB_INTF /top/apb_pif/psel
+add wave -noupdate -group APB_INTF /top/apb_pif/penable
+add wave -noupdate -group APB_INTF /top/apb_pif/paddr
+add wave -noupdate -group APB_INTF /top/apb_pif/pwrite
+add wave -noupdate -group APB_INTF /top/apb_pif/pwdata
+add wave -noupdate -group APB_INTF /top/apb_pif/prdata
+add wave -noupdate -group APB_INTF /top/apb_pif/pslverr
+add wave -noupdate -group APB_INTF /top/apb_pif/pready
+add wave -noupdate -group APB_INTF /top/apb_pif/scan_en
+add wave -noupdate -group APB_INTF /top/apb_pif/INT
+add wave -noupdate -group APB_INTF /top/apb_pif/idle
 add wave -noupdate -group PERIPH_INTF /top/periph_pif/clk
 add wave -noupdate -group PERIPH_INTF /top/periph_pif/reset
 add wave -noupdate -group PERIPH_INTF /top/periph_pif/periph_tx_req
@@ -132,6 +102,36 @@ add wave -noupdate -group DUT /top/dut/M0_RRESP
 add wave -noupdate -group DUT /top/dut/M0_RLAST
 add wave -noupdate -group DUT /top/dut/M0_RVALID
 add wave -noupdate -group DUT /top/dut/M0_RREADY
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/clk
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/reset
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/awid
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/awaddr
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/awlen
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/awsize
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/awvalid
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/awready
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/wid
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/wdata
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/wstrb
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/wlast
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/wvalid
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/wready
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/bid
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/bresp
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/bvalid
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/bready
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/arid
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/araddr
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/arlen
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/arsize
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/arvalid
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/arready
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/rid
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/rdata
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/rresp
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/rlast
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/rvalid
+add wave -noupdate -expand -group AXI_INTF /top/axi_pif/rready
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {1164 ps} 0}
 quietly wave cursor active 1
@@ -149,4 +149,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {0 ps} {38451 ps}
+WaveRestoreZoom {2063472 ps} {2101923 ps}

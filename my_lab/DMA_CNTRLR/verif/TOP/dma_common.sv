@@ -8,6 +8,6 @@ class dma_common;
   static mailbox aximon2ref = new();
   static mailbox gen2bfm = new();
   static string test_name;
-  static int txn_gen;
+  static int txn_gen = -1;
   static int txn_driv;
 endclass

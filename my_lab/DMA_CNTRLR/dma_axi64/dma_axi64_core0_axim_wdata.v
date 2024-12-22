@@ -286,23 +286,23 @@ module dma_axi64_core0_axim_wdata(clk,reset,rd_transfer,rd_transfer_size,ch_fifo
 
       //16 bit
       {2'b01, 3'b000} : WSTRB_pre = 8'b0000_0011;
-      //{2'b01, 3'b001} : WSTRB_pre = 8'b0000_0011;
+      {2'b01, 3'b001} : WSTRB_pre = 8'b0000_0011;
       {2'b01, 3'b010} : WSTRB_pre = 8'b0000_1100;
-      //{2'b01, 3'b011} : WSTRB_pre = 8'b0000_1100;
+      {2'b01, 3'b011} : WSTRB_pre = 8'b0000_1100;
       {2'b01, 3'b100} : WSTRB_pre = 8'b0011_0000;
-      //{2'b01, 3'b101} : WSTRB_pre = 8'b0011_0000;
+      {2'b01, 3'b101} : WSTRB_pre = 8'b0011_0000;
       {2'b01, 3'b110} : WSTRB_pre = 8'b1100_0000;
-      //{2'b01, 3'b111} : WSTRB_pre = 8'b1100_0000;
+      {2'b01, 3'b111} : WSTRB_pre = 8'b1100_0000;
 
       //32 bit
       {2'b10, 3'b000} : WSTRB_pre = 8'b0000_1111;
-      //{2'b10, 3'b001} : WSTRB_pre = 8'b0000_1111;
-      //{2'b10, 3'b010} : WSTRB_pre = 8'b0000_1111;
-      //{2'b10, 3'b011} : WSTRB_pre = 8'b0000_1111;
+      {2'b10, 3'b001} : WSTRB_pre = 8'b0000_1111;
+      {2'b10, 3'b010} : WSTRB_pre = 8'b0000_1111;
+      {2'b10, 3'b011} : WSTRB_pre = 8'b0000_1111;
       {2'b10, 3'b100} : WSTRB_pre = 8'b1111_0000;
-      //{2'b10, 3'b101} : WSTRB_pre = 8'b1111_0000;
-      //{2'b10, 3'b110} : WSTRB_pre = 8'b1111_0000;
-      //{2'b10, 3'b111} : WSTRB_pre = 8'b1111_0000;
+      {2'b10, 3'b101} : WSTRB_pre = 8'b1111_0000;
+      {2'b10, 3'b110} : WSTRB_pre = 8'b1111_0000;
+      {2'b10, 3'b111} : WSTRB_pre = 8'b1111_0000;
 
       //64 bit
       default : WSTRB_pre = 8'b1111_1111;
