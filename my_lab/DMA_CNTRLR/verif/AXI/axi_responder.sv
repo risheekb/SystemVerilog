@@ -11,8 +11,15 @@ class axi_responder;
   virtual axi_inf.slave_mp vif;
   byte mem[int]; //memory for the slave responder
   task init_mem;
-    for(int i = 0;i<1024;i++) begin
+    for(int i = 0;i<4096;i++) begin
       mem[32'h1000_0000+i] = $random;
+      mem[32'h1001_0000+i] = $random;
+      mem[32'h1002_0000+i] = $random;
+      mem[32'h1003_0000+i] = $random;
+      mem[32'h1004_0000+i] = $random;
+      mem[32'h1005_0000+i] = $random;
+      mem[32'h1006_0000+i] = $random;
+      mem[32'h1007_0000+i] = $random;
     end
   endtask
   task run();
@@ -42,6 +49,10 @@ class axi_responder;
         mem[awaddr_t+1] = vif.slave_cb.wdata[15:8];
         mem[awaddr_t+2] = vif.slave_cb.wdata[23:16];
         mem[awaddr_t+3] = vif.slave_cb.wdata[31:24];
+        mem[awaddr_t+4] = vif.slave_cb.wdata[39:32];
+        mem[awaddr_t+5] = vif.slave_cb.wdata[47:40];
+        mem[awaddr_t+6] = vif.slave_cb.wdata[55:48];
+        mem[awaddr_t+7] = vif.slave_cb.wdata[63:56];
         $display("location1 : %h ",vif.slave_cb.wdata);
         awaddr_t += 2**awsize_t;
         if(vif.slave_cb.wlast == 1) begin
@@ -70,7 +81,7 @@ class axi_responder;
   endtask
   task read_data_phase();
     for(int i =0;i<=arlen_t;i++) begin
-      vif.slave_cb.rdata <= {mem[araddr_t+3],mem[araddr_t+2],mem[araddr_t+1],mem[araddr_t+0]};
+      vif.slave_cb.rdata <= {mem[araddr_t+7],mem[araddr_t+6],mem[araddr_t+5],mem[araddr_t+4],mem[araddr_t+3],mem[araddr_t+2],mem[araddr_t+1],mem[araddr_t+0]};
       vif.slave_cb.rvalid <= 1;
       vif.slave_cb.rid <= arid_t;
       vif.slave_cb.rresp <= 2'b00;//OKAY RESPONSE

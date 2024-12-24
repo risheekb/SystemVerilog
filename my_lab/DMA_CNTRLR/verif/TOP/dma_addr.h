@@ -204,3 +204,67 @@
 `define USER_DEF_STATUS         13'h10E0
 `define USER_CORE0_DEF_STATUS0  13'h10F0
 `define USER_CORE0_DEF_STATUS1  13'h10F4
+
+//STATIC_REG0 
+  static bit [9:0]  rd_burst_max_size_a       [7:0];
+  static bit        rd_allow_full_burst_a     [7:0];
+  static bit        rd_allow_full_fifo_a      [7:0];
+  static bit [5:0]  rd_tokens_a               [7:0];
+  static bit [3:0]  rd_outs_max_a             [7:0];
+  static bit        rd_outstanding_a          [7:0];
+  static bit        rd_incr_a                 [7:0];
+  //STATIC_REG1 
+  static bit [9:0]  wr_burst_max_size_a       [7:0];
+  static bit        wr_allow_full_burst_a     [7:0];
+  static bit        wr_allow_full_fifo_a      [7:0];
+  static bit [5:0]  wr_tokens_a               [7:0];
+  static bit [3:0]  wr_outs_max_a             [7:0];
+  static bit        wr_outstanding_a          [7:0];
+  static bit        wr_incr_a                 [7:0];
+  //STATIC_REG2
+  static bit [11:0] frame_width_a             [7:0];
+  static bit        block_a                   [7:0];
+  static bit        joint_a                   [7:0];
+  static bit        auto_retry_a              [7:0];
+  static bit        rd_cmd_port_num_a         [7:0];
+  static bit        rd_port_num_a             [7:0];
+  static bit        wr_port_num_a             [7:0];
+  static bit [2:0]  int_num_a                 [7:0];
+  static bit [1:0]  end_swap_a                [7:0];
+  //STATIC_REG3sim:/top/#INITIAL#118
+  static bit [11:0] rd_wait_limit_a           [7:0];
+  static bit [11:0] wr_wait_limit_a           [7:0];
+  //STATIC_REG4sim:/top/#INITIAL#118
+  static bit [4:0]  rd_preiph_num_a           [7:0];
+  static bit [2:0]  rd_preiph_delay_a         [7:0];
+  static bit        rd_periph_block_a         [7:0];
+  static bit [4:0]  wr_preiph_num_a           [7:0];
+  static bit [2:0]  wr_preiph_delay_a         [7:0];
+  static bit        wr_periph_block_a         [7:0];
+  //CMD_REG2 
+  static bit [31:0] rd_addr_a                 [7:0];
+  static bit [31:0] wr_addr_a                 [7:0];
+  static bit [15:0] buffer_size_a             [7:0];
+  static bit [7:0]  x_size_a                  [7:0];
+  static bit [7:0]  y_size_a                  [7:0];
+  //CMD_REG3
+  static bit        cmd_set_int_a             [7:0];
+  static bit        cmd_last_a                [7:0];
+  static bit [27:0] cmd_next_addr_a           [7:0];
+ 
+  static bit        int_enable_ch_end_a       [7:0];
+  static bit        int_enable_rd_decerr_a    [7:0];
+  static bit        int_enable_rd_slverr_a    [7:0];
+  static bit        int_enable_wr_decerr_a    [7:0];
+  static bit        int_enable_wr_slverr_a    [7:0];
+  static bit        int_enable_overflow_a     [7:0];
+  static bit        int_enable_underflow_a    [7:0];
+  static bit        int_enable_timeout_r_a    [7:0];
+  static bit        int_enable_timeout_ar_a   [7:0];
+  static bit        int_enable_timeout_b_a    [7:0];
+  static bit        int_enable_timeout_w_a    [7:0];
+  static bit        int_enable_timeout_aw_a   [7:0];
+  static bit        int_enable_wdt_a          [7:0];
+  
+  static bit        ch_start_reg_a            [7:0];
+  static bit        ch_enable_reg_a           [7:0];

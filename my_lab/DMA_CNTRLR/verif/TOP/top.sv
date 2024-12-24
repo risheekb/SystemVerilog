@@ -81,6 +81,7 @@ module top;
    .RVALID0(axi_pif.rvalid),
    .RREADY0(axi_pif.rready));
   dma_env env;
+  dma_common dma_common_h = new();
   initial begin
     clk = 0;
     forever #1.25 clk = ~clk; //2.5ns => 400 MHz
