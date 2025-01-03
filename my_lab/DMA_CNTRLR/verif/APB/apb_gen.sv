@@ -72,6 +72,7 @@ class apb_gen;
             tx_h = new();
             tx_h.randomize() with {addr == 13'h100*j+ 4*i; wr_rd ==1;};
             tx_h.print();
+            if(i == 17) tx_h.data[0] =0;
             dma_common::gen2bfm.put(tx_h);
           end
           //for A0 to AC

@@ -11,7 +11,9 @@ class dma_common;
   static int txn_gen = -1;
   static int txn_driv;
   static int ch_count = 8;
-  static bit [2:0] ch_active = 8'b1111_1111;
+  static int error_count;
+  static bit dut_reset_applied;
+  static bit [2:0] ch_active = 8'b0000_0001;
 
   //data_t = {1'b1,1'b0,2'b0,4'h4,2'b0,6'h1,2'b0,1'b1,1'b0,2'b0,10'd128}; 
   function new();

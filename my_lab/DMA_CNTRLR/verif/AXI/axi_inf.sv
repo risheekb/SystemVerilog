@@ -97,5 +97,5 @@ interface axi_inf(input clk,reset);
   endclocking
 
   modport slave_mp(clocking slave_cb);
-  modport monitor_mp(clocking monitor_mp);
+  modport monitor_mp(clocking monitor_cb);
 endinterface

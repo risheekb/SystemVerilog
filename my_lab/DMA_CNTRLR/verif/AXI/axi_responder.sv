@@ -81,6 +81,7 @@ class axi_responder;
   endtask
   task read_data_phase();
     for(int i =0;i<=arlen_t;i++) begin
+      $display("########## %h ",araddr_t);
       vif.slave_cb.rdata <= {mem[araddr_t+7],mem[araddr_t+6],mem[araddr_t+5],mem[araddr_t+4],mem[araddr_t+3],mem[araddr_t+2],mem[araddr_t+1],mem[araddr_t+0]};
       vif.slave_cb.rvalid <= 1;
       vif.slave_cb.rid <= arid_t;

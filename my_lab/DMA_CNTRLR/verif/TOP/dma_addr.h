@@ -12,7 +12,7 @@
 `define CH0_READ_OFFSET_REG     13'h30
 `define CH0_WRITE_OFFSET_REG    13'h34
 `define CH0_FIFO_FULLNESS_REG   13'h38
-`define CH0_OUTS_REG            13'h3C
+`define CH0_CMD_OUTS_REG        13'h3C
 `define CH0_CH_ENABLE_REG       13'h40
 `define CH0_CH_START_REG        13'h44
 `define CH0_CH_ACTIVE_REG       13'h48
@@ -35,7 +35,7 @@
 `define CH1_READ_OFFSET_REG     13'h100+32'h30
 `define CH1_WRITE_OFFSET_REG    13'h100+32'h34
 `define CH1_FIFO_FULLNESS_REG   13'h100+32'h38
-`define CH1_OUTS_REG            13'h100+32'h3C
+`define CH1_CMD_OUTS_REG            13'h100+32'h3C
 `define CH1_CH_ENABLE_REG       13'h100+32'h40
 `define CH1_CH_START_REG        13'h100+32'h44
 `define CH1_CH_ACTIVE_REG       13'h100+32'h48
@@ -58,7 +58,7 @@
 `define CH2_READ_OFFSET_REG     13'h200+32'h30
 `define CH2_WRITE_OFFSET_REG    13'h200+32'h34
 `define CH2_FIFO_FULLNESS_REG   13'h200+32'h38
-`define CH2_OUTS_REG            13'h200+32'h3C
+`define CH2_CMD_OUTS_REG            13'h200+32'h3C
 `define CH2_CH_ENABLE_REG       13'h200+32'h40
 `define CH2_CH_START_REG        13'h200+32'h44
 `define CH2_CH_ACTIVE_REG       13'h200+32'h48
@@ -81,7 +81,7 @@
 `define CH3_READ_OFFSET_REG     13'h300+32'h30
 `define CH3_WRITE_OFFSET_REG    13'h300+32'h34
 `define CH3_FIFO_FULLNESS_REG   13'h300+32'h38
-`define CH3_OUTS_REG            13'h300+32'h3C
+`define CH3_CMD_OUTS_REG            13'h300+32'h3C
 `define CH3_CH_ENABLE_REG       13'h300+32'h40
 `define CH3_CH_START_REG        13'h300+32'h44
 `define CH3_CH_ACTIVE_REG       13'h300+32'h48
@@ -104,7 +104,7 @@
 `define CH4_READ_OFFSET_REG     13'h400+32'h30
 `define CH4_WRITE_OFFSET_REG    13'h400+32'h34
 `define CH4_FIFO_FULLNESS_REG   13'h400+32'h38
-`define CH4_OUTS_REG            13'h400+32'h3C
+`define CH4_CMD_OUTS_REG            13'h400+32'h3C
 `define CH4_CH_ENABLE_REG       13'h400+32'h40
 `define CH4_CH_START_REG        13'h400+32'h44
 `define CH4_CH_ACTIVE_REG       13'h400+32'h48
@@ -127,7 +127,7 @@
 `define CH5_READ_OFFSET_REG     13'h500+32'h30
 `define CH5_WRITE_OFFSET_REG    13'h500+32'h34
 `define CH5_FIFO_FULLNESS_REG   13'h500+32'h38
-`define CH5_OUTS_REG            13'h500+32'h3C
+`define CH5_CMD_OUTS_REG            13'h500+32'h3C
 `define CH5_CH_ENABLE_REG       13'h500+32'h40
 `define CH5_CH_START_REG        13'h500+32'h44
 `define CH5_CH_ACTIVE_REG       13'h500+32'h48
@@ -150,7 +150,7 @@
 `define CH6_READ_OFFSET_REG     13'h600+32'h30
 `define CH6_WRITE_OFFSET_REG    13'h600+32'h34
 `define CH6_FIFO_FULLNESS_REG   13'h600+32'h38
-`define CH6_OUTS_REG            13'h600+32'h3C
+`define CH6_CMD_OUTS_REG            13'h600+32'h3C
 `define CH6_CH_ENABLE_REG       13'h600+32'h40
 `define CH6_CH_START_REG        13'h600+32'h44
 `define CH6_CH_ACTIVE_REG       13'h600+32'h48
@@ -173,7 +173,7 @@
 `define CH7_READ_OFFSET_REG     13'h700+32'h30
 `define CH7_WRITE_OFFSET_REG    13'h700+32'h34
 `define CH7_FIFO_FULLNESS_REG   13'h700+32'h38
-`define CH7_OUTS_REG            13'h700+32'h3C
+`define CH7_CMD_OUTS_REG            13'h700+32'h3C
 `define CH7_CH_ENABLE_REG       13'h700+32'h40
 `define CH7_CH_START_REG        13'h700+32'h44
 `define CH7_CH_ACTIVE_REG       13'h700+32'h48
