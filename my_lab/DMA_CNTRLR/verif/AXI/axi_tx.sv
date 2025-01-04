@@ -1,10 +1,9 @@
-typedef enum {
+typedef enum{
   NO_OP,
-  READ,
   WRITE,
+  READ,
   CMD
 } wr_rd_t;
-
 class axi_tx;
   rand wr_rd_t wr_rd;
   //WRITE PARAMETERS
@@ -35,11 +34,11 @@ class axi_tx;
     end
     if(wr_rd == READ)begin
       $display("######### axi_tx: READ TX #########");
-      $display("rd_id = %h",wr_id);
-      $display("rd_addr = %h",wr_addr);
-      foreach(rd_data_q[i])$display("wr_data_q[%0d] = %h",i,wr_data_q[i]);
-      $display("rd_len = %h",wr_len);
-      $display("rd_size = %h",wr_size);
+      $display("rd_id = %h",rd_id);
+      $display("rd_addr = %h",rd_addr);
+      foreach(rd_data_q[i])$display("rd_data_q[%0d] = %h",i,rd_data_q[i]);
+      $display("rd_len = %h",rd_len);
+      $display("rd_size = %h",rd_size);
     end 
     $display("");
   endfunction
@@ -52,3 +51,4 @@ class axi_tx;
     rd_data_q.size() == rd_len + 1;
   }
 endclass
+

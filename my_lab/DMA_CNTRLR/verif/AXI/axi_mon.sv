@@ -1,3 +1,4 @@
+
 class axi_mon;
   axi_tx axi_tx_h;
   virtual axi_inf.monitor_mp vif;
@@ -25,10 +26,12 @@ class axi_mon;
       //WRITE RESPONSE COLLECTION
       if(vif.monitor_cb.bvalid && vif.monitor_cb.bready) begin // WRITE response phase is valid
         axi_tx_h.wr_resp = vif.monitor_cb.bid;
+        //axi_tx_h.print();
         dma_common::aximon2ref.put(axi_tx_h);
       end
 
       //READ ADDRESS COLLECTION
+      //@(vif.monitor_cb);
       if(vif.monitor_cb.arvalid && vif.monitor_cb.arready) begin // READ address phase is valid
         axi_tx_h = new();
         axi_tx_h.wr_rd = READ;
@@ -41,8 +44,10 @@ class axi_mon;
         axi_tx_h.rd_data_q.push_back(vif.monitor_cb.rdata);
         axi_tx_h.rd_resp = vif.monitor_cb.rresp;
         if(vif.monitor_cb.rlast) dma_common::aximon2ref.put(axi_tx_h);
+        //axi_tx_h.print();
       end
 
       end
   endtask
 endclass
+

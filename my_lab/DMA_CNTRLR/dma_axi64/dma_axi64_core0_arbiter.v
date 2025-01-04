@@ -93,9 +93,13 @@ module dma_axi64_core0_arbiter(clk,reset,enable,joint_mode,page_cross,joint_req,
    wire [3:0]             next_ch_num1_pre2;
    wire [2:0]             next_ch_num1;
    wire [2:0]             next_ch_num_pre;
-    
-   reg [3:0] ch_num_reg;
+
    //assign             ch_go_out = 'd1;
+   //assign             ch_num    = 'd0;
+   //assign             ch_last   = 'd1;
+   
+   reg [3:0] ch_num_reg;
+   assign             ch_go_out = 'd1;
    //assign             ch_num    = 'd0;
    assign             ch_last   = 'd1;
    
@@ -112,7 +116,8 @@ module dma_axi64_core0_arbiter(clk,reset,enable,joint_mode,page_cross,joint_req,
     else ch_num_reg = 8;
   end
    
-  assign ch_go_out = (ch_num_reg >= 0 && ch_num_reg<=7) ? 1 : 0;
+  //assign ch_go_out = (ch_num_reg >= 0 && ch_num_reg<=7) ? 1 : 0;
+   
    
 endmodule
 

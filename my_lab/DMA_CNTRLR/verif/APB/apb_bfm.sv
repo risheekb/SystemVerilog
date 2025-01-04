@@ -8,6 +8,7 @@ class apb_bfm;
     forever begin
       tx_h = new();
       dma_common::gen2bfm.get(tx_h);
+      //tx_h.print();
       drive_tx(tx_h);
       dma_common::txn_driv++;
     end

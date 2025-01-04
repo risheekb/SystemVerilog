@@ -8,8 +8,10 @@ class axi_env;
   endfunction
 
   task run;
-    axi_responder_h.run();
-    axi_mon_h.run();
+    fork
+      axi_responder_h.run();
+      axi_mon_h.run();
+    join
   endtask
 
 endclass

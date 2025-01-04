@@ -11,11 +11,9 @@ class dma_common;
   static int txn_gen = -1;
   static int txn_driv;
   static int ch_count = 8;
-  static int error_count;
   static bit dut_reset_applied;
-  static bit [2:0] ch_active = 8'b0000_0001;
+  static int error_count;
 
-  //data_t = {1'b1,1'b0,2'b0,4'h4,2'b0,6'h1,2'b0,1'b1,1'b0,2'b0,10'd128}; 
   function new();
     for(int i = 0;i<ch_count;i++) begin
       //STATIC_REG0
@@ -44,7 +42,7 @@ class dma_common;
 
       cmd_set_int_a[i] = 1'b1;
       cmd_last_a[i] =    1'b1;
-      cmd_next_addr_a[i] = '0;
+      cmd_next_addr_a[i] = 28'b0;
 
       int_enable_ch_end_a[i] = 1'b1;
       int_enable_rd_decerr_a[i] = 1'b1;
@@ -62,12 +60,6 @@ class dma_common;
       
     end
 
-  foreach (ch_active[i]) begin
-    ch_start_reg_a[i] = ch_active[i];
-    ch_enable_reg_a[i] = ch_active[i];
-  end
-    $display("start_reg = %p enable_reg = %p",ch_start_reg_a,ch_enable_reg_a);
   endfunction
-
 
 endclass

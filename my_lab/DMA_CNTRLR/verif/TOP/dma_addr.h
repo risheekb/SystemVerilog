@@ -12,7 +12,7 @@
 `define CH0_READ_OFFSET_REG     13'h30
 `define CH0_WRITE_OFFSET_REG    13'h34
 `define CH0_FIFO_FULLNESS_REG   13'h38
-`define CH0_CMD_OUTS_REG        13'h3C
+`define CH0_CMD_OUTS_REG            13'h3C
 `define CH0_CH_ENABLE_REG       13'h40
 `define CH0_CH_START_REG        13'h44
 `define CH0_CH_ACTIVE_REG       13'h48
@@ -231,10 +231,10 @@
   static bit        wr_port_num_a             [7:0];
   static bit [2:0]  int_num_a                 [7:0];
   static bit [1:0]  end_swap_a                [7:0];
-  //STATIC_REG3sim:/top/#INITIAL#118
+  //STATIC_REG3
   static bit [11:0] rd_wait_limit_a           [7:0];
   static bit [11:0] wr_wait_limit_a           [7:0];
-  //STATIC_REG4sim:/top/#INITIAL#118
+  //STATIC_REG4
   static bit [4:0]  rd_preiph_num_a           [7:0];
   static bit [2:0]  rd_preiph_delay_a         [7:0];
   static bit        rd_periph_block_a         [7:0];
@@ -251,7 +251,6 @@
   static bit        cmd_set_int_a             [7:0];
   static bit        cmd_last_a                [7:0];
   static bit [27:0] cmd_next_addr_a           [7:0];
- 
   static bit        int_enable_ch_end_a       [7:0];
   static bit        int_enable_rd_decerr_a    [7:0];
   static bit        int_enable_rd_slverr_a    [7:0];
@@ -265,6 +264,7 @@
   static bit        int_enable_timeout_w_a    [7:0];
   static bit        int_enable_timeout_aw_a   [7:0];
   static bit        int_enable_wdt_a          [7:0];
-  
   static bit        ch_start_reg_a            [7:0];
   static bit        ch_enable_reg_a           [7:0];
+
+

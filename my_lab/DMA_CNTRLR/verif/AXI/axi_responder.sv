@@ -37,7 +37,6 @@ class axi_responder;
         awaddr_t = vif.slave_cb.awaddr;
         awlen_t = vif.slave_cb.awlen;
         awsize_t = vif.slave_cb.awsize;
-        $display("awid_t %d AWADDR =%h awlen_t =%H awsize_t = %h",awid_t,awaddr_t,awlen_t,awsize_t);
       end
       else begin
         vif.slave_cb.awready <= 0;
@@ -53,8 +52,8 @@ class axi_responder;
         mem[awaddr_t+5] = vif.slave_cb.wdata[47:40];
         mem[awaddr_t+6] = vif.slave_cb.wdata[55:48];
         mem[awaddr_t+7] = vif.slave_cb.wdata[63:56];
-        $display("location1 : %h ",vif.slave_cb.wdata);
-        awaddr_t += 2**awsize_t;
+        awaddr_t = awaddr_t + 2**awsize_t;
+
         if(vif.slave_cb.wlast == 1) begin
           write_response_phase();
         end
@@ -81,7 +80,6 @@ class axi_responder;
   endtask
   task read_data_phase();
     for(int i =0;i<=arlen_t;i++) begin
-      $display("########## %h ",araddr_t);
       vif.slave_cb.rdata <= {mem[araddr_t+7],mem[araddr_t+6],mem[araddr_t+5],mem[araddr_t+4],mem[araddr_t+3],mem[araddr_t+2],mem[araddr_t+1],mem[araddr_t+0]};
       vif.slave_cb.rvalid <= 1;
       vif.slave_cb.rid <= arid_t;
