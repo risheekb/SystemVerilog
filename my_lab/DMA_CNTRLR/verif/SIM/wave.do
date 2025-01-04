@@ -133,10 +133,10 @@ add wave -noupdate -expand -group AXI_INTF /top/axi_pif/rlast
 add wave -noupdate -expand -group AXI_INTF /top/axi_pif/rvalid
 add wave -noupdate -expand -group AXI_INTF /top/axi_pif/rready
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {0 ps} 0}
+WaveRestoreCursors {{Cursor 1} {1164 ps} 0}
 quietly wave cursor active 1
-configure wave -namecolwidth 357
-configure wave -valuecolwidth 38
+configure wave -namecolwidth 341
+configure wave -valuecolwidth 100
 configure wave -justifyvalue left
 configure wave -signalnamewidth 0
 configure wave -snapdistance 10
@@ -149,4 +149,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {189002 ps} {245116 ps}
+WaveRestoreZoom {2063472 ps} {2101923 ps}
