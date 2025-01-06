@@ -1,0 +1,101 @@
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+Start time: 23:14:39 on Jan 05,2025
+vlog "+incdir+../../dma_axi64" "+incdir+../TOP" "+incdir+../AXI" "+incdir+../APB" "+incdir+../REG" "+incdir+../PERIPH" "+incdir+../REF" ../TOP/top.sv -l 250105_231439 
+-- Compiling module top
+-- Compiling module dma_axi64
+-- Compiling module dma_axi64_apb_mux
+-- Compiling module dma_axi64_core0
+-- Compiling module dma_axi64_core0_arbiter
+-- Compiling module dma_axi64_core0_axim_cmd
+-- Compiling module dma_axi64_core0_axim_rd
+-- Compiling module dma_axi64_core0_axim_rdata
+-- Compiling module dma_axi64_core0_axim_resp
+-- Compiling module dma_axi64_core0_axim_timeout
+-- Compiling module dma_axi64_core0_axim_wdata
+-- Compiling module dma_axi64_core0_axim_wr
+-- Compiling module dma_axi64_core0_ch
+-- Compiling module dma_axi64_core0_ch_calc
+-- Compiling module dma_axi64_core0_ch_calc_addr
+-- Compiling module dma_axi64_core0_ch_calc_joint
+-- Compiling module dma_axi64_core0_ch_calc_size
+-- Compiling module dma_axi64_core0_ch_empty
+-- Compiling module dma_axi64_core0_ch_fifo
+-- Compiling module dma_axi64_core0_ch_fifo_ctrl
+-- Compiling module dma_axi64_core0_ch_fifo_ptr
+-- Compiling module dma_axi64_core0_ch_offsets
+-- Compiling module dma_axi64_core0_ch_outs
+-- Compiling module dma_axi64_core0_ch_periph_mux
+-- Compiling module dma_axi64_core0_ch_rd_slicer
+-- Compiling module dma_axi64_core0_ch_reg
+-- Compiling module dma_axi64_core0_ch_reg_size
+-- Compiling module dma_axi64_core0_ch_remain
+-- Compiling module dma_axi64_core0_ch_wr_slicer
+-- Compiling module dma_axi64_core0_channels
+-- Compiling module dma_axi64_core0_channels_apb_mux
+-- Compiling module dma_axi64_core0_channels_mux
+-- Compiling module dma_axi64_core0_ctrl
+-- Compiling module dma_axi64_core0_top
+-- Compiling module dma_axi64_core0_wdt
+-- Compiling module dma_axi64_dual_core
+-- Compiling module dma_axi64_reg
+-- Compiling module dma_axi64_reg_core0
+-- Compiling module prgen_delay
+-- Compiling module prgen_demux8
+-- Compiling module prgen_fifo
+-- Compiling module prgen_joint_stall
+-- Compiling module prgen_min2
+-- Compiling module prgen_min3
+-- Compiling module prgen_mux8
+-- Compiling module prgen_or8
+-- Compiling module prgen_rawstat
+-- Compiling module prgen_scatter8_1
+-- Compiling module prgen_stall
+-- Compiling module prgen_swap32
+-- Compiling module prgen_swap64
+-- Compiling interface apb_inf
+-- Compiling interface axi_inf
+-- Compiling interface periph_inf
+** Warning: ../APB/apb_gen.sv(121): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(161): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(180): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(183): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(229): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(189): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(194): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(199): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(205): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(234): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(239): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(23): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(31): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(40): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(47): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(63): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(71): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(79): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(89): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(97): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../APB/apb_gen.sv(106): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+** Warning: ../REF/dma_ref.sv(40): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(41): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(42): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(43): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(44): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(45): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(46): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(47): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(56): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(57): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(58): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(59): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(60): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(61): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(62): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Warning: ../REF/dma_ref.sv(63): (vlog-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+** Error: ../REF/dma_ref.sv(91): Dereferencing a single instance 'wr_byte' as an array of instances.
+** Error: ../REF/dma_ref.sv(91): Too many indices for array 'wr_byte'
+** Error: ../REF/dma_ref.sv(92): Dereferencing a single instance 'rd_byte' as an array of instances.
+** Error: ../REF/dma_ref.sv(92): Too many indices for array 'rd_byte'
+** Warning: ../TOP/top.sv(112): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+End time: 23:14:40 on Jan 05,2025, Elapsed time: 0:00:01
+Errors: 4, Warnings: 38

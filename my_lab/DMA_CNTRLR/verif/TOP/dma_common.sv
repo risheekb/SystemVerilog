@@ -13,6 +13,8 @@ class dma_common;
   static int ch_count = 8;
   static bit dut_reset_applied;
   static int error_count;
+  static int data_mismatch;
+  static int data_match;
 
   function new();
     for(int i = 0;i<ch_count;i++) begin

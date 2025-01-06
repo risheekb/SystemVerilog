@@ -1,0 +1,220 @@
+# vsim -voptargs="+acc" work.top "+test_name=test_ch0_sanity" -l 250105_224154 
+# Start time: 22:41:55 on Jan 05,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_top'.  Expected 55, found 54.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2718) [TFMPC] - Missing connection for port 'pready'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_wcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_rcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch0'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty1'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty2'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty3'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty4'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty5'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty6'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty7'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../APB/apb_gen.sv(121): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(161): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(180): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(183): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(229): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(189): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(194): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(199): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(205): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(234): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(239): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(23): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(31): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(40): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(47): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(63): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(71): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(79): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(89): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(97): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(106): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../REF/dma_ref.sv(40): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(41): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(42): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(43): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(44): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(45): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(46): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(47): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(56): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(57): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(58): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(59): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(60): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(61): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(62): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(63): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(40): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(41): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(42): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(43): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(44): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(45): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(46): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(47): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(56): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(57): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(58): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(59): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(60): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(61): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(62): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../REF/dma_ref.sv(63): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
+# ** Warning: ../TOP/top.sv(112): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ctrl(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ch_calc_joint(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=77.
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: ../TOP/top.sv Line: 112
+# wave activecursor not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# configure wave not supported in batch mode
+# apb_gen::run
+# Printing the fields of APB TX
+# addr = 0004
+# data = 20000000
+# wr_rd = 1
+# apb_mon::run
+# apb_cov::run
+# axi_responder::run
+# axi_mon::run
+# dma_ckr::run
+# dma_ref::run
+# apb_bfm::run
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000000
+# rd_data_q[0] = ebca6b80e8c50124
+# rd_data_q[1] = 292f581fc25b6285
+# rd_data_q[2] = 9673fdb4769456d0
+# rd_data_q[3] = fb32c4790e4b867e
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000000
+# wr_data_q[0] = ebca6b80e8c50124
+# wr_data_q[1] = 292f581fc25b6285
+# wr_data_q[2] = 9673fdb4769456d0
+# wr_data_q[3] = fb32c4790e4b867e
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000020
+# rd_data_q[0] = a184962712d81e88
+# rd_data_q[1] = 5203ddf78d15c568
+# rd_data_q[2] = 59c882a4075ca617
+# rd_data_q[3] = 7d6eee668b86690f
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000020
+# wr_data_q[0] = a184962712d81e88
+# wr_data_q[1] = 5203ddf78d15c568
+# wr_data_q[2] = 59c882a4075ca617
+# wr_data_q[3] = 7d6eee668b86690f
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000040
+# rd_data_q[0] = 080c0cf6a2ed3a4a
+# rd_data_q[1] = c53e4590556ac040
+# rd_data_q[2] = fd1c82eb2e5725eb
+# rd_data_q[3] = 78402d43378d14c5
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000040
+# wr_data_q[0] = 080c0cf6a2ed3a4a
+# wr_data_q[1] = c53e4590556ac040
+# wr_data_q[2] = fd1c82eb2e5725eb
+# wr_data_q[3] = 78402d43378d14c5
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000060
+# rd_data_q[0] = 82c32f4ff865b5c7
+# rd_data_q[1] = e23ff1497bbab26c
+# rd_data_q[2] = e3ce5eec4be435ab
+# rd_data_q[3] = 4e09df706fbde6ff
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000060
+# wr_data_q[0] = 82c32f4ff865b5c7
+# wr_data_q[1] = e23ff1497bbab26c
+# wr_data_q[2] = e3ce5eec4be435ab
+# wr_data_q[3] = 4e09df706fbde6ff
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+# Total Transactions Generated : -1
+# Total Transactions Driven : 11
+# ERROR Count: 0
+# DATA MATCH: 4
+# DATA MISMATCH: 0
+# ** Note: $finish    : ../TOP/top.sv(136)
+#    Time: 2100 ns  Iteration: 0  Instance: /top
+# End time: 22:42:00 on Jan 05,2025, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 78

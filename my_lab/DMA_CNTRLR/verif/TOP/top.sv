@@ -130,6 +130,8 @@ module top;
      $display("Total Transactions Generated : %0d",dma_common::txn_gen);
     $display("Total Transactions Driven : %0d",dma_common::txn_driv);
     $display("ERROR Count: %0d",dma_common::error_count);
+    $display("DATA MATCH: %0d",dma_common::data_match);
+    $display("DATA MISMATCH: %0d",dma_common::data_mismatch);
 
     $finish;
   end
