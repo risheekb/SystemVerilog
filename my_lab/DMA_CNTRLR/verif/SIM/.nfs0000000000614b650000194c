@@ -1,5 +1,7 @@
-# vsim -voptargs="+acc" work.top "+test_name=test_ch0_sanity" -l 250105_224300 
-# Start time: 22:43:01 on Jan 05,2025
+# End time: 17:14:42 on Jan 06,2025, Elapsed time: 0:18:53
+# Errors: 1, Warnings: 78
+# vsim -voptargs="+acc" work.top "+test_name=test_ch0_sanity" -l 250106_171439 
+# Start time: 17:14:42 on Jan 06,2025
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
 # ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_top'.  Expected 55, found 54.
@@ -77,42 +79,14 @@
 # ** Warning: ../REF/dma_ref.sv(61): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
 # ** Warning: ../REF/dma_ref.sv(62): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
 # ** Warning: ../REF/dma_ref.sv(63): (vopt-2570) Zero-length range with constant bounds. Low-bound and high-bound may be reversed.
-# ** Warning: ../TOP/top.sv(112): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Warning: ../TOP/top.sv(161): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
 # ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ctrl(fast)".
 # ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ch_calc_joint(fast)".
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=77.
-# //  Questa Sim-64
-# //  Version 2024.2 linux_x86_64 May 20 2024
-# //
-# // Unpublished work. Copyright 2024 Siemens
-# //
-# // This material contains trade secrets or otherwise confidential information
-# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
-# // "SISW"), or its licensors. Access to and use of this information is strictly
-# // limited as set forth in the Customer's applicable agreements with SISW.
-# //
-# // This material may not be copied, distributed, or otherwise disclosed outside
-# // of the Customer's facilities without the express written permission of SISW,
-# // and may not be used in any way not expressly authorized by SISW.
-# //
 # Loading sv_std.std
 # Loading work.top(fast)
 # ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
-#    Time: 0 ps  Iteration: 0  Instance: /top File: ../TOP/top.sv Line: 112
-# wave activecursor not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
-# configure wave not supported in batch mode
+#    Time: 0 ps  Iteration: 0  Instance: /top File: ../TOP/top.sv Line: 161
 # apb_gen::run
 # Printing the fields of APB TX
 # addr = 0004
@@ -146,6 +120,42 @@
 # wr_len = 3
 # wr_size = 3
 # 
+#######size 36
+# DATA MATCH wr_byte = 24 rd_byte = 24
+# DATA MATCH wr_byte = 01 rd_byte = 01
+# DATA MATCH wr_byte = c5 rd_byte = c5
+# DATA MATCH wr_byte = e8 rd_byte = e8
+# DATA MATCH wr_byte = 80 rd_byte = 80
+# DATA MATCH wr_byte = 6b rd_byte = 6b
+# DATA MATCH wr_byte = ca rd_byte = ca
+# DATA MATCH wr_byte = eb rd_byte = eb
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 85 rd_byte = 85
+# DATA MATCH wr_byte = 62 rd_byte = 62
+# DATA MATCH wr_byte = 5b rd_byte = 5b
+# DATA MATCH wr_byte = c2 rd_byte = c2
+# DATA MATCH wr_byte = 1f rd_byte = 1f
+# DATA MATCH wr_byte = 58 rd_byte = 58
+# DATA MATCH wr_byte = 2f rd_byte = 2f
+# DATA MATCH wr_byte = 29 rd_byte = 29
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = d0 rd_byte = d0
+# DATA MATCH wr_byte = 56 rd_byte = 56
+# DATA MATCH wr_byte = 94 rd_byte = 94
+# DATA MATCH wr_byte = 76 rd_byte = 76
+# DATA MATCH wr_byte = b4 rd_byte = b4
+# DATA MATCH wr_byte = fd rd_byte = fd
+# DATA MATCH wr_byte = 73 rd_byte = 73
+# DATA MATCH wr_byte = 96 rd_byte = 96
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 7e rd_byte = 7e
+# DATA MATCH wr_byte = 86 rd_byte = 86
+# DATA MATCH wr_byte = 4b rd_byte = 4b
+# DATA MATCH wr_byte = 0e rd_byte = 0e
+# DATA MATCH wr_byte = 79 rd_byte = 79
+# DATA MATCH wr_byte = c4 rd_byte = c4
+# DATA MATCH wr_byte = 32 rd_byte = 32
+# DATA MATCH wr_byte = fb rd_byte = fb
 # DATA MATCH wr_byte = 00 rd_byte = 00
 ######### axi_tx: READ TX #########
 # rd_id = 0
@@ -168,6 +178,42 @@
 # wr_len = 3
 # wr_size = 3
 # 
+#######size 36
+# DATA MATCH wr_byte = 88 rd_byte = 88
+# DATA MATCH wr_byte = 1e rd_byte = 1e
+# DATA MATCH wr_byte = d8 rd_byte = d8
+# DATA MATCH wr_byte = 12 rd_byte = 12
+# DATA MATCH wr_byte = 27 rd_byte = 27
+# DATA MATCH wr_byte = 96 rd_byte = 96
+# DATA MATCH wr_byte = 84 rd_byte = 84
+# DATA MATCH wr_byte = a1 rd_byte = a1
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 68 rd_byte = 68
+# DATA MATCH wr_byte = c5 rd_byte = c5
+# DATA MATCH wr_byte = 15 rd_byte = 15
+# DATA MATCH wr_byte = 8d rd_byte = 8d
+# DATA MATCH wr_byte = f7 rd_byte = f7
+# DATA MATCH wr_byte = dd rd_byte = dd
+# DATA MATCH wr_byte = 03 rd_byte = 03
+# DATA MATCH wr_byte = 52 rd_byte = 52
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 17 rd_byte = 17
+# DATA MATCH wr_byte = a6 rd_byte = a6
+# DATA MATCH wr_byte = 5c rd_byte = 5c
+# DATA MATCH wr_byte = 07 rd_byte = 07
+# DATA MATCH wr_byte = a4 rd_byte = a4
+# DATA MATCH wr_byte = 82 rd_byte = 82
+# DATA MATCH wr_byte = c8 rd_byte = c8
+# DATA MATCH wr_byte = 59 rd_byte = 59
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 0f rd_byte = 0f
+# DATA MATCH wr_byte = 69 rd_byte = 69
+# DATA MATCH wr_byte = 86 rd_byte = 86
+# DATA MATCH wr_byte = 8b rd_byte = 8b
+# DATA MATCH wr_byte = 66 rd_byte = 66
+# DATA MATCH wr_byte = ee rd_byte = ee
+# DATA MATCH wr_byte = 6e rd_byte = 6e
+# DATA MATCH wr_byte = 7d rd_byte = 7d
 # DATA MATCH wr_byte = 00 rd_byte = 00
 ######### axi_tx: READ TX #########
 # rd_id = 0
@@ -190,6 +236,42 @@
 # wr_len = 3
 # wr_size = 3
 # 
+#######size 36
+# DATA MATCH wr_byte = 4a rd_byte = 4a
+# DATA MATCH wr_byte = 3a rd_byte = 3a
+# DATA MATCH wr_byte = ed rd_byte = ed
+# DATA MATCH wr_byte = a2 rd_byte = a2
+# DATA MATCH wr_byte = f6 rd_byte = f6
+# DATA MATCH wr_byte = 0c rd_byte = 0c
+# DATA MATCH wr_byte = 0c rd_byte = 0c
+# DATA MATCH wr_byte = 08 rd_byte = 08
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 40 rd_byte = 40
+# DATA MATCH wr_byte = c0 rd_byte = c0
+# DATA MATCH wr_byte = 6a rd_byte = 6a
+# DATA MATCH wr_byte = 55 rd_byte = 55
+# DATA MATCH wr_byte = 90 rd_byte = 90
+# DATA MATCH wr_byte = 45 rd_byte = 45
+# DATA MATCH wr_byte = 3e rd_byte = 3e
+# DATA MATCH wr_byte = c5 rd_byte = c5
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = eb rd_byte = eb
+# DATA MATCH wr_byte = 25 rd_byte = 25
+# DATA MATCH wr_byte = 57 rd_byte = 57
+# DATA MATCH wr_byte = 2e rd_byte = 2e
+# DATA MATCH wr_byte = eb rd_byte = eb
+# DATA MATCH wr_byte = 82 rd_byte = 82
+# DATA MATCH wr_byte = 1c rd_byte = 1c
+# DATA MATCH wr_byte = fd rd_byte = fd
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = c5 rd_byte = c5
+# DATA MATCH wr_byte = 14 rd_byte = 14
+# DATA MATCH wr_byte = 8d rd_byte = 8d
+# DATA MATCH wr_byte = 37 rd_byte = 37
+# DATA MATCH wr_byte = 43 rd_byte = 43
+# DATA MATCH wr_byte = 2d rd_byte = 2d
+# DATA MATCH wr_byte = 40 rd_byte = 40
+# DATA MATCH wr_byte = 78 rd_byte = 78
 # DATA MATCH wr_byte = 00 rd_byte = 00
 ######### axi_tx: READ TX #########
 # rd_id = 0
@@ -212,13 +294,49 @@
 # wr_len = 3
 # wr_size = 3
 # 
+#######size 36
+# DATA MATCH wr_byte = c7 rd_byte = c7
+# DATA MATCH wr_byte = b5 rd_byte = b5
+# DATA MATCH wr_byte = 65 rd_byte = 65
+# DATA MATCH wr_byte = f8 rd_byte = f8
+# DATA MATCH wr_byte = 4f rd_byte = 4f
+# DATA MATCH wr_byte = 2f rd_byte = 2f
+# DATA MATCH wr_byte = c3 rd_byte = c3
+# DATA MATCH wr_byte = 82 rd_byte = 82
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 6c rd_byte = 6c
+# DATA MATCH wr_byte = b2 rd_byte = b2
+# DATA MATCH wr_byte = ba rd_byte = ba
+# DATA MATCH wr_byte = 7b rd_byte = 7b
+# DATA MATCH wr_byte = 49 rd_byte = 49
+# DATA MATCH wr_byte = f1 rd_byte = f1
+# DATA MATCH wr_byte = 3f rd_byte = 3f
+# DATA MATCH wr_byte = e2 rd_byte = e2
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = ab rd_byte = ab
+# DATA MATCH wr_byte = 35 rd_byte = 35
+# DATA MATCH wr_byte = e4 rd_byte = e4
+# DATA MATCH wr_byte = 4b rd_byte = 4b
+# DATA MATCH wr_byte = ec rd_byte = ec
+# DATA MATCH wr_byte = 5e rd_byte = 5e
+# DATA MATCH wr_byte = ce rd_byte = ce
+# DATA MATCH wr_byte = e3 rd_byte = e3
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = ff rd_byte = ff
+# DATA MATCH wr_byte = e6 rd_byte = e6
+# DATA MATCH wr_byte = bd rd_byte = bd
+# DATA MATCH wr_byte = 6f rd_byte = 6f
+# DATA MATCH wr_byte = 70 rd_byte = 70
+# DATA MATCH wr_byte = df rd_byte = df
+# DATA MATCH wr_byte = 09 rd_byte = 09
+# DATA MATCH wr_byte = 4e rd_byte = 4e
 # DATA MATCH wr_byte = 00 rd_byte = 00
 # Total Transactions Generated : -1
 # Total Transactions Driven : 11
 # ERROR Count: 0
-# DATA MATCH: 4
+# DATA MATCH: 144
 # DATA MISMATCH: 0
-# ** Note: $finish    : ../TOP/top.sv(136)
+# ** Note: $finish    : ../TOP/top.sv(185)
 #    Time: 2100 ns  Iteration: 0  Instance: /top
-# End time: 22:43:06 on Jan 05,2025, Elapsed time: 0:00:05
-# Errors: 0, Warnings: 78
+# 1
+# Break in Module top at ../TOP/top.sv line 185

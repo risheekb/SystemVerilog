@@ -1,12 +1,10 @@
-
 module dma_ctrl_assertion(clk,reset,scan_en,idle,INT,periph_tx_req,periph_tx_clr,periph_rx_req,periph_rx_clr,pclken,psel,penable,paddr,pwrite,pwdata,prdata,pslverr,pready,AWID0,AWADDR0,AWLEN0,AWSIZE0,AWVALID0,AWREADY0,WID0,WDATA0,WSTRB0,WLAST0,WVALID0,WREADY0,BID0,BRESP0,BVALID0,BREADY0,ARID0,ARADDR0,ARLEN0,ARSIZE0,ARVALID0,ARREADY0,RID0,RDATA0,RRESP0,RLAST0,RVALID0,RREADY0);
-  `include "dma_axi64_defines.v"
-
+`include "dma_axi64_defines.v"
   input                                clk;
   input                 reset;
   input                 scan_en;
 
-  input                 idle;
+  input bit idle;
   input [1-1:0]                INT;
 
   input [31:1]             periph_tx_req;
@@ -52,10 +50,10 @@ module dma_ctrl_assertion(clk,reset,scan_en,idle,INT,periph_tx_req,periph_tx_clr
   input                               RLAST0;
   input                               RVALID0;
   input                              RREADY0;
-  
+
   //DEVELOPING APB ASSERTIONS
   property pslverr_p;
-    @(posedge clk) 1 |-> (pslverr == 0);
+    @(posedge clk) 1 |=> (pslverr == 0);
   endproperty
   //penable and pready handshaking
   property penable_pready_handshake_p;
@@ -63,4 +61,36 @@ module dma_ctrl_assertion(clk,reset,scan_en,idle,INT,periph_tx_req,periph_tx_clr
   endproperty
   PSLVERR_P: assert property (pslverr_p);
   PENABLE_PREADY_HANDSHAKE_P: assert property (penable_pready_handshake_p);
+  
+  //DEVELOPING AXI ASSERTIONS
+  property aw_ch_handshake_p;
+    @(posedge clk) (AWVALID0) |-> ##[0:5] (AWREADY0 == 1);
+  endproperty
+  property w_handshake_p;
+    @(posedge clk) (WVALID0) |-> ##[0:5] (WREADY0 == 1);
+  endproperty
+  property b_handshake_p;
+    @(posedge clk) (BVALID0) |-> ##[0:5] (BREADY0 == 1);
+  endproperty
+  property ar_handshake_p;
+    @(posedge clk) (ARVALID0) |-> ##[0:5] (ARREADY0 == 1);
+  endproperty
+  property r_handshake_p;
+    @(posedge clk) (RVALID0) |-> ##[0:5] (RREADY0 == 1);
+  endproperty
+  property bresp_p;
+    @(posedge clk) 1 |=> (BRESP0 == 0);
+  endproperty
+  property rresp_p;
+    @(posedge clk) 1 |=> (RRESP0 == 0);
+  endproperty
+
+  AW_CH_HANDSHAKE_P:  assert property(aw_ch_handshake_p);
+  W_HANDSHAKE_P:      assert property(w_handshake_p);
+  B_HANDSHAKE_P:      assert property(b_handshake_p);
+  AR_HANDSHAKE_P:     assert property(ar_handshake_p);
+  R_HANDSHAKE_P:      assert property(r_handshake_p);
+  BRESP_P:            assert property(bresp_p);
+  RRESP_P:            assert property(rresp_p);
 endmodule
+

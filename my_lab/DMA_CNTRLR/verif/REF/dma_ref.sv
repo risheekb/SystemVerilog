@@ -75,7 +75,10 @@ class dma_ref;
       forever begin
         wait(wr_aq[wr_active_channel].size() >0);
         wait(rd_aq[rd_active_channel].size() >0);
+        //wait(wr_aq[wr_active_channel].size() == reg_block_h.ch0_cmd_reg2_i.buffer_size);
+        //wait(rd_aq[rd_active_channel].size() == reg_block_h.ch0_cmd_reg2_i.buffer_size);
         size = wr_aq[wr_active_channel].size();
+        $display("#######size %0d",size);
         for(int i = 0;i<size;i++) begin
           wr_byte = wr_aq[wr_active_channel].pop_front;
           rd_byte = rd_aq[rd_active_channel].pop_front;

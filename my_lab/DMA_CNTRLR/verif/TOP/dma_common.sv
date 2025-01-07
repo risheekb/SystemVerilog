@@ -15,6 +15,10 @@ class dma_common;
   static int error_count;
   static int data_mismatch;
   static int data_match;
+  typedef enum{
+    LOW,
+    HIGH
+  } level;
 
   function new();
     for(int i = 0;i<ch_count;i++) begin
