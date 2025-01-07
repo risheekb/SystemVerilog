@@ -37,7 +37,7 @@ module top;
   `include "dma_ckr.sv"
   `include "dma_ctrl_assertion.sv"
   reg clk,reset;
-  dma_common dma_common_h = new();
+  dma_common dma_common_h;
   //DUT INSTANTIATION
  dma_axi64 dut(
    .clk(apb_pif.clk),
@@ -161,6 +161,7 @@ module top;
      dma_common::dut_reset_applied = 0;
     $value$plusargs("test_name=%s",dma_common::test_name);
 
+    dma_common_h = new();
     env = new();
     env.run();
   end

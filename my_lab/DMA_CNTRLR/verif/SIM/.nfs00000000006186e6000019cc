@@ -1,0 +1,314 @@
+# End time: 23:09:16 on Jan 06,2025, Elapsed time: 0:04:20
+# Errors: 0, Warnings: 46
+# vsim -voptargs="+acc" work.top "+test_name=test_all_ch" -l 250106_230854 
+# Start time: 23:09:16 on Jan 06,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_top'.  Expected 55, found 54.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2718) [TFMPC] - Missing connection for port 'pready'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_wcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_rcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch0'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty1'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty2'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty3'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty4'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty5'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty6'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty7'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../APB/apb_gen.sv(121): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(161): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(180): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(183): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(229): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(189): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(194): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(199): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(205): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(234): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(239): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(23): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(31): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(40): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(47): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(63): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(71): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(79): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(89): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(97): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(106): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(162): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ctrl(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ch_calc_joint(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=45.
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: ../TOP/top.sv Line: 162
+# test_name = test_all_ch
+# buffer size = '{32, 32, 32, 32, 32, 32, 32, 32}
+# apb_gen::run
+# Printing the fields of APB TX
+# addr = 0004
+# data = 20000000
+# wr_rd = 1
+# Printing the fields of APB TX
+# addr = 0104
+# data = 20010000
+# wr_rd = 1
+# Printing the fields of APB TX
+# addr = 0204
+# data = 20020000
+# wr_rd = 1
+# Printing the fields of APB TX
+# addr = 0304
+# data = 20030000
+# wr_rd = 1
+# Printing the fields of APB TX
+# addr = 0404
+# data = 20040000
+# wr_rd = 1
+# Printing the fields of APB TX
+# addr = 0504
+# data = 20050000
+# wr_rd = 1
+# Printing the fields of APB TX
+# addr = 0604
+# data = 20060000
+# wr_rd = 1
+# Printing the fields of APB TX
+# addr = 0704
+# data = 20070000
+# wr_rd = 1
+# apb_mon::run
+# apb_cov::run
+# axi_responder::run
+# axi_mon::run
+# dma_ckr::run
+# dma_ref::run
+# apb_bfm::run
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000000
+# rd_data_q[0] = ebca6b80e8c50124
+# rd_data_q[1] = 292f581fc25b6285
+# rd_data_q[2] = 9673fdb4769456d0
+# rd_data_q[3] = fb32c4790e4b867e
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10010000
+# rd_data_q[0] = b63cd520c5aa0d81
+# rd_data_q[1] = edb386d3c8894c4f
+# rd_data_q[2] = c0ba2988ca934e2a
+# rd_data_q[3] = 0bbdb9c8e67350db
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10020000
+# rd_data_q[0] = c6f202aa5ce57609
+# rd_data_q[1] = da5f8e8577499f3b
+# rd_data_q[2] = 265e1c28b60467ab
+# rd_data_q[3] = ef8492ca9fecf5cf
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10030000
+# rd_data_q[0] = ae8aae9dbd773d63
+# rd_data_q[1] = 65449c783dd08f3a
+# rd_data_q[2] = b6fa862d95590a0e
+# rd_data_q[3] = c9e4b4132a8a3579
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10030000
+# rd_data_q[0] = 0000000000000000
+# rd_data_q[1] = 0000000000000000
+# rd_data_q[2] = 0000000000000000
+# rd_data_q[3] = 0000000000000000
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10040000
+# rd_data_q[0] = bc411d962d12ed0d
+# rd_data_q[1] = b5f7fa5b12d7f87e
+# rd_data_q[2] = 7dd5dac746dbb6dc
+# rd_data_q[3] = 36ca7f6b2a4e29fa
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10050000
+# rd_data_q[0] = 2ad8cf13658f8c8d
+# rd_data_q[1] = dfcb26497e51b715
+# rd_data_q[2] = dc1a3d2e044d389a
+# rd_data_q[3] = 75a986c78da8c161
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10050000
+# rd_data_q[0] = 0000000000000000
+# rd_data_q[1] = 0000000000000000
+# rd_data_q[2] = 0000000000000000
+# rd_data_q[3] = 0000000000000000
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10060000
+# rd_data_q[0] = 0b78230d63f2f965
+# rd_data_q[1] = 79e6733f6d969ff1
+# rd_data_q[2] = 86b96608f7d979fd
+# rd_data_q[3] = 8fa1fab69ea9c517
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20050000
+# wr_data_q[0] = 2ad8cf13658f8c8d
+# wr_data_q[1] = dfcb26497e51b715
+# wr_data_q[2] = dc1a3d2e044d389a
+# wr_data_q[3] = 75a986c78da8c161
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# ERROR DATA MISMATCH wr_byte = 8d rd_byte = 65
+# ERROR DATA MISMATCH wr_byte = 8c rd_byte = f9
+# ERROR DATA MISMATCH wr_byte = 8f rd_byte = f2
+# ERROR DATA MISMATCH wr_byte = 65 rd_byte = 63
+# ERROR DATA MISMATCH wr_byte = 13 rd_byte = 0d
+# ERROR DATA MISMATCH wr_byte = cf rd_byte = 23
+# ERROR DATA MISMATCH wr_byte = d8 rd_byte = 78
+# ERROR DATA MISMATCH wr_byte = 2a rd_byte = 0b
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 15 rd_byte = f1
+# ERROR DATA MISMATCH wr_byte = b7 rd_byte = 9f
+# ERROR DATA MISMATCH wr_byte = 51 rd_byte = 96
+# ERROR DATA MISMATCH wr_byte = 7e rd_byte = 6d
+# ERROR DATA MISMATCH wr_byte = 49 rd_byte = 3f
+# ERROR DATA MISMATCH wr_byte = 26 rd_byte = 73
+# ERROR DATA MISMATCH wr_byte = cb rd_byte = e6
+# ERROR DATA MISMATCH wr_byte = df rd_byte = 79
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 9a rd_byte = fd
+# ERROR DATA MISMATCH wr_byte = 38 rd_byte = 79
+# ERROR DATA MISMATCH wr_byte = 4d rd_byte = d9
+# ERROR DATA MISMATCH wr_byte = 04 rd_byte = f7
+# ERROR DATA MISMATCH wr_byte = 2e rd_byte = 08
+# ERROR DATA MISMATCH wr_byte = 3d rd_byte = 66
+# ERROR DATA MISMATCH wr_byte = 1a rd_byte = b9
+# ERROR DATA MISMATCH wr_byte = dc rd_byte = 86
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 61 rd_byte = 17
+# ERROR DATA MISMATCH wr_byte = c1 rd_byte = c5
+# ERROR DATA MISMATCH wr_byte = a8 rd_byte = a9
+# ERROR DATA MISMATCH wr_byte = 8d rd_byte = 9e
+# ERROR DATA MISMATCH wr_byte = c7 rd_byte = b6
+# ERROR DATA MISMATCH wr_byte = 86 rd_byte = fa
+# ERROR DATA MISMATCH wr_byte = a9 rd_byte = a1
+# ERROR DATA MISMATCH wr_byte = 75 rd_byte = 8f
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10070000
+# rd_data_q[0] = 71890a530acec612
+# rd_data_q[1] = 445aa32a390c5cd9
+# rd_data_q[2] = 7837701c696db8c3
+# rd_data_q[3] = 6b8ef2ba38a198a1
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10070000
+# rd_data_q[0] = 0000000000000000
+# rd_data_q[1] = 0000000000000000
+# rd_data_q[2] = 0000000000000000
+# rd_data_q[3] = 0000000000000000
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20070000
+# wr_data_q[0] = 71890a530acec612
+# wr_data_q[1] = 445aa32a390c5cd9
+# wr_data_q[2] = 7837701c696db8c3
+# wr_data_q[3] = 6b8ef2ba38a198a1
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 12 rd_byte = 12
+# DATA MATCH wr_byte = c6 rd_byte = c6
+# DATA MATCH wr_byte = ce rd_byte = ce
+# DATA MATCH wr_byte = 0a rd_byte = 0a
+# DATA MATCH wr_byte = 53 rd_byte = 53
+# DATA MATCH wr_byte = 0a rd_byte = 0a
+# DATA MATCH wr_byte = 89 rd_byte = 89
+# DATA MATCH wr_byte = 71 rd_byte = 71
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = d9 rd_byte = d9
+# DATA MATCH wr_byte = 5c rd_byte = 5c
+# DATA MATCH wr_byte = 0c rd_byte = 0c
+# DATA MATCH wr_byte = 39 rd_byte = 39
+# DATA MATCH wr_byte = 2a rd_byte = 2a
+# DATA MATCH wr_byte = a3 rd_byte = a3
+# DATA MATCH wr_byte = 5a rd_byte = 5a
+# DATA MATCH wr_byte = 44 rd_byte = 44
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = c3 rd_byte = c3
+# DATA MATCH wr_byte = b8 rd_byte = b8
+# DATA MATCH wr_byte = 6d rd_byte = 6d
+# DATA MATCH wr_byte = 69 rd_byte = 69
+# DATA MATCH wr_byte = 1c rd_byte = 1c
+# DATA MATCH wr_byte = 70 rd_byte = 70
+# DATA MATCH wr_byte = 37 rd_byte = 37
+# DATA MATCH wr_byte = 78 rd_byte = 78
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = a1 rd_byte = a1
+# DATA MATCH wr_byte = 98 rd_byte = 98
+# DATA MATCH wr_byte = a1 rd_byte = a1
+# DATA MATCH wr_byte = 38 rd_byte = 38
+# DATA MATCH wr_byte = ba rd_byte = ba
+# DATA MATCH wr_byte = f2 rd_byte = f2
+# DATA MATCH wr_byte = 8e rd_byte = 8e
+# DATA MATCH wr_byte = 6b rd_byte = 6b
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# Total Transactions Generated : -1
+# Total Transactions Driven : 81
+# ERROR Count: 0
+# DATA MATCH: 40
+# DATA MISMATCH: 32
+# ** Note: $finish    : ../TOP/top.sv(182)
+#    Time: 2100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at ../TOP/top.sv line 182

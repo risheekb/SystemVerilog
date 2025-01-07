@@ -51,7 +51,7 @@ module dma_ctrl_assertion(clk,reset,scan_en,idle,INT,periph_tx_req,periph_tx_clr
   input                               RVALID0;
   input                              RREADY0;
 
-  //DEVELOPING APB ASSERTIONS
+  //APB ASSERTIONS
   property pslverr_p;
     @(posedge clk) 1 |=> (pslverr == 0);
   endproperty
@@ -62,7 +62,7 @@ module dma_ctrl_assertion(clk,reset,scan_en,idle,INT,periph_tx_req,periph_tx_clr
   PSLVERR_P: assert property (pslverr_p);
   PENABLE_PREADY_HANDSHAKE_P: assert property (penable_pready_handshake_p);
   
-  //DEVELOPING AXI ASSERTIONS
+  //AXI ASSERTIONS
   property aw_ch_handshake_p;
     @(posedge clk) (AWVALID0) |-> ##[0:5] (AWREADY0 == 1);
   endproperty

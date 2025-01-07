@@ -39,10 +39,11 @@ class dma_common;
       wr_outstanding_a[i]      = 1'b0;
       wr_incr_a[i]             = 1'b1;
 
-      rd_addr_a[i]             = 32'h1000_0000 + 32'h1_0000*i;
-      wr_addr_a[i]             = 32'h2000_0000 + 32'h1_0000*i;
+      rd_addr_a[i]             = `CH0_RD_START+32'h1_0000*i;
+      wr_addr_a[i]             = `CH0_WR_START+ 32'h1_0000*i;
 
-      buffer_size_a[i] = 32'd128; 
+      if(test_name == "test_all_ch") buffer_size_a[i] = 32'd32;
+      else buffer_size_a[i] = 32'd128;
       x_size_a[i] = 0;
       y_size_a[i] = 0;
 
@@ -65,7 +66,8 @@ class dma_common;
       int_enable_wdt_a[i] = 1'b1;
       
     end
-
+    $display("test_name = %s",test_name);
+    $display("buffer size = %p",buffer_size_a);
   endfunction
 
 endclass

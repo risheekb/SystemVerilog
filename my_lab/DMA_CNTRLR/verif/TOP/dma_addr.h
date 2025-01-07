@@ -1,3 +1,37 @@
+//CHANNEL START AND END ADDRESS
+`define CH0_RD_START            32'h1000_0000
+`define CH0_RD_END              `CH0_RD_START + 32'hFFFF
+`define CH1_RD_START            `CH0_RD_START +32'h1_0000//32'h1001_0000
+`define CH1_RD_END              `CH1_RD_START + 32'hFFFF
+`define CH2_RD_START            `CH0_RD_START +32'h2_0000//32'h1002_0000
+`define CH2_RD_END              `CH2_RD_START + 32'hFFFF
+`define CH3_RD_START            `CH0_RD_START +32'h3_0000//32'h1003_0000
+`define CH3_RD_END              `CH3_RD_START + 32'hFFFF
+`define CH4_RD_START            `CH0_RD_START +32'h4_0000//32'h1004_0000
+`define CH4_RD_END              `CH4_RD_START + 32'hFFFF
+`define CH5_RD_START            `CH0_RD_START +32'h5_0000//32'h1005_0000
+`define CH5_RD_END              `CH5_RD_START + 32'hFFFF
+`define CH6_RD_START            `CH0_RD_START +32'h6_0000//32'h1006_0000
+`define CH6_RD_END              `CH6_RD_START + 32'hFFFF
+`define CH7_RD_START            `CH0_RD_START +32'h7_0000//32'h1007_0000
+`define CH7_RD_END              `CH7_RD_START + 32'hFFFF
+
+`define CH0_WR_START            32'h2000_0000
+`define CH0_WR_END              `CH0_WR_START + 32'hFFFF
+`define CH1_WR_START            `CH0_WR_START +32'h1_0000//32'h1001_0000
+`define CH1_WR_END              `CH1_WR_START + 32'hFFFF
+`define CH2_WR_START            `CH0_WR_START +32'h2_0000//32'h1002_0000
+`define CH2_WR_END              `CH2_WR_START + 32'hFFFF
+`define CH3_WR_START            `CH0_WR_START +32'h3_0000//32'h1003_0000
+`define CH3_WR_END              `CH3_WR_START + 32'hFFFF
+`define CH4_WR_START            `CH0_WR_START +32'h4_0000//32'h1004_0000
+`define CH4_WR_END              `CH4_WR_START + 32'hFFFF
+`define CH5_WR_START            `CH0_WR_START +32'h5_0000//32'h1005_0000
+`define CH5_WR_END              `CH5_WR_START + 32'hFFFF
+`define CH6_WR_START            `CH0_WR_START +32'h6_0000//32'h1006_0000
+`define CH6_WR_END              `CH6_WR_START + 32'hFFFF
+`define CH7_WR_START            `CH0_WR_START +32'h7_0000//32'h1007_0000
+`define CH7_WR_END              `CH7_WR_START + 32'hFFFF
 //CH0 REGISTERS//
 `define CH0_CMD_REG0            13'h0
 `define CH0_CMD_REG1            13'h4
@@ -266,5 +300,3 @@
   static bit        int_enable_wdt_a          [7:0];
   static bit        ch_start_reg_a            [7:0];
   static bit        ch_enable_reg_a           [7:0];
-
-
