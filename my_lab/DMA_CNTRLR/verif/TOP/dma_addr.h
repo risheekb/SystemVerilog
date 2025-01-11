@@ -1,3 +1,22 @@
+//ADDRESS FOR COMMAND LIST TEST CASE
+`define CMD1_ADDR               32'h3000_0000
+`define CMD2_ADDR               `CMD1_ADDR +'h10 //total command = 128bits  = 16Bytes = 'h10
+`define CMD3_ADDR               `CMD1_ADDR +'h20
+`define CMD4_ADDR               `CMD1_ADDR +'h30
+`define CMD1_BUFFER_SIZE        256
+`define CMD2_BUFFER_SIZE        256
+`define CMD3_BUFFER_SIZE        128
+`define CMD4_BUFFER_SIZE        128
+
+`define CMD1_RD_START_ADDR      `CH0_RD_START+'h200
+`define CMD1_WR_START_ADDR      `CH0_WR_START+'h200
+`define CMD2_RD_START_ADDR      `CH0_RD_START+'h400
+`define CMD2_WR_START_ADDR      `CH0_WR_START+'h400
+`define CMD3_RD_START_ADDR      `CH0_RD_START+'h600
+`define CMD3_WR_START_ADDR      `CH0_WR_START+'h600
+`define CMD4_RD_START_ADDR      `CH0_RD_START+'h800
+`define CMD4_WR_START_ADDR      `CH0_WR_START+'h800
+//CHANNEL START AND END ADDRESS
 //CHANNEL START AND END ADDRESS
 `define CH0_RD_START            32'h1000_0000
 `define CH0_RD_END              `CH0_RD_START + 32'hFFFF

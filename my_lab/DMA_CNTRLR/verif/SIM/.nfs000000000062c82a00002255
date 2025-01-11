@@ -1,0 +1,1845 @@
+# End time: 14:14:01 on Jan 11,2025, Elapsed time: 0:08:10
+# Errors: 0, Warnings: 46
+# vsim -voptargs="+acc" work.top "+test_name=test_cmd_list" -l 250111_141358 
+# Start time: 14:14:01 on Jan 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_top'.  Expected 55, found 54.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2718) [TFMPC] - Missing connection for port 'pready'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_wcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_rcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch0'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty1'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty2'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty3'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty4'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty5'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty6'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty7'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../APB/apb_gen.sv(126): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(166): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(185): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(188): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(234): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(194): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(199): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(204): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(210): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(239): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(244): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(28): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(36): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(45): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(52): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(68): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(76): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(84): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(94): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(102): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(111): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(162): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ctrl(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ch_calc_joint(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=45.
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: ../TOP/top.sv Line: 162
+# test_name = test_cmd_list
+# buffer size = '{128, 128, 128, 128, 128, 128, 128, 128}
+# apb_gen::run
+# Printing the fields of APB TX
+# addr = 0104
+# data = 20010000
+# wr_rd = 1
+# apb_mon::run
+# apb_cov::run
+# axi_responder::run
+# axi_mon::run
+# dma_ckr::run
+# dma_ref::run
+# apb_bfm::run
+# 1st_32bits = 10000200
+# 2nd_32bits = 20000200
+# 3rd_32bits = 00000100
+# 4th_32bits = 30000010
+# 1st_32bits = 10000400
+# 2nd_32bits = 20000400
+# 3rd_32bits = 00000100
+# 4th_32bits = 30000020
+# 1st_32bits = 10000600
+# 2nd_32bits = 20000600
+# 3rd_32bits = 00000080
+# 4th_32bits = 30000030
+# 1st_32bits = 10000800
+# 2nd_32bits = 20000800
+# 3rd_32bits = 00000080
+# 4th_32bits = 00000002
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10010000
+# rd_data_q[0] = b63cd520c5aa0d81
+# rd_data_q[1] = edb386d3c8894c4f
+# rd_data_q[2] = c0ba2988ca934e2a
+# rd_data_q[3] = 0bbdb9c8e67350db
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20010000
+# wr_data_q[0] = b63cd520c5aa0d81
+# wr_data_q[1] = edb386d3c8894c4f
+# wr_data_q[2] = c0ba2988ca934e2a
+# wr_data_q[3] = 0bbdb9c8e67350db
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 81 rd_byte = 81
+# DATA MATCH wr_byte = 0d rd_byte = 0d
+# DATA MATCH wr_byte = aa rd_byte = aa
+# DATA MATCH wr_byte = c5 rd_byte = c5
+# DATA MATCH wr_byte = 20 rd_byte = 20
+# DATA MATCH wr_byte = d5 rd_byte = d5
+# DATA MATCH wr_byte = 3c rd_byte = 3c
+# DATA MATCH wr_byte = b6 rd_byte = b6
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 4f rd_byte = 4f
+# DATA MATCH wr_byte = 4c rd_byte = 4c
+# DATA MATCH wr_byte = 89 rd_byte = 89
+# DATA MATCH wr_byte = c8 rd_byte = c8
+# DATA MATCH wr_byte = d3 rd_byte = d3
+# DATA MATCH wr_byte = 86 rd_byte = 86
+# DATA MATCH wr_byte = b3 rd_byte = b3
+# DATA MATCH wr_byte = ed rd_byte = ed
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 2a rd_byte = 2a
+# DATA MATCH wr_byte = 4e rd_byte = 4e
+# DATA MATCH wr_byte = 93 rd_byte = 93
+# DATA MATCH wr_byte = ca rd_byte = ca
+# DATA MATCH wr_byte = 88 rd_byte = 88
+# DATA MATCH wr_byte = 29 rd_byte = 29
+# DATA MATCH wr_byte = ba rd_byte = ba
+# DATA MATCH wr_byte = c0 rd_byte = c0
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = db rd_byte = db
+# DATA MATCH wr_byte = 50 rd_byte = 50
+# DATA MATCH wr_byte = 73 rd_byte = 73
+# DATA MATCH wr_byte = e6 rd_byte = e6
+# DATA MATCH wr_byte = c8 rd_byte = c8
+# DATA MATCH wr_byte = b9 rd_byte = b9
+# DATA MATCH wr_byte = bd rd_byte = bd
+# DATA MATCH wr_byte = 0b rd_byte = 0b
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10010020
+# rd_data_q[0] = 2aa7b1a1b8530dae
+# rd_data_q[1] = f8e30d9e5ae1c06f
+# rd_data_q[2] = d05d49c96a47256a
+# rd_data_q[3] = 8e8160af01307769
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20010020
+# wr_data_q[0] = 2aa7b1a1b8530dae
+# wr_data_q[1] = f8e30d9e5ae1c06f
+# wr_data_q[2] = d05d49c96a47256a
+# wr_data_q[3] = 8e8160af01307769
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = ae rd_byte = ae
+# DATA MATCH wr_byte = 0d rd_byte = 0d
+# DATA MATCH wr_byte = 53 rd_byte = 53
+# DATA MATCH wr_byte = b8 rd_byte = b8
+# DATA MATCH wr_byte = a1 rd_byte = a1
+# DATA MATCH wr_byte = b1 rd_byte = b1
+# DATA MATCH wr_byte = a7 rd_byte = a7
+# DATA MATCH wr_byte = 2a rd_byte = 2a
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 6f rd_byte = 6f
+# DATA MATCH wr_byte = c0 rd_byte = c0
+# DATA MATCH wr_byte = e1 rd_byte = e1
+# DATA MATCH wr_byte = 5a rd_byte = 5a
+# DATA MATCH wr_byte = 9e rd_byte = 9e
+# DATA MATCH wr_byte = 0d rd_byte = 0d
+# DATA MATCH wr_byte = e3 rd_byte = e3
+# DATA MATCH wr_byte = f8 rd_byte = f8
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 6a rd_byte = 6a
+# DATA MATCH wr_byte = 25 rd_byte = 25
+# DATA MATCH wr_byte = 47 rd_byte = 47
+# DATA MATCH wr_byte = 6a rd_byte = 6a
+# DATA MATCH wr_byte = c9 rd_byte = c9
+# DATA MATCH wr_byte = 49 rd_byte = 49
+# DATA MATCH wr_byte = 5d rd_byte = 5d
+# DATA MATCH wr_byte = d0 rd_byte = d0
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 69 rd_byte = 69
+# DATA MATCH wr_byte = 77 rd_byte = 77
+# DATA MATCH wr_byte = 30 rd_byte = 30
+# DATA MATCH wr_byte = 01 rd_byte = 01
+# DATA MATCH wr_byte = af rd_byte = af
+# DATA MATCH wr_byte = 60 rd_byte = 60
+# DATA MATCH wr_byte = 81 rd_byte = 81
+# DATA MATCH wr_byte = 8e rd_byte = 8e
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10010040
+# rd_data_q[0] = 8d39ce5cbdc971b9
+# rd_data_q[1] = aaf38d5ab7bc5025
+# rd_data_q[2] = 3e981ab58c36cff8
+# rd_data_q[3] = 279470f858e12afe
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20010040
+# wr_data_q[0] = 8d39ce5cbdc971b9
+# wr_data_q[1] = aaf38d5ab7bc5025
+# wr_data_q[2] = 3e981ab58c36cff8
+# wr_data_q[3] = 279470f858e12afe
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = b9 rd_byte = b9
+# DATA MATCH wr_byte = 71 rd_byte = 71
+# DATA MATCH wr_byte = c9 rd_byte = c9
+# DATA MATCH wr_byte = bd rd_byte = bd
+# DATA MATCH wr_byte = 5c rd_byte = 5c
+# DATA MATCH wr_byte = ce rd_byte = ce
+# DATA MATCH wr_byte = 39 rd_byte = 39
+# DATA MATCH wr_byte = 8d rd_byte = 8d
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 25 rd_byte = 25
+# DATA MATCH wr_byte = 50 rd_byte = 50
+# DATA MATCH wr_byte = bc rd_byte = bc
+# DATA MATCH wr_byte = b7 rd_byte = b7
+# DATA MATCH wr_byte = 5a rd_byte = 5a
+# DATA MATCH wr_byte = 8d rd_byte = 8d
+# DATA MATCH wr_byte = f3 rd_byte = f3
+# DATA MATCH wr_byte = aa rd_byte = aa
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = f8 rd_byte = f8
+# DATA MATCH wr_byte = cf rd_byte = cf
+# DATA MATCH wr_byte = 36 rd_byte = 36
+# DATA MATCH wr_byte = 8c rd_byte = 8c
+# DATA MATCH wr_byte = b5 rd_byte = b5
+# DATA MATCH wr_byte = 1a rd_byte = 1a
+# DATA MATCH wr_byte = 98 rd_byte = 98
+# DATA MATCH wr_byte = 3e rd_byte = 3e
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = fe rd_byte = fe
+# DATA MATCH wr_byte = 2a rd_byte = 2a
+# DATA MATCH wr_byte = e1 rd_byte = e1
+# DATA MATCH wr_byte = 58 rd_byte = 58
+# DATA MATCH wr_byte = f8 rd_byte = f8
+# DATA MATCH wr_byte = 70 rd_byte = 70
+# DATA MATCH wr_byte = 94 rd_byte = 94
+# DATA MATCH wr_byte = 27 rd_byte = 27
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10010060
+# rd_data_q[0] = bfd40b30b5ea1a82
+# rd_data_q[1] = e2c2e6e7bffbde50
+# rd_data_q[2] = ec4a7c2a12412fb4
+# rd_data_q[3] = b7d7c983c9664978
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20010060
+# wr_data_q[0] = bfd40b30b5ea1a82
+# wr_data_q[1] = e2c2e6e7bffbde50
+# wr_data_q[2] = ec4a7c2a12412fb4
+# wr_data_q[3] = b7d7c983c9664978
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 82 rd_byte = 82
+# DATA MATCH wr_byte = 1a rd_byte = 1a
+# DATA MATCH wr_byte = ea rd_byte = ea
+# DATA MATCH wr_byte = b5 rd_byte = b5
+# DATA MATCH wr_byte = 30 rd_byte = 30
+# DATA MATCH wr_byte = 0b rd_byte = 0b
+# DATA MATCH wr_byte = d4 rd_byte = d4
+# DATA MATCH wr_byte = bf rd_byte = bf
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 50 rd_byte = 50
+# DATA MATCH wr_byte = de rd_byte = de
+# DATA MATCH wr_byte = fb rd_byte = fb
+# DATA MATCH wr_byte = bf rd_byte = bf
+# DATA MATCH wr_byte = e7 rd_byte = e7
+# DATA MATCH wr_byte = e6 rd_byte = e6
+# DATA MATCH wr_byte = c2 rd_byte = c2
+# DATA MATCH wr_byte = e2 rd_byte = e2
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = b4 rd_byte = b4
+# DATA MATCH wr_byte = 2f rd_byte = 2f
+# DATA MATCH wr_byte = 41 rd_byte = 41
+# DATA MATCH wr_byte = 12 rd_byte = 12
+# DATA MATCH wr_byte = 2a rd_byte = 2a
+# DATA MATCH wr_byte = 7c rd_byte = 7c
+# DATA MATCH wr_byte = 4a rd_byte = 4a
+# DATA MATCH wr_byte = ec rd_byte = ec
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 78 rd_byte = 78
+# DATA MATCH wr_byte = 49 rd_byte = 49
+# DATA MATCH wr_byte = 66 rd_byte = 66
+# DATA MATCH wr_byte = c9 rd_byte = c9
+# DATA MATCH wr_byte = 83 rd_byte = 83
+# DATA MATCH wr_byte = c9 rd_byte = c9
+# DATA MATCH wr_byte = d7 rd_byte = d7
+# DATA MATCH wr_byte = b7 rd_byte = b7
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 30000000
+# rd_data_q[0] = 2000020010000200
+# rd_data_q[1] = 3000001000000100
+# rd_len = 1
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000200
+# rd_data_q[0] = 893d8af62e2696d5
+# rd_data_q[1] = 3e8b56e84f76a559
+# rd_data_q[2] = 811a3930aacaa726
+# rd_data_q[3] = 1c839e0748fb46b7
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000200
+# wr_data_q[0] = 893d8af62e2696d5
+# wr_data_q[1] = 3e8b56e84f76a559
+# wr_data_q[2] = 811a3930aacaa726
+# wr_data_q[3] = 1c839e0748fb46b7
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = d5 rd_byte = d5
+# DATA MATCH wr_byte = 96 rd_byte = 96
+# DATA MATCH wr_byte = 26 rd_byte = 26
+# DATA MATCH wr_byte = 2e rd_byte = 2e
+# DATA MATCH wr_byte = f6 rd_byte = f6
+# DATA MATCH wr_byte = 8a rd_byte = 8a
+# DATA MATCH wr_byte = 3d rd_byte = 3d
+# DATA MATCH wr_byte = 89 rd_byte = 89
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 59 rd_byte = 59
+# DATA MATCH wr_byte = a5 rd_byte = a5
+# DATA MATCH wr_byte = 76 rd_byte = 76
+# DATA MATCH wr_byte = 4f rd_byte = 4f
+# DATA MATCH wr_byte = e8 rd_byte = e8
+# DATA MATCH wr_byte = 56 rd_byte = 56
+# DATA MATCH wr_byte = 8b rd_byte = 8b
+# DATA MATCH wr_byte = 3e rd_byte = 3e
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 26 rd_byte = 26
+# DATA MATCH wr_byte = a7 rd_byte = a7
+# DATA MATCH wr_byte = ca rd_byte = ca
+# DATA MATCH wr_byte = aa rd_byte = aa
+# DATA MATCH wr_byte = 30 rd_byte = 30
+# DATA MATCH wr_byte = 39 rd_byte = 39
+# DATA MATCH wr_byte = 1a rd_byte = 1a
+# DATA MATCH wr_byte = 81 rd_byte = 81
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = b7 rd_byte = b7
+# DATA MATCH wr_byte = 46 rd_byte = 46
+# DATA MATCH wr_byte = fb rd_byte = fb
+# DATA MATCH wr_byte = 48 rd_byte = 48
+# DATA MATCH wr_byte = 07 rd_byte = 07
+# DATA MATCH wr_byte = 9e rd_byte = 9e
+# DATA MATCH wr_byte = 83 rd_byte = 83
+# DATA MATCH wr_byte = 1c rd_byte = 1c
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000220
+# rd_data_q[0] = 59e06f27b262ac03
+# rd_data_q[1] = 00c914caf4da8185
+# rd_data_q[2] = 5d5977a895bbf037
+# rd_data_q[3] = 382803fd9fe0a291
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000220
+# wr_data_q[0] = 59e06f27b262ac03
+# wr_data_q[1] = 00c914caf4da8185
+# wr_data_q[2] = 5d5977a895bbf037
+# wr_data_q[3] = 382803fd9fe0a291
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 03 rd_byte = 03
+# DATA MATCH wr_byte = ac rd_byte = ac
+# DATA MATCH wr_byte = 62 rd_byte = 62
+# DATA MATCH wr_byte = b2 rd_byte = b2
+# DATA MATCH wr_byte = 27 rd_byte = 27
+# DATA MATCH wr_byte = 6f rd_byte = 6f
+# DATA MATCH wr_byte = e0 rd_byte = e0
+# DATA MATCH wr_byte = 59 rd_byte = 59
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 85 rd_byte = 85
+# DATA MATCH wr_byte = 81 rd_byte = 81
+# DATA MATCH wr_byte = da rd_byte = da
+# DATA MATCH wr_byte = f4 rd_byte = f4
+# DATA MATCH wr_byte = ca rd_byte = ca
+# DATA MATCH wr_byte = 14 rd_byte = 14
+# DATA MATCH wr_byte = c9 rd_byte = c9
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 37 rd_byte = 37
+# DATA MATCH wr_byte = f0 rd_byte = f0
+# DATA MATCH wr_byte = bb rd_byte = bb
+# DATA MATCH wr_byte = 95 rd_byte = 95
+# DATA MATCH wr_byte = a8 rd_byte = a8
+# DATA MATCH wr_byte = 77 rd_byte = 77
+# DATA MATCH wr_byte = 59 rd_byte = 59
+# DATA MATCH wr_byte = 5d rd_byte = 5d
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 91 rd_byte = 91
+# DATA MATCH wr_byte = a2 rd_byte = a2
+# DATA MATCH wr_byte = e0 rd_byte = e0
+# DATA MATCH wr_byte = 9f rd_byte = 9f
+# DATA MATCH wr_byte = fd rd_byte = fd
+# DATA MATCH wr_byte = 03 rd_byte = 03
+# DATA MATCH wr_byte = 28 rd_byte = 28
+# DATA MATCH wr_byte = 38 rd_byte = 38
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000240
+# rd_data_q[0] = da519f809ca1c18e
+# rd_data_q[1] = 0d6db66c96d8f6a6
+# rd_data_q[2] = 1b96317a15df6ad4
+# rd_data_q[3] = cd647ae32490c790
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000240
+# wr_data_q[0] = da519f809ca1c18e
+# wr_data_q[1] = 0d6db66c96d8f6a6
+# wr_data_q[2] = 1b96317a15df6ad4
+# wr_data_q[3] = cd647ae32490c790
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 8e rd_byte = 8e
+# DATA MATCH wr_byte = c1 rd_byte = c1
+# DATA MATCH wr_byte = a1 rd_byte = a1
+# DATA MATCH wr_byte = 9c rd_byte = 9c
+# DATA MATCH wr_byte = 80 rd_byte = 80
+# DATA MATCH wr_byte = 9f rd_byte = 9f
+# DATA MATCH wr_byte = 51 rd_byte = 51
+# DATA MATCH wr_byte = da rd_byte = da
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = a6 rd_byte = a6
+# DATA MATCH wr_byte = f6 rd_byte = f6
+# DATA MATCH wr_byte = d8 rd_byte = d8
+# DATA MATCH wr_byte = 96 rd_byte = 96
+# DATA MATCH wr_byte = 6c rd_byte = 6c
+# DATA MATCH wr_byte = b6 rd_byte = b6
+# DATA MATCH wr_byte = 6d rd_byte = 6d
+# DATA MATCH wr_byte = 0d rd_byte = 0d
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = d4 rd_byte = d4
+# DATA MATCH wr_byte = 6a rd_byte = 6a
+# DATA MATCH wr_byte = df rd_byte = df
+# DATA MATCH wr_byte = 15 rd_byte = 15
+# DATA MATCH wr_byte = 7a rd_byte = 7a
+# DATA MATCH wr_byte = 31 rd_byte = 31
+# DATA MATCH wr_byte = 96 rd_byte = 96
+# DATA MATCH wr_byte = 1b rd_byte = 1b
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 90 rd_byte = 90
+# DATA MATCH wr_byte = c7 rd_byte = c7
+# DATA MATCH wr_byte = 90 rd_byte = 90
+# DATA MATCH wr_byte = 24 rd_byte = 24
+# DATA MATCH wr_byte = e3 rd_byte = e3
+# DATA MATCH wr_byte = 7a rd_byte = 7a
+# DATA MATCH wr_byte = 64 rd_byte = 64
+# DATA MATCH wr_byte = cd rd_byte = cd
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000260
+# rd_data_q[0] = 6cf27b624b4236d5
+# rd_data_q[1] = c3d89c2f95d1611c
+# rd_data_q[2] = 1a31c7048b96725e
+# rd_data_q[3] = 3c96661a366a1214
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000260
+# wr_data_q[0] = 6cf27b624b4236d5
+# wr_data_q[1] = c3d89c2f95d1611c
+# wr_data_q[2] = 1a31c7048b96725e
+# wr_data_q[3] = 3c96661a366a1214
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = d5 rd_byte = d5
+# DATA MATCH wr_byte = 36 rd_byte = 36
+# DATA MATCH wr_byte = 42 rd_byte = 42
+# DATA MATCH wr_byte = 4b rd_byte = 4b
+# DATA MATCH wr_byte = 62 rd_byte = 62
+# DATA MATCH wr_byte = 7b rd_byte = 7b
+# DATA MATCH wr_byte = f2 rd_byte = f2
+# DATA MATCH wr_byte = 6c rd_byte = 6c
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 1c rd_byte = 1c
+# DATA MATCH wr_byte = 61 rd_byte = 61
+# DATA MATCH wr_byte = d1 rd_byte = d1
+# DATA MATCH wr_byte = 95 rd_byte = 95
+# DATA MATCH wr_byte = 2f rd_byte = 2f
+# DATA MATCH wr_byte = 9c rd_byte = 9c
+# DATA MATCH wr_byte = d8 rd_byte = d8
+# DATA MATCH wr_byte = c3 rd_byte = c3
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 5e rd_byte = 5e
+# DATA MATCH wr_byte = 72 rd_byte = 72
+# DATA MATCH wr_byte = 96 rd_byte = 96
+# DATA MATCH wr_byte = 8b rd_byte = 8b
+# DATA MATCH wr_byte = 04 rd_byte = 04
+# DATA MATCH wr_byte = c7 rd_byte = c7
+# DATA MATCH wr_byte = 31 rd_byte = 31
+# DATA MATCH wr_byte = 1a rd_byte = 1a
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 14 rd_byte = 14
+# DATA MATCH wr_byte = 12 rd_byte = 12
+# DATA MATCH wr_byte = 6a rd_byte = 6a
+# DATA MATCH wr_byte = 36 rd_byte = 36
+# DATA MATCH wr_byte = 1a rd_byte = 1a
+# DATA MATCH wr_byte = 66 rd_byte = 66
+# DATA MATCH wr_byte = 96 rd_byte = 96
+# DATA MATCH wr_byte = 3c rd_byte = 3c
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000280
+# rd_data_q[0] = 7021622c20a66b39
+# rd_data_q[1] = 836a257252252546
+# rd_data_q[2] = bb8c98a6563f6b34
+# rd_data_q[3] = e41f250236cfe67d
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000280
+# wr_data_q[0] = 7021622c20a66b39
+# wr_data_q[1] = 836a257252252546
+# wr_data_q[2] = bb8c98a6563f6b34
+# wr_data_q[3] = e41f250236cfe67d
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 39 rd_byte = 39
+# DATA MATCH wr_byte = 6b rd_byte = 6b
+# DATA MATCH wr_byte = a6 rd_byte = a6
+# DATA MATCH wr_byte = 20 rd_byte = 20
+# DATA MATCH wr_byte = 2c rd_byte = 2c
+# DATA MATCH wr_byte = 62 rd_byte = 62
+# DATA MATCH wr_byte = 21 rd_byte = 21
+# DATA MATCH wr_byte = 70 rd_byte = 70
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 46 rd_byte = 46
+# DATA MATCH wr_byte = 25 rd_byte = 25
+# DATA MATCH wr_byte = 25 rd_byte = 25
+# DATA MATCH wr_byte = 52 rd_byte = 52
+# DATA MATCH wr_byte = 72 rd_byte = 72
+# DATA MATCH wr_byte = 25 rd_byte = 25
+# DATA MATCH wr_byte = 6a rd_byte = 6a
+# DATA MATCH wr_byte = 83 rd_byte = 83
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 34 rd_byte = 34
+# DATA MATCH wr_byte = 6b rd_byte = 6b
+# DATA MATCH wr_byte = 3f rd_byte = 3f
+# DATA MATCH wr_byte = 56 rd_byte = 56
+# DATA MATCH wr_byte = a6 rd_byte = a6
+# DATA MATCH wr_byte = 98 rd_byte = 98
+# DATA MATCH wr_byte = 8c rd_byte = 8c
+# DATA MATCH wr_byte = bb rd_byte = bb
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 7d rd_byte = 7d
+# DATA MATCH wr_byte = e6 rd_byte = e6
+# DATA MATCH wr_byte = cf rd_byte = cf
+# DATA MATCH wr_byte = 36 rd_byte = 36
+# DATA MATCH wr_byte = 02 rd_byte = 02
+# DATA MATCH wr_byte = 25 rd_byte = 25
+# DATA MATCH wr_byte = 1f rd_byte = 1f
+# DATA MATCH wr_byte = e4 rd_byte = e4
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 100002a0
+# rd_data_q[0] = 463eb53f7a2dbf1a
+# rd_data_q[1] = ac82b2962d33a084
+# rd_data_q[2] = 5e0505c1d83bb3b7
+# rd_data_q[3] = 265f17fa841ea029
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 200002a0
+# wr_data_q[0] = 463eb53f7a2dbf1a
+# wr_data_q[1] = ac82b2962d33a084
+# wr_data_q[2] = 5e0505c1d83bb3b7
+# wr_data_q[3] = 265f17fa841ea029
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 1a rd_byte = 1a
+# DATA MATCH wr_byte = bf rd_byte = bf
+# DATA MATCH wr_byte = 2d rd_byte = 2d
+# DATA MATCH wr_byte = 7a rd_byte = 7a
+# DATA MATCH wr_byte = 3f rd_byte = 3f
+# DATA MATCH wr_byte = b5 rd_byte = b5
+# DATA MATCH wr_byte = 3e rd_byte = 3e
+# DATA MATCH wr_byte = 46 rd_byte = 46
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 84 rd_byte = 84
+# DATA MATCH wr_byte = a0 rd_byte = a0
+# DATA MATCH wr_byte = 33 rd_byte = 33
+# DATA MATCH wr_byte = 2d rd_byte = 2d
+# DATA MATCH wr_byte = 96 rd_byte = 96
+# DATA MATCH wr_byte = b2 rd_byte = b2
+# DATA MATCH wr_byte = 82 rd_byte = 82
+# DATA MATCH wr_byte = ac rd_byte = ac
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = b7 rd_byte = b7
+# DATA MATCH wr_byte = b3 rd_byte = b3
+# DATA MATCH wr_byte = 3b rd_byte = 3b
+# DATA MATCH wr_byte = d8 rd_byte = d8
+# DATA MATCH wr_byte = c1 rd_byte = c1
+# DATA MATCH wr_byte = 05 rd_byte = 05
+# DATA MATCH wr_byte = 05 rd_byte = 05
+# DATA MATCH wr_byte = 5e rd_byte = 5e
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 29 rd_byte = 29
+# DATA MATCH wr_byte = a0 rd_byte = a0
+# DATA MATCH wr_byte = 1e rd_byte = 1e
+# DATA MATCH wr_byte = 84 rd_byte = 84
+# DATA MATCH wr_byte = fa rd_byte = fa
+# DATA MATCH wr_byte = 17 rd_byte = 17
+# DATA MATCH wr_byte = 5f rd_byte = 5f
+# DATA MATCH wr_byte = 26 rd_byte = 26
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 100002c0
+# rd_data_q[0] = 4eaad3faba3693d7
+# rd_data_q[1] = 9f81a2fb855c3338
+# rd_data_q[2] = 62fc6db56ee9aa46
+# rd_data_q[3] = 62b59e637fb8a37b
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 200002c0
+# wr_data_q[0] = 4eaad3faba3693d7
+# wr_data_q[1] = 9f81a2fb855c3338
+# wr_data_q[2] = 62fc6db56ee9aa46
+# wr_data_q[3] = 62b59e637fb8a37b
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = d7 rd_byte = d7
+# DATA MATCH wr_byte = 93 rd_byte = 93
+# DATA MATCH wr_byte = 36 rd_byte = 36
+# DATA MATCH wr_byte = ba rd_byte = ba
+# DATA MATCH wr_byte = fa rd_byte = fa
+# DATA MATCH wr_byte = d3 rd_byte = d3
+# DATA MATCH wr_byte = aa rd_byte = aa
+# DATA MATCH wr_byte = 4e rd_byte = 4e
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 38 rd_byte = 38
+# DATA MATCH wr_byte = 33 rd_byte = 33
+# DATA MATCH wr_byte = 5c rd_byte = 5c
+# DATA MATCH wr_byte = 85 rd_byte = 85
+# DATA MATCH wr_byte = fb rd_byte = fb
+# DATA MATCH wr_byte = a2 rd_byte = a2
+# DATA MATCH wr_byte = 81 rd_byte = 81
+# DATA MATCH wr_byte = 9f rd_byte = 9f
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 46 rd_byte = 46
+# DATA MATCH wr_byte = aa rd_byte = aa
+# DATA MATCH wr_byte = e9 rd_byte = e9
+# DATA MATCH wr_byte = 6e rd_byte = 6e
+# DATA MATCH wr_byte = b5 rd_byte = b5
+# DATA MATCH wr_byte = 6d rd_byte = 6d
+# DATA MATCH wr_byte = fc rd_byte = fc
+# DATA MATCH wr_byte = 62 rd_byte = 62
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 7b rd_byte = 7b
+# DATA MATCH wr_byte = a3 rd_byte = a3
+# DATA MATCH wr_byte = b8 rd_byte = b8
+# DATA MATCH wr_byte = 7f rd_byte = 7f
+# DATA MATCH wr_byte = 63 rd_byte = 63
+# DATA MATCH wr_byte = 9e rd_byte = 9e
+# DATA MATCH wr_byte = b5 rd_byte = b5
+# DATA MATCH wr_byte = 62 rd_byte = 62
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 100002e0
+# rd_data_q[0] = e7c51dbe402246d0
+# rd_data_q[1] = bbc65600bbff3dc0
+# rd_data_q[2] = 28d231e17baab242
+# rd_data_q[3] = f782179d87fd4dd1
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 200002e0
+# wr_data_q[0] = e7c51dbe402246d0
+# wr_data_q[1] = bbc65600bbff3dc0
+# wr_data_q[2] = 28d231e17baab242
+# wr_data_q[3] = f782179d87fd4dd1
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = d0 rd_byte = d0
+# DATA MATCH wr_byte = 46 rd_byte = 46
+# DATA MATCH wr_byte = 22 rd_byte = 22
+# DATA MATCH wr_byte = 40 rd_byte = 40
+# DATA MATCH wr_byte = be rd_byte = be
+# DATA MATCH wr_byte = 1d rd_byte = 1d
+# DATA MATCH wr_byte = c5 rd_byte = c5
+# DATA MATCH wr_byte = e7 rd_byte = e7
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = c0 rd_byte = c0
+# DATA MATCH wr_byte = 3d rd_byte = 3d
+# DATA MATCH wr_byte = ff rd_byte = ff
+# DATA MATCH wr_byte = bb rd_byte = bb
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 56 rd_byte = 56
+# DATA MATCH wr_byte = c6 rd_byte = c6
+# DATA MATCH wr_byte = bb rd_byte = bb
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 42 rd_byte = 42
+# DATA MATCH wr_byte = b2 rd_byte = b2
+# DATA MATCH wr_byte = aa rd_byte = aa
+# DATA MATCH wr_byte = 7b rd_byte = 7b
+# DATA MATCH wr_byte = e1 rd_byte = e1
+# DATA MATCH wr_byte = 31 rd_byte = 31
+# DATA MATCH wr_byte = d2 rd_byte = d2
+# DATA MATCH wr_byte = 28 rd_byte = 28
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = d1 rd_byte = d1
+# DATA MATCH wr_byte = 4d rd_byte = 4d
+# DATA MATCH wr_byte = fd rd_byte = fd
+# DATA MATCH wr_byte = 87 rd_byte = 87
+# DATA MATCH wr_byte = 9d rd_byte = 9d
+# DATA MATCH wr_byte = 17 rd_byte = 17
+# DATA MATCH wr_byte = 82 rd_byte = 82
+# DATA MATCH wr_byte = f7 rd_byte = f7
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 30000010
+# rd_data_q[0] = 2000040010000400
+# rd_data_q[1] = 3000002000000100
+# rd_len = 1
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000400
+# rd_data_q[0] = bf4742050d1fc21e
+# rd_data_q[1] = ea80ec49752a7fc5
+# rd_data_q[2] = 04590d4376989015
+# rd_data_q[3] = d56d112c1a439d87
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000400
+# wr_data_q[0] = bf4742050d1fc21e
+# wr_data_q[1] = ea80ec49752a7fc5
+# wr_data_q[2] = 04590d4376989015
+# wr_data_q[3] = d56d112c1a439d87
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# ERROR DATA MISMATCH wr_byte = 1e rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = c2 rd_byte = 04
+# ERROR DATA MISMATCH wr_byte = 1f rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 0d rd_byte = 10
+# ERROR DATA MISMATCH wr_byte = 05 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 42 rd_byte = 04
+# ERROR DATA MISMATCH wr_byte = 47 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = bf rd_byte = 20
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = c5 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 7f rd_byte = 01
+# ERROR DATA MISMATCH wr_byte = 2a rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 75 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 49 rd_byte = 20
+# ERROR DATA MISMATCH wr_byte = ec rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 80 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = ea rd_byte = 30
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 15 rd_byte = 1e
+# ERROR DATA MISMATCH wr_byte = 90 rd_byte = c2
+# ERROR DATA MISMATCH wr_byte = 98 rd_byte = 1f
+# ERROR DATA MISMATCH wr_byte = 76 rd_byte = 0d
+# ERROR DATA MISMATCH wr_byte = 43 rd_byte = 05
+# ERROR DATA MISMATCH wr_byte = 0d rd_byte = 42
+# ERROR DATA MISMATCH wr_byte = 59 rd_byte = 47
+# ERROR DATA MISMATCH wr_byte = 04 rd_byte = bf
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 87 rd_byte = c5
+# ERROR DATA MISMATCH wr_byte = 9d rd_byte = 7f
+# ERROR DATA MISMATCH wr_byte = 43 rd_byte = 2a
+# ERROR DATA MISMATCH wr_byte = 1a rd_byte = 75
+# ERROR DATA MISMATCH wr_byte = 2c rd_byte = 49
+# ERROR DATA MISMATCH wr_byte = 11 rd_byte = ec
+# ERROR DATA MISMATCH wr_byte = 6d rd_byte = 80
+# ERROR DATA MISMATCH wr_byte = d5 rd_byte = ea
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000420
+# rd_data_q[0] = a8d3e0bfeb85d116
+# rd_data_q[1] = 4727e334f237d63b
+# rd_data_q[2] = f9810545bab3d3ef
+# rd_data_q[3] = 8a7baf2c4ad273ab
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000420
+# wr_data_q[0] = a8d3e0bfeb85d116
+# wr_data_q[1] = 4727e334f237d63b
+# wr_data_q[2] = f9810545bab3d3ef
+# wr_data_q[3] = 8a7baf2c4ad273ab
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 16 rd_byte = 16
+# DATA MATCH wr_byte = d1 rd_byte = d1
+# DATA MATCH wr_byte = 85 rd_byte = 85
+# DATA MATCH wr_byte = eb rd_byte = eb
+# DATA MATCH wr_byte = bf rd_byte = bf
+# DATA MATCH wr_byte = e0 rd_byte = e0
+# DATA MATCH wr_byte = d3 rd_byte = d3
+# DATA MATCH wr_byte = a8 rd_byte = a8
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 3b rd_byte = 3b
+# DATA MATCH wr_byte = d6 rd_byte = d6
+# DATA MATCH wr_byte = 37 rd_byte = 37
+# DATA MATCH wr_byte = f2 rd_byte = f2
+# DATA MATCH wr_byte = 34 rd_byte = 34
+# DATA MATCH wr_byte = e3 rd_byte = e3
+# DATA MATCH wr_byte = 27 rd_byte = 27
+# DATA MATCH wr_byte = 47 rd_byte = 47
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = ef rd_byte = ef
+# DATA MATCH wr_byte = d3 rd_byte = d3
+# DATA MATCH wr_byte = b3 rd_byte = b3
+# DATA MATCH wr_byte = ba rd_byte = ba
+# DATA MATCH wr_byte = 45 rd_byte = 45
+# DATA MATCH wr_byte = 05 rd_byte = 05
+# DATA MATCH wr_byte = 81 rd_byte = 81
+# DATA MATCH wr_byte = f9 rd_byte = f9
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = ab rd_byte = ab
+# DATA MATCH wr_byte = 73 rd_byte = 73
+# DATA MATCH wr_byte = d2 rd_byte = d2
+# DATA MATCH wr_byte = 4a rd_byte = 4a
+# DATA MATCH wr_byte = 2c rd_byte = 2c
+# DATA MATCH wr_byte = af rd_byte = af
+# DATA MATCH wr_byte = 7b rd_byte = 7b
+# DATA MATCH wr_byte = 8a rd_byte = 8a
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000440
+# rd_data_q[0] = 432fcaa22eede06a
+# rd_data_q[1] = ec35bfe06edfc3a5
+# rd_data_q[2] = d1a879a094004655
+# rd_data_q[3] = b920601ca92b11f4
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000440
+# wr_data_q[0] = 432fcaa22eede06a
+# wr_data_q[1] = ec35bfe06edfc3a5
+# wr_data_q[2] = d1a879a094004655
+# wr_data_q[3] = b920601ca92b11f4
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 6a rd_byte = 6a
+# DATA MATCH wr_byte = e0 rd_byte = e0
+# DATA MATCH wr_byte = ed rd_byte = ed
+# DATA MATCH wr_byte = 2e rd_byte = 2e
+# DATA MATCH wr_byte = a2 rd_byte = a2
+# DATA MATCH wr_byte = ca rd_byte = ca
+# DATA MATCH wr_byte = 2f rd_byte = 2f
+# DATA MATCH wr_byte = 43 rd_byte = 43
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = a5 rd_byte = a5
+# DATA MATCH wr_byte = c3 rd_byte = c3
+# DATA MATCH wr_byte = df rd_byte = df
+# DATA MATCH wr_byte = 6e rd_byte = 6e
+# DATA MATCH wr_byte = e0 rd_byte = e0
+# DATA MATCH wr_byte = bf rd_byte = bf
+# DATA MATCH wr_byte = 35 rd_byte = 35
+# DATA MATCH wr_byte = ec rd_byte = ec
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 55 rd_byte = 55
+# DATA MATCH wr_byte = 46 rd_byte = 46
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 94 rd_byte = 94
+# DATA MATCH wr_byte = a0 rd_byte = a0
+# DATA MATCH wr_byte = 79 rd_byte = 79
+# DATA MATCH wr_byte = a8 rd_byte = a8
+# DATA MATCH wr_byte = d1 rd_byte = d1
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = f4 rd_byte = f4
+# DATA MATCH wr_byte = 11 rd_byte = 11
+# DATA MATCH wr_byte = 2b rd_byte = 2b
+# DATA MATCH wr_byte = a9 rd_byte = a9
+# DATA MATCH wr_byte = 1c rd_byte = 1c
+# DATA MATCH wr_byte = 60 rd_byte = 60
+# DATA MATCH wr_byte = 20 rd_byte = 20
+# DATA MATCH wr_byte = b9 rd_byte = b9
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000460
+# rd_data_q[0] = efb85f0d37b84f7b
+# rd_data_q[1] = 3c09deac4781a964
+# rd_data_q[2] = ea2dc8b363e048a8
+# rd_data_q[3] = c1bc855c95aed6c1
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000460
+# wr_data_q[0] = efb85f0d37b84f7b
+# wr_data_q[1] = 3c09deac4781a964
+# wr_data_q[2] = ea2dc8b363e048a8
+# wr_data_q[3] = c1bc855c95aed6c1
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 7b rd_byte = 7b
+# DATA MATCH wr_byte = 4f rd_byte = 4f
+# DATA MATCH wr_byte = b8 rd_byte = b8
+# DATA MATCH wr_byte = 37 rd_byte = 37
+# DATA MATCH wr_byte = 0d rd_byte = 0d
+# DATA MATCH wr_byte = 5f rd_byte = 5f
+# DATA MATCH wr_byte = b8 rd_byte = b8
+# DATA MATCH wr_byte = ef rd_byte = ef
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 64 rd_byte = 64
+# DATA MATCH wr_byte = a9 rd_byte = a9
+# DATA MATCH wr_byte = 81 rd_byte = 81
+# DATA MATCH wr_byte = 47 rd_byte = 47
+# DATA MATCH wr_byte = ac rd_byte = ac
+# DATA MATCH wr_byte = de rd_byte = de
+# DATA MATCH wr_byte = 09 rd_byte = 09
+# DATA MATCH wr_byte = 3c rd_byte = 3c
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = a8 rd_byte = a8
+# DATA MATCH wr_byte = 48 rd_byte = 48
+# DATA MATCH wr_byte = e0 rd_byte = e0
+# DATA MATCH wr_byte = 63 rd_byte = 63
+# DATA MATCH wr_byte = b3 rd_byte = b3
+# DATA MATCH wr_byte = c8 rd_byte = c8
+# DATA MATCH wr_byte = 2d rd_byte = 2d
+# DATA MATCH wr_byte = ea rd_byte = ea
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = c1 rd_byte = c1
+# DATA MATCH wr_byte = d6 rd_byte = d6
+# DATA MATCH wr_byte = ae rd_byte = ae
+# DATA MATCH wr_byte = 95 rd_byte = 95
+# DATA MATCH wr_byte = 5c rd_byte = 5c
+# DATA MATCH wr_byte = 85 rd_byte = 85
+# DATA MATCH wr_byte = bc rd_byte = bc
+# DATA MATCH wr_byte = c1 rd_byte = c1
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000480
+# rd_data_q[0] = 0dd1006065457da8
+# rd_data_q[1] = 9505a1f9de7ee6d7
+# rd_data_q[2] = a47152df88b33a48
+# rd_data_q[3] = 03af7d4e6ebd2373
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000480
+# wr_data_q[0] = 0dd1006065457da8
+# wr_data_q[1] = 9505a1f9de7ee6d7
+# wr_data_q[2] = a47152df88b33a48
+# wr_data_q[3] = 03af7d4e6ebd2373
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = a8 rd_byte = a8
+# DATA MATCH wr_byte = 7d rd_byte = 7d
+# DATA MATCH wr_byte = 45 rd_byte = 45
+# DATA MATCH wr_byte = 65 rd_byte = 65
+# DATA MATCH wr_byte = 60 rd_byte = 60
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = d1 rd_byte = d1
+# DATA MATCH wr_byte = 0d rd_byte = 0d
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = d7 rd_byte = d7
+# DATA MATCH wr_byte = e6 rd_byte = e6
+# DATA MATCH wr_byte = 7e rd_byte = 7e
+# DATA MATCH wr_byte = de rd_byte = de
+# DATA MATCH wr_byte = f9 rd_byte = f9
+# DATA MATCH wr_byte = a1 rd_byte = a1
+# DATA MATCH wr_byte = 05 rd_byte = 05
+# DATA MATCH wr_byte = 95 rd_byte = 95
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 48 rd_byte = 48
+# DATA MATCH wr_byte = 3a rd_byte = 3a
+# DATA MATCH wr_byte = b3 rd_byte = b3
+# DATA MATCH wr_byte = 88 rd_byte = 88
+# DATA MATCH wr_byte = df rd_byte = df
+# DATA MATCH wr_byte = 52 rd_byte = 52
+# DATA MATCH wr_byte = 71 rd_byte = 71
+# DATA MATCH wr_byte = a4 rd_byte = a4
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 73 rd_byte = 73
+# DATA MATCH wr_byte = 23 rd_byte = 23
+# DATA MATCH wr_byte = bd rd_byte = bd
+# DATA MATCH wr_byte = 6e rd_byte = 6e
+# DATA MATCH wr_byte = 4e rd_byte = 4e
+# DATA MATCH wr_byte = 7d rd_byte = 7d
+# DATA MATCH wr_byte = af rd_byte = af
+# DATA MATCH wr_byte = 03 rd_byte = 03
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 100004a0
+# rd_data_q[0] = fcd80cfd19f5cb52
+# rd_data_q[1] = 588667269236da60
+# rd_data_q[2] = 60d3788463d87b94
+# rd_data_q[3] = df58aa4f95b65769
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 200004a0
+# wr_data_q[0] = fcd80cfd19f5cb52
+# wr_data_q[1] = 588667269236da60
+# wr_data_q[2] = 60d3788463d87b94
+# wr_data_q[3] = df58aa4f95b65769
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 52 rd_byte = 52
+# DATA MATCH wr_byte = cb rd_byte = cb
+# DATA MATCH wr_byte = f5 rd_byte = f5
+# DATA MATCH wr_byte = 19 rd_byte = 19
+# DATA MATCH wr_byte = fd rd_byte = fd
+# DATA MATCH wr_byte = 0c rd_byte = 0c
+# DATA MATCH wr_byte = d8 rd_byte = d8
+# DATA MATCH wr_byte = fc rd_byte = fc
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 60 rd_byte = 60
+# DATA MATCH wr_byte = da rd_byte = da
+# DATA MATCH wr_byte = 36 rd_byte = 36
+# DATA MATCH wr_byte = 92 rd_byte = 92
+# DATA MATCH wr_byte = 26 rd_byte = 26
+# DATA MATCH wr_byte = 67 rd_byte = 67
+# DATA MATCH wr_byte = 86 rd_byte = 86
+# DATA MATCH wr_byte = 58 rd_byte = 58
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 94 rd_byte = 94
+# DATA MATCH wr_byte = 7b rd_byte = 7b
+# DATA MATCH wr_byte = d8 rd_byte = d8
+# DATA MATCH wr_byte = 63 rd_byte = 63
+# DATA MATCH wr_byte = 84 rd_byte = 84
+# DATA MATCH wr_byte = 78 rd_byte = 78
+# DATA MATCH wr_byte = d3 rd_byte = d3
+# DATA MATCH wr_byte = 60 rd_byte = 60
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 69 rd_byte = 69
+# DATA MATCH wr_byte = 57 rd_byte = 57
+# DATA MATCH wr_byte = b6 rd_byte = b6
+# DATA MATCH wr_byte = 95 rd_byte = 95
+# DATA MATCH wr_byte = 4f rd_byte = 4f
+# DATA MATCH wr_byte = aa rd_byte = aa
+# DATA MATCH wr_byte = 58 rd_byte = 58
+# DATA MATCH wr_byte = df rd_byte = df
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 100004c0
+# rd_data_q[0] = 1d2ee442b22898d9
+# rd_data_q[1] = e4ef9194c408e75c
+# rd_data_q[2] = 7eb49a0153b06ced
+# rd_data_q[3] = b41769c26af9d304
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 200004c0
+# wr_data_q[0] = 1d2ee442b22898d9
+# wr_data_q[1] = e4ef9194c408e75c
+# wr_data_q[2] = 7eb49a0153b06ced
+# wr_data_q[3] = b41769c26af9d304
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = d9 rd_byte = d9
+# DATA MATCH wr_byte = 98 rd_byte = 98
+# DATA MATCH wr_byte = 28 rd_byte = 28
+# DATA MATCH wr_byte = b2 rd_byte = b2
+# DATA MATCH wr_byte = 42 rd_byte = 42
+# DATA MATCH wr_byte = e4 rd_byte = e4
+# DATA MATCH wr_byte = 2e rd_byte = 2e
+# DATA MATCH wr_byte = 1d rd_byte = 1d
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 5c rd_byte = 5c
+# DATA MATCH wr_byte = e7 rd_byte = e7
+# DATA MATCH wr_byte = 08 rd_byte = 08
+# DATA MATCH wr_byte = c4 rd_byte = c4
+# DATA MATCH wr_byte = 94 rd_byte = 94
+# DATA MATCH wr_byte = 91 rd_byte = 91
+# DATA MATCH wr_byte = ef rd_byte = ef
+# DATA MATCH wr_byte = e4 rd_byte = e4
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = ed rd_byte = ed
+# DATA MATCH wr_byte = 6c rd_byte = 6c
+# DATA MATCH wr_byte = b0 rd_byte = b0
+# DATA MATCH wr_byte = 53 rd_byte = 53
+# DATA MATCH wr_byte = 01 rd_byte = 01
+# DATA MATCH wr_byte = 9a rd_byte = 9a
+# DATA MATCH wr_byte = b4 rd_byte = b4
+# DATA MATCH wr_byte = 7e rd_byte = 7e
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 04 rd_byte = 04
+# DATA MATCH wr_byte = d3 rd_byte = d3
+# DATA MATCH wr_byte = f9 rd_byte = f9
+# DATA MATCH wr_byte = 6a rd_byte = 6a
+# DATA MATCH wr_byte = c2 rd_byte = c2
+# DATA MATCH wr_byte = 69 rd_byte = 69
+# DATA MATCH wr_byte = 17 rd_byte = 17
+# DATA MATCH wr_byte = b4 rd_byte = b4
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 100004e0
+# rd_data_q[0] = cf32e88f913d459c
+# rd_data_q[1] = 9a9d7ea3d3556a2e
+# rd_data_q[2] = 5d7318b7b99b6db3
+# rd_data_q[3] = e34d1d054ce7f7a4
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 200004e0
+# wr_data_q[0] = cf32e88f913d459c
+# wr_data_q[1] = 9a9d7ea3d3556a2e
+# wr_data_q[2] = 5d7318b7b99b6db3
+# wr_data_q[3] = e34d1d054ce7f7a4
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 9c rd_byte = 9c
+# DATA MATCH wr_byte = 45 rd_byte = 45
+# DATA MATCH wr_byte = 3d rd_byte = 3d
+# DATA MATCH wr_byte = 91 rd_byte = 91
+# DATA MATCH wr_byte = 8f rd_byte = 8f
+# DATA MATCH wr_byte = e8 rd_byte = e8
+# DATA MATCH wr_byte = 32 rd_byte = 32
+# DATA MATCH wr_byte = cf rd_byte = cf
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 2e rd_byte = 2e
+# DATA MATCH wr_byte = 6a rd_byte = 6a
+# DATA MATCH wr_byte = 55 rd_byte = 55
+# DATA MATCH wr_byte = d3 rd_byte = d3
+# DATA MATCH wr_byte = a3 rd_byte = a3
+# DATA MATCH wr_byte = 7e rd_byte = 7e
+# DATA MATCH wr_byte = 9d rd_byte = 9d
+# DATA MATCH wr_byte = 9a rd_byte = 9a
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = b3 rd_byte = b3
+# DATA MATCH wr_byte = 6d rd_byte = 6d
+# DATA MATCH wr_byte = 9b rd_byte = 9b
+# DATA MATCH wr_byte = b9 rd_byte = b9
+# DATA MATCH wr_byte = b7 rd_byte = b7
+# DATA MATCH wr_byte = 18 rd_byte = 18
+# DATA MATCH wr_byte = 73 rd_byte = 73
+# DATA MATCH wr_byte = 5d rd_byte = 5d
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = a4 rd_byte = a4
+# DATA MATCH wr_byte = f7 rd_byte = f7
+# DATA MATCH wr_byte = e7 rd_byte = e7
+# DATA MATCH wr_byte = 4c rd_byte = 4c
+# DATA MATCH wr_byte = 05 rd_byte = 05
+# DATA MATCH wr_byte = 1d rd_byte = 1d
+# DATA MATCH wr_byte = 4d rd_byte = 4d
+# DATA MATCH wr_byte = e3 rd_byte = e3
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 30000020
+# rd_data_q[0] = 2000060010000600
+# rd_data_q[1] = 3000003000000080
+# rd_len = 1
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000600
+# rd_data_q[0] = 8ee991ac84b08700
+# rd_data_q[1] = 2f0c1a423275f2c9
+# rd_data_q[2] = 1f307aeed9fd119b
+# rd_data_q[3] = 26ee1cea84238df0
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000600
+# wr_data_q[0] = 8ee991ac84b08700
+# wr_data_q[1] = 2f0c1a423275f2c9
+# wr_data_q[2] = 1f307aeed9fd119b
+# wr_data_q[3] = 26ee1cea84238df0
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 87 rd_byte = 06
+# ERROR DATA MISMATCH wr_byte = b0 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 84 rd_byte = 10
+# ERROR DATA MISMATCH wr_byte = ac rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 91 rd_byte = 06
+# ERROR DATA MISMATCH wr_byte = e9 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 8e rd_byte = 20
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = c9 rd_byte = 80
+# ERROR DATA MISMATCH wr_byte = f2 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 75 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 32 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 42 rd_byte = 30
+# ERROR DATA MISMATCH wr_byte = 1a rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 0c rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 2f rd_byte = 30
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 9b rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 11 rd_byte = 87
+# ERROR DATA MISMATCH wr_byte = fd rd_byte = b0
+# ERROR DATA MISMATCH wr_byte = d9 rd_byte = 84
+# ERROR DATA MISMATCH wr_byte = ee rd_byte = ac
+# ERROR DATA MISMATCH wr_byte = 7a rd_byte = 91
+# ERROR DATA MISMATCH wr_byte = 30 rd_byte = e9
+# ERROR DATA MISMATCH wr_byte = 1f rd_byte = 8e
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = f0 rd_byte = c9
+# ERROR DATA MISMATCH wr_byte = 8d rd_byte = f2
+# ERROR DATA MISMATCH wr_byte = 23 rd_byte = 75
+# ERROR DATA MISMATCH wr_byte = 84 rd_byte = 32
+# ERROR DATA MISMATCH wr_byte = ea rd_byte = 42
+# ERROR DATA MISMATCH wr_byte = 1c rd_byte = 1a
+# ERROR DATA MISMATCH wr_byte = ee rd_byte = 0c
+# ERROR DATA MISMATCH wr_byte = 26 rd_byte = 2f
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000620
+# rd_data_q[0] = 905fe9efbb3f8fc1
+# rd_data_q[1] = 251d4b36892cc288
+# rd_data_q[2] = 2e412b7a77424e3e
+# rd_data_q[3] = 7566f3f38e5bdc5d
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000620
+# wr_data_q[0] = 905fe9efbb3f8fc1
+# wr_data_q[1] = 251d4b36892cc288
+# wr_data_q[2] = 2e412b7a77424e3e
+# wr_data_q[3] = 7566f3f38e5bdc5d
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = c1 rd_byte = c1
+# DATA MATCH wr_byte = 8f rd_byte = 8f
+# DATA MATCH wr_byte = 3f rd_byte = 3f
+# DATA MATCH wr_byte = bb rd_byte = bb
+# DATA MATCH wr_byte = ef rd_byte = ef
+# DATA MATCH wr_byte = e9 rd_byte = e9
+# DATA MATCH wr_byte = 5f rd_byte = 5f
+# DATA MATCH wr_byte = 90 rd_byte = 90
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 88 rd_byte = 88
+# DATA MATCH wr_byte = c2 rd_byte = c2
+# DATA MATCH wr_byte = 2c rd_byte = 2c
+# DATA MATCH wr_byte = 89 rd_byte = 89
+# DATA MATCH wr_byte = 36 rd_byte = 36
+# DATA MATCH wr_byte = 4b rd_byte = 4b
+# DATA MATCH wr_byte = 1d rd_byte = 1d
+# DATA MATCH wr_byte = 25 rd_byte = 25
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 3e rd_byte = 3e
+# DATA MATCH wr_byte = 4e rd_byte = 4e
+# DATA MATCH wr_byte = 42 rd_byte = 42
+# DATA MATCH wr_byte = 77 rd_byte = 77
+# DATA MATCH wr_byte = 7a rd_byte = 7a
+# DATA MATCH wr_byte = 2b rd_byte = 2b
+# DATA MATCH wr_byte = 41 rd_byte = 41
+# DATA MATCH wr_byte = 2e rd_byte = 2e
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 5d rd_byte = 5d
+# DATA MATCH wr_byte = dc rd_byte = dc
+# DATA MATCH wr_byte = 5b rd_byte = 5b
+# DATA MATCH wr_byte = 8e rd_byte = 8e
+# DATA MATCH wr_byte = f3 rd_byte = f3
+# DATA MATCH wr_byte = f3 rd_byte = f3
+# DATA MATCH wr_byte = 66 rd_byte = 66
+# DATA MATCH wr_byte = 75 rd_byte = 75
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000640
+# rd_data_q[0] = 44a48c5b58d198df
+# rd_data_q[1] = 649460ecde7d293c
+# rd_data_q[2] = 1f52585eaab9ba6e
+# rd_data_q[3] = 3d75deecc65ef4ef
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000640
+# wr_data_q[0] = 44a48c5b58d198df
+# wr_data_q[1] = 649460ecde7d293c
+# wr_data_q[2] = 1f52585eaab9ba6e
+# wr_data_q[3] = 3d75deecc65ef4ef
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = df rd_byte = df
+# DATA MATCH wr_byte = 98 rd_byte = 98
+# DATA MATCH wr_byte = d1 rd_byte = d1
+# DATA MATCH wr_byte = 58 rd_byte = 58
+# DATA MATCH wr_byte = 5b rd_byte = 5b
+# DATA MATCH wr_byte = 8c rd_byte = 8c
+# DATA MATCH wr_byte = a4 rd_byte = a4
+# DATA MATCH wr_byte = 44 rd_byte = 44
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 3c rd_byte = 3c
+# DATA MATCH wr_byte = 29 rd_byte = 29
+# DATA MATCH wr_byte = 7d rd_byte = 7d
+# DATA MATCH wr_byte = de rd_byte = de
+# DATA MATCH wr_byte = ec rd_byte = ec
+# DATA MATCH wr_byte = 60 rd_byte = 60
+# DATA MATCH wr_byte = 94 rd_byte = 94
+# DATA MATCH wr_byte = 64 rd_byte = 64
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 6e rd_byte = 6e
+# DATA MATCH wr_byte = ba rd_byte = ba
+# DATA MATCH wr_byte = b9 rd_byte = b9
+# DATA MATCH wr_byte = aa rd_byte = aa
+# DATA MATCH wr_byte = 5e rd_byte = 5e
+# DATA MATCH wr_byte = 58 rd_byte = 58
+# DATA MATCH wr_byte = 52 rd_byte = 52
+# DATA MATCH wr_byte = 1f rd_byte = 1f
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = ef rd_byte = ef
+# DATA MATCH wr_byte = f4 rd_byte = f4
+# DATA MATCH wr_byte = 5e rd_byte = 5e
+# DATA MATCH wr_byte = c6 rd_byte = c6
+# DATA MATCH wr_byte = ec rd_byte = ec
+# DATA MATCH wr_byte = de rd_byte = de
+# DATA MATCH wr_byte = 75 rd_byte = 75
+# DATA MATCH wr_byte = 3d rd_byte = 3d
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000660
+# rd_data_q[0] = 0a17db50bac500b9
+# rd_data_q[1] = 4dd2b9c191c98844
+# rd_data_q[2] = 51c061fbd3c2b68b
+# rd_data_q[3] = df7a3c378b8b3206
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000660
+# wr_data_q[0] = 0a17db50bac500b9
+# wr_data_q[1] = 4dd2b9c191c98844
+# wr_data_q[2] = 51c061fbd3c2b68b
+# wr_data_q[3] = df7a3c378b8b3206
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = b9 rd_byte = b9
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = c5 rd_byte = c5
+# DATA MATCH wr_byte = ba rd_byte = ba
+# DATA MATCH wr_byte = 50 rd_byte = 50
+# DATA MATCH wr_byte = db rd_byte = db
+# DATA MATCH wr_byte = 17 rd_byte = 17
+# DATA MATCH wr_byte = 0a rd_byte = 0a
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 44 rd_byte = 44
+# DATA MATCH wr_byte = 88 rd_byte = 88
+# DATA MATCH wr_byte = c9 rd_byte = c9
+# DATA MATCH wr_byte = 91 rd_byte = 91
+# DATA MATCH wr_byte = c1 rd_byte = c1
+# DATA MATCH wr_byte = b9 rd_byte = b9
+# DATA MATCH wr_byte = d2 rd_byte = d2
+# DATA MATCH wr_byte = 4d rd_byte = 4d
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 8b rd_byte = 8b
+# DATA MATCH wr_byte = b6 rd_byte = b6
+# DATA MATCH wr_byte = c2 rd_byte = c2
+# DATA MATCH wr_byte = d3 rd_byte = d3
+# DATA MATCH wr_byte = fb rd_byte = fb
+# DATA MATCH wr_byte = 61 rd_byte = 61
+# DATA MATCH wr_byte = c0 rd_byte = c0
+# DATA MATCH wr_byte = 51 rd_byte = 51
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 06 rd_byte = 06
+# DATA MATCH wr_byte = 32 rd_byte = 32
+# DATA MATCH wr_byte = 8b rd_byte = 8b
+# DATA MATCH wr_byte = 8b rd_byte = 8b
+# DATA MATCH wr_byte = 37 rd_byte = 37
+# DATA MATCH wr_byte = 3c rd_byte = 3c
+# DATA MATCH wr_byte = 7a rd_byte = 7a
+# DATA MATCH wr_byte = df rd_byte = df
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 30000030
+# rd_data_q[0] = 2000080010000800
+# rd_data_q[1] = 0000000200000080
+# rd_len = 1
+# rd_size = 3
+# 
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000800
+# rd_data_q[0] = f42379ea93d9e379
+# rd_data_q[1] = 0b31dfd38758fd64
+# rd_data_q[2] = d19f7e31d5fb2ab9
+# rd_data_q[3] = 1007be40869b14f0
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000800
+# wr_data_q[0] = f42379ea93d9e379
+# wr_data_q[1] = 0b31dfd38758fd64
+# wr_data_q[2] = d19f7e31d5fb2ab9
+# wr_data_q[3] = 1007be40869b14f0
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# ERROR DATA MISMATCH wr_byte = 79 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = e3 rd_byte = 08
+# ERROR DATA MISMATCH wr_byte = d9 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 93 rd_byte = 10
+# ERROR DATA MISMATCH wr_byte = ea rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 79 rd_byte = 08
+# ERROR DATA MISMATCH wr_byte = 23 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = f4 rd_byte = 20
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 64 rd_byte = 80
+# ERROR DATA MISMATCH wr_byte = fd rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 58 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 87 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = d3 rd_byte = 02
+# ERROR DATA MISMATCH wr_byte = df rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 31 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = 0b rd_byte = 00
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = b9 rd_byte = 79
+# ERROR DATA MISMATCH wr_byte = 2a rd_byte = e3
+# ERROR DATA MISMATCH wr_byte = fb rd_byte = d9
+# ERROR DATA MISMATCH wr_byte = d5 rd_byte = 93
+# ERROR DATA MISMATCH wr_byte = 31 rd_byte = ea
+# ERROR DATA MISMATCH wr_byte = 7e rd_byte = 79
+# ERROR DATA MISMATCH wr_byte = 9f rd_byte = 23
+# ERROR DATA MISMATCH wr_byte = d1 rd_byte = f4
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# ERROR DATA MISMATCH wr_byte = f0 rd_byte = 64
+# ERROR DATA MISMATCH wr_byte = 14 rd_byte = fd
+# ERROR DATA MISMATCH wr_byte = 9b rd_byte = 58
+# ERROR DATA MISMATCH wr_byte = 86 rd_byte = 87
+# ERROR DATA MISMATCH wr_byte = 40 rd_byte = d3
+# ERROR DATA MISMATCH wr_byte = be rd_byte = df
+# ERROR DATA MISMATCH wr_byte = 07 rd_byte = 31
+# ERROR DATA MISMATCH wr_byte = 10 rd_byte = 0b
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000820
+# rd_data_q[0] = 10838ab72492e504
+# rd_data_q[1] = 9bab4ad1b8b9466d
+# rd_data_q[2] = fa9ae947cc696026
+# rd_data_q[3] = f8e9cf526a7ddda7
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000820
+# wr_data_q[0] = 10838ab72492e504
+# wr_data_q[1] = 9bab4ad1b8b9466d
+# wr_data_q[2] = fa9ae947cc696026
+# wr_data_q[3] = f8e9cf526a7ddda7
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 04 rd_byte = 04
+# DATA MATCH wr_byte = e5 rd_byte = e5
+# DATA MATCH wr_byte = 92 rd_byte = 92
+# DATA MATCH wr_byte = 24 rd_byte = 24
+# DATA MATCH wr_byte = b7 rd_byte = b7
+# DATA MATCH wr_byte = 8a rd_byte = 8a
+# DATA MATCH wr_byte = 83 rd_byte = 83
+# DATA MATCH wr_byte = 10 rd_byte = 10
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 6d rd_byte = 6d
+# DATA MATCH wr_byte = 46 rd_byte = 46
+# DATA MATCH wr_byte = b9 rd_byte = b9
+# DATA MATCH wr_byte = b8 rd_byte = b8
+# DATA MATCH wr_byte = d1 rd_byte = d1
+# DATA MATCH wr_byte = 4a rd_byte = 4a
+# DATA MATCH wr_byte = ab rd_byte = ab
+# DATA MATCH wr_byte = 9b rd_byte = 9b
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 26 rd_byte = 26
+# DATA MATCH wr_byte = 60 rd_byte = 60
+# DATA MATCH wr_byte = 69 rd_byte = 69
+# DATA MATCH wr_byte = cc rd_byte = cc
+# DATA MATCH wr_byte = 47 rd_byte = 47
+# DATA MATCH wr_byte = e9 rd_byte = e9
+# DATA MATCH wr_byte = 9a rd_byte = 9a
+# DATA MATCH wr_byte = fa rd_byte = fa
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = a7 rd_byte = a7
+# DATA MATCH wr_byte = dd rd_byte = dd
+# DATA MATCH wr_byte = 7d rd_byte = 7d
+# DATA MATCH wr_byte = 6a rd_byte = 6a
+# DATA MATCH wr_byte = 52 rd_byte = 52
+# DATA MATCH wr_byte = cf rd_byte = cf
+# DATA MATCH wr_byte = e9 rd_byte = e9
+# DATA MATCH wr_byte = f8 rd_byte = f8
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000840
+# rd_data_q[0] = ddb1e7ad1a4de7eb
+# rd_data_q[1] = 748c9990e7b3276a
+# rd_data_q[2] = 0593cfb5590ac61f
+# rd_data_q[3] = 5a61f3557b296e83
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000840
+# wr_data_q[0] = ddb1e7ad1a4de7eb
+# wr_data_q[1] = 748c9990e7b3276a
+# wr_data_q[2] = 0593cfb5590ac61f
+# wr_data_q[3] = 5a61f3557b296e83
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = eb rd_byte = eb
+# DATA MATCH wr_byte = e7 rd_byte = e7
+# DATA MATCH wr_byte = 4d rd_byte = 4d
+# DATA MATCH wr_byte = 1a rd_byte = 1a
+# DATA MATCH wr_byte = ad rd_byte = ad
+# DATA MATCH wr_byte = e7 rd_byte = e7
+# DATA MATCH wr_byte = b1 rd_byte = b1
+# DATA MATCH wr_byte = dd rd_byte = dd
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 6a rd_byte = 6a
+# DATA MATCH wr_byte = 27 rd_byte = 27
+# DATA MATCH wr_byte = b3 rd_byte = b3
+# DATA MATCH wr_byte = e7 rd_byte = e7
+# DATA MATCH wr_byte = 90 rd_byte = 90
+# DATA MATCH wr_byte = 99 rd_byte = 99
+# DATA MATCH wr_byte = 8c rd_byte = 8c
+# DATA MATCH wr_byte = 74 rd_byte = 74
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 1f rd_byte = 1f
+# DATA MATCH wr_byte = c6 rd_byte = c6
+# DATA MATCH wr_byte = 0a rd_byte = 0a
+# DATA MATCH wr_byte = 59 rd_byte = 59
+# DATA MATCH wr_byte = b5 rd_byte = b5
+# DATA MATCH wr_byte = cf rd_byte = cf
+# DATA MATCH wr_byte = 93 rd_byte = 93
+# DATA MATCH wr_byte = 05 rd_byte = 05
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 83 rd_byte = 83
+# DATA MATCH wr_byte = 6e rd_byte = 6e
+# DATA MATCH wr_byte = 29 rd_byte = 29
+# DATA MATCH wr_byte = 7b rd_byte = 7b
+# DATA MATCH wr_byte = 55 rd_byte = 55
+# DATA MATCH wr_byte = f3 rd_byte = f3
+# DATA MATCH wr_byte = 61 rd_byte = 61
+# DATA MATCH wr_byte = 5a rd_byte = 5a
+# DATA MATCH wr_byte = 00 rd_byte = 00
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000860
+# rd_data_q[0] = bc0eef2bd66b498f
+# rd_data_q[1] = f6332b6f73a9ffbc
+# rd_data_q[2] = 50ec91dbdc3dbb05
+# rd_data_q[3] = 95d08ba91a0026e3
+# rd_len = 3
+# rd_size = 3
+# 
+######### axi_tx: WRITE TX #########
+# wr_id = 0
+# wr_addr = 20000860
+# wr_data_q[0] = bc0eef2bd66b498f
+# wr_data_q[1] = f6332b6f73a9ffbc
+# wr_data_q[2] = 50ec91dbdc3dbb05
+# wr_data_q[3] = 95d08ba91a0026e3
+# strb_q = '{255, 255, 255, 255}
+# wr_len = 3
+# wr_size = 3
+# 
+#######size 36
+# DATA MATCH wr_byte = 8f rd_byte = 8f
+# DATA MATCH wr_byte = 49 rd_byte = 49
+# DATA MATCH wr_byte = 6b rd_byte = 6b
+# DATA MATCH wr_byte = d6 rd_byte = d6
+# DATA MATCH wr_byte = 2b rd_byte = 2b
+# DATA MATCH wr_byte = ef rd_byte = ef
+# DATA MATCH wr_byte = 0e rd_byte = 0e
+# DATA MATCH wr_byte = bc rd_byte = bc
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = bc rd_byte = bc
+# DATA MATCH wr_byte = ff rd_byte = ff
+# DATA MATCH wr_byte = a9 rd_byte = a9
+# DATA MATCH wr_byte = 73 rd_byte = 73
+# DATA MATCH wr_byte = 6f rd_byte = 6f
+# DATA MATCH wr_byte = 2b rd_byte = 2b
+# DATA MATCH wr_byte = 33 rd_byte = 33
+# DATA MATCH wr_byte = f6 rd_byte = f6
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 05 rd_byte = 05
+# DATA MATCH wr_byte = bb rd_byte = bb
+# DATA MATCH wr_byte = 3d rd_byte = 3d
+# DATA MATCH wr_byte = dc rd_byte = dc
+# DATA MATCH wr_byte = db rd_byte = db
+# DATA MATCH wr_byte = 91 rd_byte = 91
+# DATA MATCH wr_byte = ec rd_byte = ec
+# DATA MATCH wr_byte = 50 rd_byte = 50
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = e3 rd_byte = e3
+# DATA MATCH wr_byte = 26 rd_byte = 26
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# DATA MATCH wr_byte = 1a rd_byte = 1a
+# DATA MATCH wr_byte = a9 rd_byte = a9
+# DATA MATCH wr_byte = 8b rd_byte = 8b
+# DATA MATCH wr_byte = d0 rd_byte = d0
+# DATA MATCH wr_byte = 95 rd_byte = 95
+# DATA MATCH wr_byte = 00 rd_byte = 00
+# Total Transactions Generated : -1
+# Total Transactions Driven : 11
+# ERROR Count: 0
+# DATA MATCH: 913
+# DATA MISMATCH: 95
+# ** Note: $finish    : ../TOP/top.sv(182)
+#    Time: 2100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at ../TOP/top.sv line 182
+do run.do
+# 1736633735850265
+# 250111_141535
+# test_cmd_list
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 14:15:35 on Jan 11,2025
+# vlog -reportprogress 300 "+incdir+../../dma_axi64" "+incdir+../TOP" "+incdir+../AXI" "+incdir+../APB" "+incdir+../REG" "+incdir+../PERIPH" "+incdir+../REF" ../TOP/top.sv -l test_cmd_list250111_141535 
+# -- Compiling module top
+# -- Compiling module dma_axi64
+# -- Compiling module dma_axi64_apb_mux
+# -- Compiling module dma_axi64_core0
+# -- Compiling module dma_axi64_core0_arbiter
+# -- Compiling module dma_axi64_core0_axim_cmd
+# -- Compiling module dma_axi64_core0_axim_rd
+# -- Compiling module dma_axi64_core0_axim_rdata
+# -- Compiling module dma_axi64_core0_axim_resp
+# -- Compiling module dma_axi64_core0_axim_timeout
+# -- Compiling module dma_axi64_core0_axim_wdata
+# -- Compiling module dma_axi64_core0_axim_wr
+# -- Compiling module dma_axi64_core0_ch
+# -- Compiling module dma_axi64_core0_ch_calc
+# -- Compiling module dma_axi64_core0_ch_calc_addr
+# -- Compiling module dma_axi64_core0_ch_calc_joint
+# -- Compiling module dma_axi64_core0_ch_calc_size
+# -- Compiling module dma_axi64_core0_ch_empty
+# -- Compiling module dma_axi64_core0_ch_fifo
+# -- Compiling module dma_axi64_core0_ch_fifo_ctrl
+# -- Compiling module dma_axi64_core0_ch_fifo_ptr
+# -- Compiling module dma_axi64_core0_ch_offsets
+# -- Compiling module dma_axi64_core0_ch_outs
+# -- Compiling module dma_axi64_core0_ch_periph_mux
+# -- Compiling module dma_axi64_core0_ch_rd_slicer
+# -- Compiling module dma_axi64_core0_ch_reg
+# -- Compiling module dma_axi64_core0_ch_reg_size
+# -- Compiling module dma_axi64_core0_ch_remain
+# -- Compiling module dma_axi64_core0_ch_wr_slicer
+# -- Compiling module dma_axi64_core0_channels
+# -- Compiling module dma_axi64_core0_channels_apb_mux
+# -- Compiling module dma_axi64_core0_channels_mux
+# -- Compiling module dma_axi64_core0_ctrl
+# -- Compiling module dma_axi64_core0_top
+# -- Compiling module dma_axi64_core0_wdt
+# -- Compiling module dma_axi64_dual_core
+# -- Compiling module dma_axi64_reg
+# -- Compiling module dma_axi64_reg_core0
+# -- Compiling module prgen_delay
+# -- Compiling module prgen_demux8
+# -- Compiling module prgen_fifo
+# -- Compiling module prgen_joint_stall
+# -- Compiling module prgen_min2
+# -- Compiling module prgen_min3
+# -- Compiling module prgen_mux8
+# -- Compiling module prgen_or8
+# -- Compiling module prgen_rawstat
+# -- Compiling module prgen_scatter8_1
+# -- Compiling module prgen_stall
+# -- Compiling module prgen_swap32
+# -- Compiling module prgen_swap64
+# ** Error: (vlog-13069) ** while parsing file included at ../TOP/top.sv(20)
+# ** at ../TOP/dma_common.sv(75): near "end": syntax error, unexpected end.
+# -- Compiling interface apb_inf
+# -- Compiling interface axi_inf
+# -- Compiling interface periph_inf
+# -- Compiling module dma_ctrl_assertion
+# ** Warning: ../APB/apb_gen.sv(126): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(166): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(185): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(188): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(234): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(194): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(199): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(204): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(210): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(239): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(244): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(36): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(45): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(52): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(68): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(76): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(84): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(94): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(102): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(111): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(162): (vlog-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# End time: 14:15:36 on Jan 11,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 22
+# ** Error: /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+# Error in macro ./run.do line 6
+# /pkgs/mentor/questa/2024.2/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog  +incdir+../../dma_axi64 +incdir+../TOP +incdir+../AXI +incdir+../APB +incdir+../REG +incdir+../PERIPH +incdir+../REF ../TOP/top.sv -l $test_name..."

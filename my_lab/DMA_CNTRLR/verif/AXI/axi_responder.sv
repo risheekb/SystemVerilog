@@ -10,6 +10,44 @@ class axi_responder;
   bit [`SIZE_BITS-1:0]             arsize_t;
   virtual axi_inf.slave_mp vif;
   byte mem[int]; //memory for the slave responder
+  function void load_command();
+    {mem[`CMD1_ADDR+3],mem[`CMD1_ADDR+2],mem[`CMD1_ADDR+1],mem[`CMD1_ADDR+0]} = `CMD1_RD_START_ADDR;
+    {mem[`CMD1_ADDR+7],mem[`CMD1_ADDR+6],mem[`CMD1_ADDR+5],mem[`CMD1_ADDR+4]} = `CMD1_WR_START_ADDR;
+    {mem[`CMD1_ADDR+11],mem[`CMD1_ADDR+10],mem[`CMD1_ADDR+9],mem[`CMD1_ADDR+8]} = `CMD1_BUFFER_SIZE;
+    {mem[`CMD1_ADDR+15],mem[`CMD1_ADDR+14],mem[`CMD1_ADDR+13],mem[`CMD1_ADDR+12]} = {(`CMD2_ADDR >>4),2'b0,1'b0,1'b0};
+    $display("1st_32bits = %h",{mem[`CMD1_ADDR+3],mem[`CMD1_ADDR+2],mem[`CMD1_ADDR+1],mem[`CMD1_ADDR+0]});
+    $display("2nd_32bits = %h",{mem[`CMD1_ADDR+7],mem[`CMD1_ADDR+6],mem[`CMD1_ADDR+5],mem[`CMD1_ADDR+4]});
+    $display("3rd_32bits = %h",{mem[`CMD1_ADDR+11],mem[`CMD1_ADDR+10],mem[`CMD1_ADDR+9],mem[`CMD1_ADDR+8]});
+    $display("4th_32bits = %h",{mem[`CMD1_ADDR+15],mem[`CMD1_ADDR+14],mem[`CMD1_ADDR+13],mem[`CMD1_ADDR+12]});
+
+    {mem[`CMD2_ADDR+3],mem[`CMD2_ADDR+2],mem[`CMD2_ADDR+1],mem[`CMD2_ADDR+0]} = `CMD2_RD_START_ADDR;
+    {mem[`CMD2_ADDR+7],mem[`CMD2_ADDR+6],mem[`CMD2_ADDR+5],mem[`CMD2_ADDR+4]} = `CMD2_WR_START_ADDR;
+    {mem[`CMD2_ADDR+11],mem[`CMD2_ADDR+10],mem[`CMD2_ADDR+9],mem[`CMD2_ADDR+8]} = `CMD2_BUFFER_SIZE;
+    {mem[`CMD2_ADDR+15],mem[`CMD2_ADDR+14],mem[`CMD2_ADDR+13],mem[`CMD2_ADDR+12]} = {(`CMD3_ADDR >>4),2'b0,1'b0,1'b0};
+    $display("1st_32bits = %h",{mem[`CMD2_ADDR+3],mem[`CMD2_ADDR+2],mem[`CMD2_ADDR+1],mem[`CMD2_ADDR+0]});
+    $display("2nd_32bits = %h",{mem[`CMD2_ADDR+7],mem[`CMD2_ADDR+6],mem[`CMD2_ADDR+5],mem[`CMD2_ADDR+4]});
+    $display("3rd_32bits = %h",{mem[`CMD2_ADDR+11],mem[`CMD2_ADDR+10],mem[`CMD2_ADDR+9],mem[`CMD2_ADDR+8]});
+    $display("4th_32bits = %h",{mem[`CMD2_ADDR+15],mem[`CMD2_ADDR+14],mem[`CMD2_ADDR+13],mem[`CMD2_ADDR+12]});
+
+    {mem[`CMD3_ADDR+3],mem[`CMD3_ADDR+2],mem[`CMD3_ADDR+1],mem[`CMD3_ADDR+0]} = `CMD3_RD_START_ADDR;
+    {mem[`CMD3_ADDR+7],mem[`CMD3_ADDR+6],mem[`CMD3_ADDR+5],mem[`CMD3_ADDR+4]} = `CMD3_WR_START_ADDR;
+    {mem[`CMD3_ADDR+11],mem[`CMD3_ADDR+10],mem[`CMD3_ADDR+9],mem[`CMD3_ADDR+8]} = `CMD3_BUFFER_SIZE;
+    {mem[`CMD3_ADDR+15],mem[`CMD3_ADDR+14],mem[`CMD3_ADDR+13],mem[`CMD3_ADDR+12]} = {(`CMD4_ADDR >>4),2'b0,1'b0,1'b0};
+    $display("1st_32bits = %h",{mem[`CMD3_ADDR+3],mem[`CMD3_ADDR+2],mem[`CMD3_ADDR+1],mem[`CMD3_ADDR+0]});
+    $display("2nd_32bits = %h",{mem[`CMD3_ADDR+7],mem[`CMD3_ADDR+6],mem[`CMD3_ADDR+5],mem[`CMD3_ADDR+4]});
+    $display("3rd_32bits = %h",{mem[`CMD3_ADDR+11],mem[`CMD3_ADDR+10],mem[`CMD3_ADDR+9],mem[`CMD3_ADDR+8]});
+    $display("4th_32bits = %h",{mem[`CMD3_ADDR+15],mem[`CMD3_ADDR+14],mem[`CMD3_ADDR+13],mem[`CMD3_ADDR+12]});
+
+    {mem[`CMD4_ADDR+3],mem[`CMD4_ADDR+2],mem[`CMD4_ADDR+1],mem[`CMD4_ADDR+0]} = `CMD4_RD_START_ADDR;
+    {mem[`CMD4_ADDR+7],mem[`CMD4_ADDR+6],mem[`CMD4_ADDR+5],mem[`CMD4_ADDR+4]} = `CMD4_WR_START_ADDR;
+    {mem[`CMD4_ADDR+11],mem[`CMD4_ADDR+10],mem[`CMD4_ADDR+9],mem[`CMD4_ADDR+8]} = `CMD4_BUFFER_SIZE;
+    {mem[`CMD4_ADDR+15],mem[`CMD4_ADDR+14],mem[`CMD4_ADDR+13],mem[`CMD4_ADDR+12]} = {28'b0,2'b0,1'b1,1'b0};
+    $display("1st_32bits = %h",{mem[`CMD4_ADDR+3],mem[`CMD4_ADDR+2],mem[`CMD4_ADDR+1],mem[`CMD4_ADDR+0]});
+    $display("2nd_32bits = %h",{mem[`CMD4_ADDR+7],mem[`CMD4_ADDR+6],mem[`CMD4_ADDR+5],mem[`CMD4_ADDR+4]});
+    $display("3rd_32bits = %h",{mem[`CMD4_ADDR+11],mem[`CMD4_ADDR+10],mem[`CMD4_ADDR+9],mem[`CMD4_ADDR+8]});
+    $display("4th_32bits = %h",{mem[`CMD4_ADDR+15],mem[`CMD4_ADDR+14],mem[`CMD4_ADDR+13],mem[`CMD4_ADDR+12]});
+  endfunction
+
   task init_mem;
     for(int i = 0;i<4096;i++) begin
       mem[32'h1000_0000+i] = $random;
@@ -27,6 +65,7 @@ class axi_responder;
     vif = dma_common::axi_vif;
     wait (vif.slave_cb.reset == 0);
     init_mem;
+    load_command();
     forever begin
       //write request
       // write address request

@@ -4,6 +4,11 @@ class apb_gen;
   task run();
     $display("apb_gen::run");
     case(dma_common::test_name)
+      "test_cmd_list":begin
+        general_config();
+        //preload the memory with commands
+        configure_start_ch(0);
+      end
       "test_ch0_sanity":begin
         //configure and start the channel
         //section general configuration

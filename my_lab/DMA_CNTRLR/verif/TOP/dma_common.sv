@@ -15,6 +15,7 @@ class dma_common;
   static int error_count;
   static int data_mismatch;
   static int data_match;
+  static bit[31:0] cmd_addr_t;
   typedef enum{
     LOW,
     HIGH
@@ -64,7 +65,12 @@ class dma_common;
       int_enable_timeout_w_a[i] = 1'b1;
       int_enable_timeout_aw_a[i] = 1'b1;
       int_enable_wdt_a[i] = 1'b1;
-      
+      if(test_name == "test_cmd_list") begin
+          cmd_last_a[0] = 0;
+          cmd_addr_t = `CMD1_ADDR;
+          cmd_addr_t >>= 4;
+          cmd_next_addr_a[0] = cmd_addr_t;
+      end
     end
     $display("test_name = %s",test_name);
     $display("buffer size = %p",buffer_size_a);
