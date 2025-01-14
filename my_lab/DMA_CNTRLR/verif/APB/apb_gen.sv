@@ -4,6 +4,10 @@ class apb_gen;
   task run();
     $display("apb_gen::run");
     case(dma_common::test_name)
+      "test_periph_transfer":begin
+        general_config();
+        configure_start_ch(0);
+      end
       "test_cmd_list":begin
         general_config();
         //preload the memory with commands
@@ -138,6 +142,15 @@ class apb_gen;
     enable_channel(ch_count);
     //start the channel
     start_channel(ch_count);
+    if(dma_common::test_name == "test_periph_transfer") begin
+      repeat(8);
+      trigger_periph();
+    end
+  endtask
+  task trigger_periph();
+    tx_h = new();
+    tx_h.randomize() with {apb_or_periph_f == PERIPH;tx_periph == 2;rx_periph == 1;};
+    dma_common::gen2bfm.put(tx_h); 
   endtask
   task configure_static_registers(int i);
     //STATIC_REG0
@@ -184,9 +197,53 @@ class apb_gen;
       //data_t = {1'b1,1'b0,2'b0,4'h4,2'b0,6'h1,2'b0,1'b1,1'b0,2'b0,10'd128}; 
       tx_h.randomize() with {addr == `CH0_STATIC_REG1 + 13'h100*i;wr_rd ==1;data==data_t;};
       dma_common::gen2bfm.put(tx_h);
-      tx_h = new();
-      tx_h.randomize() with {addr == `CH0_STATIC_REG2+ 13'h100*i;wr_rd ==1;data==32'h0;};
+    //Configure STATIC_REG2 
+    tx_h = new();
+    data_t = {
+      2'b0,
+      dma_common::end_swap_a[i],
+      1'b0,
+      dma_common::int_num_a[i],
+      1'b0,
+      dma_common::wr_port_num_a[i],
+      dma_common::rd_port_num_a[i],
+      dma_common::rd_cmd_port_num_a[i],
+      2'b0,
+      dma_common::auto_retry_a[i],
+      dma_common::joint_a[i],
+      dma_common::block_a[i],
+      3'b0,
+      dma_common::frame_width_a[i]
+    };
+
+      tx_h.randomize() with {addr == `CH0_STATIC_REG2+ 13'h100*i;wr_rd ==1;data==data_t;};
       dma_common::gen2bfm.put(tx_h);
+    //Configure STATIC_REG3
+    tx_h = new();
+    data_t = {
+      4'b0,
+      dma_common::wr_wait_limit_a[i],
+      4'b0,
+      dma_common::rd_wait_limit_a[i]
+    };
+    tx_h.randomize() with {addr == `CH0_STATIC_REG3 + 13'h100*i;wr_rd == 1; data == data_t;};
+    dma_common::gen2bfm.put(tx_h);
+    //Configure STATIC_REG4
+    tx_h = new();
+    data_t = {
+      dma_common::wr_periph_block_a[i],
+      4'b0,
+      dma_common::wr_periph_delay_a[i],
+      3'b0,
+      dma_common::wr_periph_num_a[i],
+      dma_common::rd_periph_block_a[i],
+      4'b0,
+      dma_common::rd_periph_delay_a[i],
+      3'b0,
+      dma_common::rd_periph_num_a[i]
+    };
+    tx_h.randomize() with{addr == `CH0_STATIC_REG4 + 13'h100*i;wr_rd == 1; data == data_t;};
+    dma_common::gen2bfm.put(tx_h);
   endtask
 
   task configure_command(int i);

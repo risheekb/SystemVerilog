@@ -288,11 +288,11 @@
   static bit [11:0] rd_wait_limit_a           [7:0];
   static bit [11:0] wr_wait_limit_a           [7:0];
   //STATIC_REG4
-  static bit [4:0]  rd_preiph_num_a           [7:0];
-  static bit [2:0]  rd_preiph_delay_a         [7:0];
+  static bit [4:0]  rd_periph_num_a           [7:0];
+  static bit [2:0]  rd_periph_delay_a         [7:0];
   static bit        rd_periph_block_a         [7:0];
-  static bit [4:0]  wr_preiph_num_a           [7:0];
-  static bit [2:0]  wr_preiph_delay_a         [7:0];
+  static bit [4:0]  wr_periph_num_a           [7:0];
+  static bit [2:0]  wr_periph_delay_a         [7:0];
   static bit        wr_periph_block_a         [7:0];
   //CMD_REG2 
   static bit [31:0] rd_addr_a                 [7:0];

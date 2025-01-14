@@ -71,6 +71,32 @@ class dma_common;
           cmd_addr_t >>= 4;
           cmd_next_addr_a[0] = cmd_addr_t;
       end
+      //STATIC_REG2
+      frame_width_a[i] = 0;
+      block_a[i] = 0;
+      joint_a[i] = 0;
+      auto_retry_a[i] = 0;
+      rd_cmd_port_num_a[i] = 0;
+      rd_port_num_a[i] = 0;
+      wr_port_num_a[i] = 0;
+      int_num_a[i] = 0;
+      end_swap_a[i] = 0;
+      //STATIC REG3
+      rd_wait_limit_a[i] = 0;
+      wr_wait_limit_a[i] = 0;
+      //STATIC REG4
+      rd_periph_num_a[i] = 0;
+      rd_periph_delay_a[i] = 0;
+      rd_periph_block_a[i] = 0;
+      wr_periph_num_a[i] = 0;
+      wr_periph_delay_a[i] = 0;
+      wr_periph_block_a[i] = 0;
+      if(test_name == "test_periph_transfer") begin
+        rd_periph_num_a[0] = 1; //reading from perpipheral 1
+        wr_periph_num_a[0] = 2;//writing to peripheral 2
+        rd_periph_delay_a[0] = 3;
+        wr_periph_delay_a[0] = 3;
+      end
     end
     $display("test_name = %s",test_name);
     $display("buffer size = %p",buffer_size_a);

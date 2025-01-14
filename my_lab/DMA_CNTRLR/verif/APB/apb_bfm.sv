@@ -1,15 +1,28 @@
 class apb_bfm;
   apb_tx tx_h;
   virtual apb_inf.master_mp vif;
+  virtual periph_inf pvif;
   task run();
     vif = dma_common::apb_vif;
+    pvif = dma_common::periph_vif;
     wait (vif.master_cb.reset == 0);
     $display("apb_bfm::run");
     forever begin
       tx_h = new();
       dma_common::gen2bfm.get(tx_h);
       //tx_h.print();
-      drive_tx(tx_h);
+      if(tx_h.apb_or_periph_f == APB) begin
+        drive_tx(tx_h);
+      end
+      else begin
+        @(posedge pvif.clk);
+        pvif.periph_tx_req[tx_h.tx_periph] = 1;
+        pvif.periph_rx_req[tx_h.rx_periph] = 1;
+        wait(pvif.periph_tx_clr[tx_h.tx_periph] == 1);
+        wait(pvif.periph_rx_clr[tx_h.rx_periph] == 1);
+        pvif.periph_tx_req[tx_h.tx_periph] = 0;
+        pvif.periph_rx_req[tx_h.rx_periph] = 0;
+      end
       dma_common::txn_driv++;
     end
   endtask

@@ -1,17 +1,3 @@
-/*#############################################################################################
-#                                                   					      #
-#                                                   					      #
-#                                                   					      #
-#############      Copyright (C) 2012-2020 VLSIGuru Training Institute        #################
-#                                                   					      #
-###### www.vlsiguru.com | contact@vlsiguru.com | +91-9986194191 | Horamavu, Bangalore  ########
-#                                                   					      #
-###### This Code is proprietary of VLSIGuru Training Institute. This code can't be reused #####
-###### or distributed without prior consent from VLSIGuru Training Institute.           #######
-#                                                   					      #
-#                                                   					      #
-#                                                   					      #
-##############################################################################################*/
 //reg [31:0] ch0_cmd_reg0; //Vector(DUT) => it is changed in to a class definition format
 class ch0_cmd_reg0;
 	reg [31:0] value;

@@ -1,0 +1,109 @@
+# End time: 18:28:07 on Jan 13,2025, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 49
+# vsim -voptargs="+acc" work.top "+test_name=test_periph_transfer" -l 250113_182804 
+# Start time: 18:28:07 on Jan 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility. The +acc switch would be deprecated in a future release.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_top'.  Expected 55, found 54.
+# ** Warning: ../../dma_axi64/dma_axi64_dual_core.v(217): (vopt-2718) [TFMPC] - Missing connection for port 'pready'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_wcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_wr.v(132): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_axim_rcmd'.  Expected 28, found 27.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_axim_rd.v(153): (vopt-2718) [TFMPC] - Missing connection for port 'joint_pending'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch0'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(432): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty1'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(547): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty2'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(662): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty3'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(777): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty4'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(892): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty5'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1007): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty6'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1122): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2685) [TFMPC] - Too few port connections for 'dma_axi64_core0_ch_empty7'.  Expected 90, found 89.
+# ** Warning: ../../dma_axi64/dma_axi64_core0_channels.v(1237): (vopt-2718) [TFMPC] - Missing connection for port 'wr_incr'.
+# ** Warning: ../APB/apb_gen.sv(130): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(179): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(198): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(219): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(229): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(245): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(291): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(251): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(256): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(261): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(267): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(296): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(301): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(152): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(32): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(40): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(49): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(56): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(72): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(80): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(88): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(98): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(106): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../APB/apb_gen.sv(115): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../TOP/top.sv(162): (vopt-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ctrl(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "dma_axi64_core0_ch_calc_joint(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=48.
+# Loading sv_std.std
+# Loading work.top(fast)
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$value$plusargs'.
+#    Time: 0 ps  Iteration: 0  Instance: /top File: ../TOP/top.sv Line: 162
+# test_name = test_periph_transfer
+# buffer size = '{128, 128, 128, 128, 128, 128, 128, 128}
+# apb_gen::run
+# Printing the fields of APB TX
+# addr = 0004
+# data = 20000000
+# wr_rd = 1
+# apb_mon::run
+# apb_cov::run
+# axi_responder::run
+# axi_mon::run
+# dma_ckr::run
+# dma_ref::run
+# apb_bfm::run
+# 1st_32bits = 10000200
+# 2nd_32bits = 20000200
+# 3rd_32bits = 00000100
+# 4th_32bits = 30000010
+# 1st_32bits = 10000400
+# 2nd_32bits = 20000400
+# 3rd_32bits = 00000100
+# 4th_32bits = 30000020
+# 1st_32bits = 10000600
+# 2nd_32bits = 20000600
+# 3rd_32bits = 00000080
+# 4th_32bits = 30000030
+# 1st_32bits = 10000800
+# 2nd_32bits = 20000800
+# 3rd_32bits = 00000080
+# 4th_32bits = 00000002
+######### axi_tx: READ TX #########
+# rd_id = 0
+# rd_addr = 10000000
+# rd_data_q[0] = ebca6b80e8c50124
+# rd_data_q[1] = 292f581fc25b6285
+# rd_data_q[2] = 9673fdb4769456d0
+# rd_data_q[3] = fb32c4790e4b867e
+# rd_len = 3
+# rd_size = 3
+# 
+# Total Transactions Generated : -1
+# Total Transactions Driven : 13
+# ERROR Count: 0
+# DATA MATCH: 0
+# DATA MISMATCH: 0
+# ** Note: $finish    : ../TOP/top.sv(182)
+#    Time: 2100 ns  Iteration: 0  Instance: /top
+# 1
+# Break in Module top at ../TOP/top.sv line 182
