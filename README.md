@@ -1,2 +1,2 @@
 # SystemVerilog
-Personal Repository for SystemVerilog Learning Resources
+Personal Repository showcasing Verification Projects and Learning resources.
