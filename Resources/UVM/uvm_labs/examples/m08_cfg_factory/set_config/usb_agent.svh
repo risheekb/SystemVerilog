@@ -1,0 +1,48 @@
+/***********************************************************************
+ * USB agent for UVM configuration flow example
+ ***********************************************************************
+ * Copyright 2016-2023 Siemens
+ * All Rights Reserved Worldwide
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *       http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+ * implied.  See the License for the specific language governing
+ * permissions and limitations under the License.
+ **********************************************************************/
+
+class usb_agent extends uvm_agent;
+  `uvm_component_utils(usb_agent);
+  function new(string name, uvm_component parent);
+    super.new(name, parent);
+  endfunction
+
+  usb_driver drv;
+  uvm_sequencer#(usb_item) sqr;
+  usb_monitor mon;
+  usb_config usb_cfg;
+
+  virtual function void set_config(input usb_config usb_cfg);
+    this.usb_cfg = usb_cfg;
+  endfunction
+
+  virtual function void build_phase(uvm_phase phase);
+    mon = usb_monitor::type_id::create("mon", this);
+    mon.set_config(usb_cfg);
+    if (usb_cfg.active == UVM_ACTIVE) begin
+      drv = usb_driver::type_id::create("drv", this);
+      sqr = uvm_sequencer#(usb_item)::type_id::create("sqr", this);
+      drv.set_config(usb_cfg);
+    end
+  endfunction
+
+  virtual function void connect_phase(uvm_phase phase);
+    drv.seq_item_port.connect(sqr.seq_item_export);
+  endfunction
+
+endclass

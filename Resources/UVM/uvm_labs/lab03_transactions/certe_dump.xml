@@ -1,0 +1,92 @@
+<certe_dump>
+  <instance type=" lab_test_write6 "> 
+     uvm_test_top 
+  
+     <instance type=" lab_env "> 
+        env 
+  
+        <instance type=" lab_agent "> 
+           agt 
+  
+           <instance type=" lab_coverage_collector "> 
+              cov 
+  
+              <imp if_type = "uvm_analysis_imp" txn_type = "anonymous"> 
+                 analysis_imp 
+              </imp> 
+           </instance> 
+  
+  
+           <instance type=" lab_driver "> 
+              drv 
+  
+              <port if_type = "uvm_analysis_port" txn_type = "anonymous"> 
+                 rsp_port 
+              </port> 
+  
+              <port if_type = "uvm_seq_item_pull_port" txn_type = "anonymous"> 
+                 seq_item_port 
+                 <connection>  uvm_test_top.env.agt.seq.seq_item_export  </connection> 
+              </port> 
+           </instance> 
+  
+  
+           <port if_type = "uvm_analysis_port" txn_type = "anonymous"> 
+              dut_in_tx_port 
+              <connection>  uvm_test_top.env.scb.dut_in_export  </connection> 
+           </port> 
+  
+           <port if_type = "uvm_analysis_port" txn_type = "anonymous"> 
+              dut_out_tx_port 
+              <connection>  uvm_test_top.env.scb.dut_out_export  </connection> 
+           </port> 
+  
+           <instance type=" lab_monitor "> 
+              mon 
+  
+              <port if_type = "uvm_analysis_port" txn_type = "anonymous"> 
+                 dut_in_tx_port 
+                 <connection>  uvm_test_top.env.agt.cov.analysis_imp  </connection> 
+                 <connection>  uvm_test_top.env.agt.dut_in_tx_port  </connection> 
+              </port> 
+  
+              <port if_type = "uvm_analysis_port" txn_type = "anonymous"> 
+                 dut_out_tx_port 
+                 <connection>  uvm_test_top.env.agt.dut_out_tx_port  </connection> 
+              </port> 
+           </instance> 
+  
+  
+           <instance type=" uvm_sequencer "> 
+              seq 
+  
+              <export if_type = "uvm_analysis_export" txn_type = "anonymous"> 
+                 rsp_export 
+                 <connection>  uvm_test_top.env.agt.seq.sqr_rsp_analysis_fifo.analysis_export  </connection> 
+              </export> 
+  
+              <imp if_type = "uvm_seq_item_pull_imp" txn_type = "anonymous"> 
+                 seq_item_export 
+              </imp> 
+           </instance> 
+  
+        </instance> 
+  
+  
+        <instance type=" lab_scoreboard "> 
+           scb 
+  
+           <imp if_type = "uvm_analysis_imp_dut_in" txn_type = "anonymous"> 
+              dut_in_export 
+           </imp> 
+  
+           <imp if_type = "uvm_analysis_imp_dut_out" txn_type = "anonymous"> 
+              dut_out_export 
+           </imp> 
+        </instance> 
+  
+     </instance> 
+  
+  </instance> 
+  
+  </certe_dump>

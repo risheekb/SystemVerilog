@@ -1,0 +1,40 @@
+/***********************************************************************
+ * HDL top for UVM configuration flow example
+ ***********************************************************************
+ * Copyright 2016-2023 Siemens
+ * All Rights Reserved Worldwide
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *       http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+ * implied.  See the License for the specific language governing
+ * permissions and limitations under the License.
+ **********************************************************************/
+
+module top_hdl();
+   import uvm_pkg::*;
+   logic clk, reset_n;
+
+   usb_interface usb_if(clk, reset_n);
+   dut d1(.clk(usb_if.clk), .reset_n(usb_if.reset_n), .d(usb_if.d), .q(usb_if.q));
+
+   initial begin
+      // Write the interface into the config DB for use by the agent/driver/montor
+      uvm_config_db #(virtual usb_interface)::set(null,  "uvm_test_top",  "vif",  usb_if);
+   end
+
+   initial begin
+      #5 reset_n = 0;
+      clk = 1;
+      #15 reset_n = 1;
+
+      forever
+	#10 clk = !clk;
+   end
+
+endmodule : top_hdl

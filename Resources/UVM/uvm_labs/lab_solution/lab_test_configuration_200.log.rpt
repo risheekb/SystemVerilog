@@ -1,0 +1,19 @@
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    415
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[CFGPRT]     1
+[COVERAGE]     1
+[PRINT]     3
+[RNTST]     1
+[SCOREBOARD]     1
+[TEST_CONFIG]     1
+[TX_IN]   203
+[TX_OUT]   200
+[UVMTOP]     1
+[UVM_CMDLINE_PROC]     1
+[lab_test_configuration]     1

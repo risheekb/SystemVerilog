@@ -1,0 +1,18 @@
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    57
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[DST]    10
+[MON_IN]    10
+[MON_OUT]    10
+[RNTST]     1
+[SEND]    20
+[TEST_TOPO]     1
+[UVMTOP]     1
+[UVM_CMDLINE_PROC]     1
+[usb_driver]     1
+[usb_test]     1

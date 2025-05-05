@@ -1,0 +1,22 @@
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    11
+UVM_WARNING :    3
+UVM_ERROR :    3
+UVM_FATAL :    0
+** Report counts by id
+[AHE]     1
+[AHERE]     1
+[AHI]     1
+[AHW]     1
+[DHE]     1
+[DHERE]     1
+[DHI]     1
+[DHW]     1
+[EHE]     1
+[EHERE]     1
+[EHI]     1
+[EHW]     1
+[HERE]     4
+[RNTST]     1
